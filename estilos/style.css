@@ -199,9 +199,35 @@ div#imagens p {
     color: gray;
 }
 
+#linha2 {
+    width: 590px;
+    height: 280px;
+    margin-left: 20px;
+}
+
+.linha4 {
+    margin-left: 120px;
+}
+
+.linha5 {
+    margin-right: 50px;
+}
+
+.linha6 {
+    margin-left: 70px;
+}
+
+#linha4 {
+    height: 280px;
+}
+
+#linha3 {
+    height: 280px;
+}
+
 footer {
     background-color: rgb(48, 47, 47);
-    padding: 150px 150px 0px 150px;
+    padding: 110px 150px 0px 150px;
     margin-top: 150px;
 }
 
@@ -245,20 +271,6 @@ input {
     width: 30px;
 }
 
-.footer b h1 {
-    font-size: 1.2em;
-    margin-left: 410px;
-    padding: 15px;
-}
-
-footer b h1 {
-    border-bottom: 2px solid lightgreen;
-}
-
-footer b h1:hover {
-    background-color: rgba(57, 56, 56, 0.727);
-}
-
 .imagens{
     justify-content: left;
 }
@@ -270,3 +282,9 @@ footer b h1:hover {
     margin-top: 20px;
 }
 
+.footer .imgextra {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin-left: 230px;
+}
