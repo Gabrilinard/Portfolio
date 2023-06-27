@@ -1,0 +1,272 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+/* font-family: 'Barlow', sans-serif; */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.893);
+}
+
+
+header img {
+    width: 30px;
+    padding-left: 20px;
+}
+
+header img:hover {
+    padding: 2px;
+    background-color: beige;
+    transform: scale(1.2);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons {
+    margin-right: 270px;
+    margin-top: 20px;
+    padding: 0px;
+}
+
+header h1 {
+    color: rgba(255, 255, 255, 0.905);
+    margin-left: 220px;
+    padding: 40px;
+    font-size: 1.6em;
+}
+
+header img#imgprincipal {
+    width: 400px;
+    height: 600px;
+    z-index: -1;
+    position: absolute;
+    right: 250px;
+    top: 0px;
+}
+
+
+main article h1 {
+    font-size: 5.9em;
+    text-align: center;
+    margin-right: 340px;
+    margin-top: 120px;
+    color: rgba(255, 255, 255, 0.916);
+    font-family: 'Barlow', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-size: 5.4em;
+    margin-right: 390px;
+    color: rgba(255, 255, 255, 0.916);
+    font-family: 'Barlow', sans-serif;
+}
+
+h3 {
+    font-size: 1.3em;
+    text-align: justify;
+    margin-left: 235px;
+    margin-top: 19px;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.916);
+    font-family: 'Barlow', sans-serif;
+}
+
+h4 {
+    margin-left: 230px;
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Barlow', sans-serif;
+    margin-top: 20px;
+    padding: 20px;
+    color: rgba(255, 255, 255, 0.916);
+}
+
+b.b1 {
+    border-bottom: 5px solid lightgreen ;
+}
+
+b.b2 {
+    border-bottom: 2px solid lightgreen;
+}
+
+b.b3 {
+    border-bottom: 2px solid lightgreen;
+}
+
+hr {
+    width: 1200px;
+    margin: auto;
+    margin-top: 170px;
+}
+
+aside div#tabela2 {
+    padding: 30px;
+    color: rgba(255, 255, 255, 0.933);
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin: 60px;
+}
+
+aside div#tabela2 h1 {
+    margin-left: 5px;
+    padding: 50px;
+}
+
+tr td h1 {
+    font-size: 3.2em;
+    margin-top: 100px;
+    text-align: justify;
+    margin: 0px;
+    padding-left: 160px;
+    padding-right: 10px;
+    padding-top: 90px;
+    padding-bottom: 25px;
+    color: rgba(255, 255, 255, 0.855);
+}
+
+#tabela1 p {
+    color: rgba(185, 184, 184, 0.942);
+    padding-left: 160px;
+    font-size: 1.1em;
+    font-family: 'Barlow', sans-serif;
+}
+
+aside h1 {
+    font-size: 4.3em;
+    color: rgba(255, 255, 255, 0.919);
+}
+
+aside img {
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    display: block;
+}
+
+div#coluna1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+    width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+div#coluna2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+    width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+div#coluna3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+    width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+aside div#imagens h1 {
+    color: rgba(255, 255, 255, 0.93);
+    font-size: 1.7em;
+}
+
+aside div#imagens p {
+    color: rgba(255, 255, 255, 0.797);
+    font-size: 1.5em;
+}
+
+div#imagens h1 {
+    padding: 10px;
+}
+
+div#imagens p {
+    padding: 10px;
+    color: gray;
+}
+
+footer {
+    background-color: rgb(48, 47, 47);
+    padding: 150px 150px 0px 150px;
+    margin-top: 150px;
+}
+
+footer h1 {
+    color: rgba(247, 247, 247, 0.966);
+    font-size: 4.3em;
+    margin-left: 15px;
+    font-family: 'Barlow', sans-serif;
+    margin-bottom: 20px;
+}
+
+footer p {
+    color: rgba(255, 255, 255, 0.907);
+    text-align: justify;
+    font-size:  1.5em;
+    font-family: 'Barlow', sans-serif;
+    padding: 20px;
+}
+
+footer h2 {
+    color: rgba(128, 128, 128, 0.941);
+    font-size: 1.8em;
+}
+
+#geral {
+    display: flex;
+}
+
+input {
+    height: 0px;
+    background-color: rgba(255, 0, 0, 0);
+    padding: 50px;
+    border: 0px;
+    border-bottom: 2px solid white;
+    margin-left: 310px;
+    margin-bottom: 20px;
+}
+
+.footer img{
+    padding: 10px;
+    width: 30px;
+}
+
+.footer b h1 {
+    font-size: 1.2em;
+    margin-left: 410px;
+    padding: 15px;
+}
+
+footer b h1 {
+    border-bottom: 2px solid lightgreen;
+}
+
+footer b h1:hover {
+    background-color: rgba(57, 56, 56, 0.727);
+}
+
+.imagens{
+    justify-content: left;
+}
+
+.imagens img {
+    width: 30px;
+    padding: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
