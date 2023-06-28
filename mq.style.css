@@ -1,27 +1,351 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) and (max-width: 1300px) {
+/* rgba(0, 0, 0, 0.893) */
+
+@media screen and (min-width: 1410px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
     body {
-        background-color: red;
+        background-color: rgba(0, 0, 0, 0.893);
+    }
+    
+    
+    header img {
+        width: 30px;
+        padding-left: 20px;
+    }
+    
+    header img:hover {
+        padding: 2px;
+        background-color: beige;
+        transform: scale(1.2);
+    }
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .icons {
+        margin-right: 250px;
+        margin-top: 50px;
+        padding: 0px;
+    }
+    
+    header h1 {
+        color: rgba(255, 255, 255, 0.905);
+        margin-left: 170px;
+        padding: 40px;
+        font-size: 1.6em;
+    }
+    
+    header img#imgprincipal {
+        width: 400px;
+        width: fit-content;
+        height: 600px;
+        z-index: -1;
+        position: absolute;
+        right: 240px;
+        top: 45px;
+        padding: 0px;
+        border: 3px solid lightgreen;
+        border-radius: 20px;
+    }
+    
+    
+    main article h1 {
+        font-size: 4.7em;
+        text-align: center;
+        margin-right: 540px;
+        margin-top: 100px;
+        color: rgba(255, 255, 255, 0.916);
+        font-family: 'Barlow', sans-serif;
+    }
+    
+    h2 {
+        text-align: center;
+        font-size: 4.7em;
+        margin-right: 470px;
+        color: rgba(255, 255, 255, 0.916);
+        font-family: 'Barlow', sans-serif;
+    }
+    
+    h3 {
+        font-size: 1.3em;
+        text-align: justify;
+        margin-left: 200px;
+        margin-top: 19px;
+        padding: 10px;
+        color: rgba(255, 255, 255, 0.916);
+        font-family: 'Barlow', sans-serif;
+    }
+    
+    h4 {
+        margin-left: 190px;
+        color: white;
+        font-size: 1.5em;
+        font-family: 'Barlow', sans-serif;
+        margin-top: 20px;
+        padding: 20px;
+        color: rgba(255, 255, 255, 0.916);
+    }
+    
+    b.b1 {
+        border-bottom: 5px solid lightgreen ;
+    }
+    
+    b.b2 {
+        border-bottom: 2px solid lightgreen;
+    }
+    
+    b.b3 {
+        border-bottom: 2px solid lightgreen;
+    }
+    
+    hr {
+        width: 1200px;
+        margin: auto;
+        margin-top: 170px;
+    }
+    
+    aside div#tabela2 {
+        padding: 30px;
+        color: rgba(255, 255, 255, 0.933);
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        margin: 60px;
+    }
+    
+    aside div#tabela2 h1 {
+        margin-left: 5px;
+        padding: 50px;
+    }
+    
+    #skills h1 {
+        font-size: 3.2em;
+        margin-top: 100px;
+        text-align: justify;
+        margin: 0px;
+        padding-left: 160px;
+        padding-right: 10px;
+        padding-top: 90px;
+        padding-bottom: 25px;
+        color: rgba(255, 255, 255, 0.855);
+    }
+    
+    #skills p {
+        color: rgba(185, 184, 184, 0.942);
+        padding-left: 160px;
+        font-size: 1.1em;
+        font-family: 'Barlow', sans-serif;
+    }
+    
+    aside h1 {
+        font-size: 4.3em;
+        color: rgba(255, 255, 255, 0.919);
+    }
+    
+    aside img {
+        width: 400px;
+        height: 300px;
+        margin: auto;
+        display: block;
+    }
+    
+    div#coluna1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;    
+        width: 1000px;
+        margin: auto;
+        padding: 20px;
+    }
+    
+    div#coluna2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;    
+        width: 1000px;
+        margin: auto;
+        padding: 20px;
+    }
+    
+    div#coluna3 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;    
+        width: 1000px;
+        margin: auto;
+        padding: 20px;
+    }
+    
+    aside div#imagens h1 {
+        color: rgba(255, 255, 255, 0.93);
+        font-size: 1.7em;
+    }
+    
+    aside div#imagens p {
+        color: rgba(255, 255, 255, 0.797);
+        font-size: 1.5em;
+    }
+    
+    div#imagens h1 {
+        padding: 10px;
+    }
+    
+    div#imagens p {
+        padding: 10px;
+        color: gray;
+    }
+    
+    #linha2 {
+        width: 490px;
+        height: 280px;
+        margin-left: 20px;
+    }
+    
+    .linha4 {
+        margin-left: 20px;
+    }
+    
+    .linha5 {
+        margin-right: 50px;
+    }
+    
+    .linha6 {
+        margin-left: 70px;
+    }
+    
+    #linha4 {
+        height: 280px;
+    }
+    
+    
+    #linha3 {
+        height: 280px;
+    }
+    
+    footer {
+        background-color: rgb(48, 47, 47);
+        padding: 110px 150px 0px 150px;
+        margin-top: 150px;
+    }
+    
+    footer h1 {
+        color: rgba(247, 247, 247, 0.966);
+        font-size: 4.3em;
+        margin-left: 15px;
+        font-family: 'Barlow', sans-serif;
+        margin-bottom: 20px;
+    }
+    
+    footer p {
+        color: rgba(255, 255, 255, 0.907);
+        text-align: justify;
+        font-size:  1.5em;
+        font-family: 'Barlow', sans-serif;
+        padding: 20px;
+    }
+    
+    footer h2 {
+        color: rgba(128, 128, 128, 0.941);
+        font-size: 1.8em;
+    }
+    
+    #geral {
+        display: flex;
+    }
+    
+    
+    .footer img{
+        padding: 10px;
+        width: 30px;
+    }
+    
+    .imagens{
+        justify-content: left;
+    }
+    
+    .imagens img {
+        width: 30px;
+        padding: 50px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    
+    .footer .imgextra {
+        border-radius: 50%;
+        width: 300px;
+        height: 300px;
+        margin-left: 230px;
+    }
+}
+
+@media screen and (min-width: 1336px) and (max-width: 1410px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+        background-color: rgba(0, 0, 0, 0.893);
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
     }
 
     header img {
         width: 30px;
-        padding-left: 10px;
+        padding-left: 20px;
+    }
+    
+    header img:hover {
+        padding: 2px;
+        background-color: beige;
+        transform: scale(1.2);
+    }
+    
+    body {
+        background-color: rgba(0, 0, 0, 0.893);
     }
 
-
-    header h1 {
-        color: rgba(255, 255, 255, 0.905);
-        margin-left: 80px;
-        padding: 40px;
-        font-size: 1.4em;
-    }
     main article h1 {
-        font-size: 2.8em;
+        font-size: 4.7em;
         text-align: center;
-        margin-right: 400px;
-        margin-top: 70px;
+        margin-right: 540px;
+        margin-top: 100px;
+        color: rgba(255, 255, 255, 0.916);
+        font-family: 'Barlow', sans-serif;
+    }
+    
+    h2 {
+        text-align: center;
+        font-size: 4.7em;
+        margin-right: 470px;
+        color: rgba(255, 255, 255, 0.916);
+        font-family: 'Barlow', sans-serif;
+    }
+
+    .icons {
+        margin-right: 155px;
+        margin-top: 50px;
+        padding: 0px;
+    }
+
+    h3 {
+        font-size: 1.3em;
+        text-align: justify;
+        margin-left: 130px;
+        margin-top: 19px;
+        padding: 10px;
         color: rgba(255, 255, 255, 0.916);
         font-family: 'Barlow', sans-serif;
     }
@@ -29,20 +353,1721 @@
     header img#imgprincipal {
         width: 400px;
         width: fit-content;
-        height: 400px;
+        height: 600px;
+        z-index: -1;
+        position: absolute;
+        right: 150px;
+        top: 45px;
+        padding: 0px;
+        border: 3px solid lightgreen;
+        border-radius: 20px;
+    }
+
+    h4 {
+        margin-left: 115px;
+        color: white;
+        font-size: 1.5em;
+        font-family: 'Barlow', sans-serif;
+        margin-top: 20px;
+        padding: 20px;
+        color: rgba(255, 255, 255, 0.916);
+    }
+
+    header h1 {
+        color: rgba(255, 255, 255, 0.905);
+        margin-left: 100px;
+        padding: 40px;
+        font-size: 1.6em;
+    }
+
+    b.b1 {
+        border-bottom: 5px solid lightgreen ;
+    }
+    
+    b.b2 {
+        border-bottom: 2px solid lightgreen;
+    }
+    
+    b.b3 {
+        border-bottom: 2px solid lightgreen;
+    }
+
+    hr {
+        width: 1200px;
+        margin: auto;
+        margin-top: 170px;
+    }
+
+    aside div#tabela2 {
+        padding: 30px;
+        color: rgba(255, 255, 255, 0.933);
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        margin: 60px;
+    }
+    
+
+    #skills h1 {
+        font-size: 3.2em;
+        margin-top: 100px;
+        text-align: justify;
+        margin: 0px;
+        padding-left: 100px;
+        padding-right: 50px;
+        padding-top: 90px;
+        padding-bottom: 25px;
+        color: rgba(255, 255, 255, 0.855);
+    }
+    
+    #skills p {
+        color: rgba(185, 184, 184, 0.942);
+        padding-left: 100px;
+        font-size: 1.1em;
+        font-family: 'Barlow', sans-serif;
+    }
+
+    aside h1 {
+        font-size: 4.3em;
+        color: rgba(255, 255, 255, 0.919);
+    }
+    
+    aside img {
+        width: 400px;
+        height: 300px;
+        margin: auto;
+        display: block;
+    }
+    
+    div#coluna1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;    
+        width: 1000px;
+        margin: auto;
+        padding: 20px;
+    }
+    
+    div#coluna2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;    
+        width: 1000px;
+        margin: auto;
+        padding: 20px;
+    }
+    
+    div#coluna3 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;    
+        width: 1000px;
+        margin: auto;
+        padding: 20px;
+    }
+    
+    aside div#imagens h1 {
+        color: rgba(255, 255, 255, 0.93);
+        font-size: 1.7em;
+    }
+    
+    aside div#imagens p {
+        color: rgba(255, 255, 255, 0.797);
+        font-size: 1.5em;
+    }
+    
+    div#imagens h1 {
+        padding: 10px;
+    }
+    
+    div#imagens p {
+        padding: 10px;
+        color: gray;
+    }
+    
+    #linha2 {
+        width: 490px;
+        height: 280px;
+        margin-left: 20px;
+    }
+    
+    .linha4 {
+        margin-left: 20px;
+    }
+    
+    .linha5 {
+        margin-right: 50px;
+    }
+    
+    .linha6 {
+        margin-left: 70px;
+    }
+    
+    #linha4 {
+        height: 280px;
+    }
+    
+    
+    #linha3 {
+        height: 280px;
+    }
+
+
+
+    aside div#tabela2 h1 {
+        margin-left: -45px;
+        padding: 50px;
+    }
+
+    footer p {
+        color: rgba(255, 255, 255, 0.907);
+        text-align: justify;
+        font-size:  1.2em;
+        font-family: 'Barlow', sans-serif;
+        padding: 20px;
+    }
+
+    footer {
+        background-color: rgb(48, 47, 47);
+        padding: 110px 150px 0px 150px;
+        margin-top: 150px;
+    }
+    
+    footer h1 {
+        color: rgba(247, 247, 247, 0.966);
+        font-size: 4.3em;
+        margin-left: 15px;
+        font-family: 'Barlow', sans-serif;
+        margin-bottom: 20px;
+    }
+    
+    footer h2 {
+        color: rgba(128, 128, 128, 0.941);
+        font-size: 1.8em;
+    }
+    
+    #geral {
+        display: flex;
+    }
+    
+    
+    .footer img{
+        padding: 10px;
+        width: 30px;
+    }
+    
+    .imagens{
+        justify-content: left;
+    }
+    
+    .imagens img {
+        width: 30px;
+        padding: 50px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    
+    .footer .imgextra {
+        border-radius: 50%;
+        width: 300px;
+        height: 300px;
+        margin-left: 230px;
+    }
+}
+
+
+@media screen and (min-width: 1250px) and (max-width: 1336px){
+    
+    body {
+        background-color: rgba(0, 0, 0, 0.893);
+    }
+
+    header img {
+        width: 30px;
+        padding-left: 20px;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    header img:hover {
+        padding: 2px;
+        background-color: beige;
+        transform: scale(1.2);
+    }
+
+    * {
+        margin: 0px;
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+        background-color: rgba(0, 0, 0, 0.893);
+    }
+
+    main article h1 {
+        font-size: 4.7em;
+        text-align: center;
+        margin-right: 540px;
+        margin-top: 100px;
+        color: rgba(255, 255, 255, 0.916);
+        font-family: 'Barlow', sans-serif;
+    }
+    
+    h2 {
+        text-align: center;
+        font-size: 4.7em;
+        margin-right: 470px;
+        color: rgba(255, 255, 255, 0.916);
+        font-family: 'Barlow', sans-serif;
+    }
+
+    header h1 {
+        color: rgba(255, 255, 255, 0.905);
+        margin-left: 70px;
+        padding: 40px;
+        font-size: 1.6em;
+    }
+
+    .icons {
+        margin-right: 160px;
+        margin-top: 55px;
+        padding: 0px;
+    }
+
+    header img#imgprincipal {
+        width: 400px;
+        width: fit-content;
+        height: 600px;
+        z-index: -1;
+        position: absolute;
+        right: 150px;
+        top: 50px;
+        padding: 0px;
+        border: 3px solid lightgreen;
+        border-radius: 20px;
+    }
+
+    h3 {
+        font-size: 1.3em;
+        text-align: justify;
+        margin-left: 100px;
+        margin-top: 19px;
+        padding: 10px;
+        color: rgba(255, 255, 255, 0.916);
+        font-family: 'Barlow', sans-serif;
+    }
+
+    h4 {
+        margin-left: 90px;
+        color: white;
+        font-size: 1.5em;
+        font-family: 'Barlow', sans-serif;
+        margin-top: 20px;
+        padding: 20px;
+        color: rgba(255, 255, 255, 0.916);
+    }
+
+    b.b1 {
+        border-bottom: 5px solid lightgreen ;
+    }
+    
+    b.b2 {
+        border-bottom: 2px solid lightgreen;
+    }
+    
+    b.b3 {
+        border-bottom: 2px solid lightgreen;
+    }
+    
+    hr {
+        width: 1180px;
+        margin: auto;
+        margin-top: 170px;
+    }
+
+    aside div#tabela2 {
+        padding: 30px;
+        color: rgba(255, 255, 255, 0.933);
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        margin: 60px;
+    }
+
+    aside div#tabela2 h1 {
+        margin-left: -80px;
+        padding: 50px;
+    }
+
+    #skills h1 {
+        font-size: 3.1em;
+        margin-top: 100px;
+        text-align: justify;
+        margin: 0px;
+        padding-left: 70px;
+        padding-right: 60px;
+        padding-top: 90px;
+        padding-bottom: 25px;
+        color: rgba(255, 255, 255, 0.855);
+    }
+    
+    #skills p {
+        color: rgba(185, 184, 184, 0.942);
+        padding-left: 80px;
+        font-size: 1.1em;
+        font-family: 'Barlow', sans-serif;
+    }
+
+    aside h1 {
+        font-size: 4.3em;
+        color: rgba(255, 255, 255, 0.919);
+    }
+    
+    aside img {
+        width: 400px;
+        height: 300px;
+        margin: auto;
+        display: block;
+    }
+    
+    div#coluna1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;    
+        width: 1000px;
+        margin: auto;
+        padding: 20px;
+    }
+    
+    div#coluna2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;    
+        width: 1000px;
+        margin: auto;
+        padding: 20px;
+    }
+    
+    div#coluna3 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;    
+        width: 1000px;
+        margin: auto;
+        padding: 20px;
+    }
+    
+    aside div#imagens h1 {
+        color: rgba(255, 255, 255, 0.93);
+        font-size: 1.7em;
+    }
+    
+    aside div#imagens p {
+        color: rgba(255, 255, 255, 0.797);
+        font-size: 1.5em;
+    }
+    
+    div#imagens h1 {
+        padding: 10px;
+    }
+    
+    div#imagens p {
+        padding: 10px;
+        color: gray;
+    }
+    
+    #linha2 {
+        width: 490px;
+        height: 280px;
+        margin-left: 20px;
+    }
+    
+    .linha4 {
+        margin-left: 20px;
+    }
+    
+    .linha5 {
+        margin-right: 50px;
+    }
+    
+    .linha6 {
+        margin-left: 70px;
+    }
+    
+    #linha4 {
+        height: 280px;
+    }
+    
+    
+    #linha3 {
+        height: 280px;
+    }
+
+    footer p {
+        color: rgba(255, 255, 255, 0.907);
+        text-align: justify;
+        font-size:  1.0em;
+        font-family: 'Barlow', sans-serif;
+        padding: 20px;
+    }
+
+    footer {
+        background-color: rgb(48, 47, 47);
+        padding: 110px 150px 0px 150px;
+        margin-top: 150px;
+    }
+    
+    footer h1 {
+        color: rgba(247, 247, 247, 0.966);
+        font-size: 4.3em;
+        margin-left: 15px;
+        font-family: 'Barlow', sans-serif;
+        margin-bottom: 20px;
+    }
+    
+    footer h2 {
+        color: rgba(128, 128, 128, 0.941);
+        font-size: 1.8em;
+    }
+    
+    #geral {
+        display: flex;
+    }
+    
+    
+    .footer img{
+        padding: 10px;
+        width: 30px;
+    }
+    
+    .imagens{
+        justify-content: left;
+    }
+    
+    .imagens img {
+        width: 30px;
+        padding: 50px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    
+    .footer .imgextra {
+        border-radius: 50%;
+        width: 300px;
+        height: 300px;
+        margin-left: 230px;
+    }
+}
+
+@media screen and (min-width:1194px) and (max-width:1250px){
+   
+    body {
+        background-color: rgba(0, 0, 0, 0.893);
+    }
+
+    header img {
+        width: 30px;
+        padding-left: 20px;
+    }
+    
+    header img:hover {
+        padding: 2px;
+        background-color: beige;
+        transform: scale(1.2);
+    }
+
+    * {
+        margin: 0px;
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header h1 {
+        color: rgba(255, 255, 255, 0.905);
+        margin-left: 30px;
+        padding: 40px;
+        font-size: 1.6em;
+    }
+
+    .icons {
+        margin-right: 90px;
+        margin-top: 55px;
+        padding: 0px;
+    }
+
+    header img#imgprincipal {
+        width: 340px;
+        height: 600px;
         z-index: -1;
         position: absolute;
         right: 80px;
-        top: 45px;
+        top: 50px;
+        padding: 0px;
+        border: 3px solid lightgreen;
+        border-radius: 20px;
+    }
+
+    main article h1 {
+        font-size: 4.7em;
+        text-align: center;
+        margin-right: 540px;
+        margin-top: 100px;
+        color: rgba(255, 255, 255, 0.916);
+        font-family: 'Barlow', sans-serif;
+    }
+    
+    h2 {
+        text-align: center;
+        font-size: 4.7em;
+        margin-right: 470px;
+        color: rgba(255, 255, 255, 0.916);
+        font-family: 'Barlow', sans-serif;
+    }
+
+    h3 {
+        font-size: 1.2em;
+        text-align: justify;
+        margin-left: 50px;
+        margin-top: 19px;
+        padding: 10px;
+        color: rgba(255, 255, 255, 0.916);
+        font-family: 'Barlow', sans-serif;
+    }
+
+    b.b1 {
+        border-bottom: 5px solid lightgreen ;
+    }
+    
+    b.b2 {
+        border-bottom: 2px solid lightgreen;
+    }
+    
+    b.b3 {
+        border-bottom: 2px solid lightgreen;
+    }
+
+    h4 {
+        margin-left: 40px;
+        color: white;
+        font-size: 1.3em;
+        font-family: 'Barlow', sans-serif;
+        margin-top: 20px;
+        padding: 20px;
+        color: rgba(255, 255, 255, 0.916);
+    }
+
+    aside div#tabela2 {
+        padding: 30px;
+        color: rgba(255, 255, 255, 0.933);
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        margin: 60px;
+    }
+    
+    hr {
+        width: 1120px;
+        margin: auto;
+        margin-top: 170px;
+    }
+
+    aside div#tabela2 h1 {
+        margin-left: -80px;
+        padding: 50px;
+    }
+
+    #skills h1 {
+        font-size: 2.9em;
+        margin-top: 100px;
+        text-align: justify;
+        margin: 0px;
+        padding-left: 70px;
+        padding-right: 60px;
+        padding-top: 90px;
+        padding-bottom: 25px;
+        color: rgba(255, 255, 255, 0.855);
+    }
+    
+    #skills p {
+        color: rgba(185, 184, 184, 0.942);        
+        padding-left: 70px;
+        font-size: 1.0em;
+        font-family: 'Barlow', sans-serif;
+    }
+
+    aside h1 {
+        font-size: 4.3em;
+        color: rgba(255, 255, 255, 0.919);
+    }
+    
+    aside img {
+        width: 400px;
+        height: 300px;
+        margin: auto;
+        display: block;
+    }
+    
+    div#coluna1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;    
+        width: 1000px;
+        margin: auto;
+        padding: 20px;
+    }
+    
+    div#coluna2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;    
+        width: 1000px;
+        margin: auto;
+        padding: 20px;
+    }
+    
+    div#coluna3 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;    
+        width: 1000px;
+        margin: auto;
+        padding: 20px;
+    }
+    
+    aside div#imagens h1 {
+        color: rgba(255, 255, 255, 0.93);
+        font-size: 1.7em;
+    }
+    
+    aside div#imagens p {
+        color: rgba(255, 255, 255, 0.797);
+        font-size: 1.5em;
+    }
+    
+    div#imagens h1 {
+        padding: 10px;
+    }
+    
+    div#imagens p {
+        padding: 10px;
+        color: gray;
+    }
+    
+    #linha2 {
+        width: 490px;
+        height: 280px;
+        margin-left: 20px;
+    }
+    
+    .linha4 {
+        margin-left: 20px;
+    }
+    
+    .linha5 {
+        margin-right: 50px;
+    }
+    
+    .linha6 {
+        margin-left: 70px;
+    }
+    
+    #linha4 {
+        height: 280px;
+    }
+    
+    
+    #linha3 {
+        height: 280px;
+    }
+
+    footer p {
+        color: rgba(255, 255, 255, 0.907);
+        text-align: justify;
+        font-size:  1.5em;
+        font-family: 'Barlow', sans-serif;
+        padding: 20px;
+    }
+
+    footer {
+        background-color: rgb(48, 47, 47);
+        padding: 110px 150px 0px 150px;
+        margin-top: 150px;
+    }
+    
+    footer h1 {
+        color: rgba(247, 247, 247, 0.966);
+        font-size: 4.3em;
+        margin-left: 15px;
+        font-family: 'Barlow', sans-serif;
+        margin-bottom: 20px;
+    }
+    
+    footer h2 {
+        color: rgba(128, 128, 128, 0.941);
+        font-size: 1.8em;
+    }
+    
+    #geral {
+        display: flex;
+    }
+    
+    
+    .footer img{
+        padding: 10px;
+        width: 30px;
+    }
+    
+    .imagens{
+        justify-content: left;
+    }
+    
+    .imagens img {
+        width: 30px;
+        padding: 50px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    
+    .footer .imgextra {
+        border-radius: 50%;
+        width: 300px;
+        height: 300px;
+        margin-left: 230px;
+    }
+}
+
+@media screen and (min-width: 1159px) and (max-width: 1194px){
+
+    body {
+        background-color: rgba(0, 0, 0, 0.893);
+    }
+
+    header img {
+        width: 30px;
+        padding-left: 20px;
+    }
+    
+    header img:hover {
+        padding: 2px;
+        background-color: beige;
+        transform: scale(1.2);
+    }
+
+    * {
+        margin: 0px;
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header h1 {
+        color: rgba(255, 255, 255, 0.905);
+        margin-left: 50px;
+        padding: 40px;
+        font-size: 1.5em;
+    }
+
+    .icons {
+        margin-right: 90px;
+        margin-top: 55px;
+        padding: 0px;
+    }
+
+    main article h1 {
+        font-size: 3.9em;
+        text-align: center;
+        margin-right: 540px;
+        margin-top: 100px;
+        color: rgba(255, 255, 255, 0.916);
+        font-family: 'Barlow', sans-serif;
+    }
+
+    header img#imgprincipal {
+        width: 300px;
+        height: 550px;
+        z-index: -1;
+        position: absolute;
+        right: 80px;
+        top: 50px;
+        padding: 0px;
         border: 3px solid lightgreen;
         border-radius: 20px;
     }
 
     h2 {
         text-align: center;
-        font-size: 2.7em;
-        margin-right: 470px;
+        font-size: 3.8em;
+        margin-right: 490px;
         color: rgba(255, 255, 255, 0.916);
         font-family: 'Barlow', sans-serif;
     }
+
+    h3 {
+        font-size: 1.2em;
+        text-align: justify;
+        margin-left: 70px;
+        margin-top: 19px;
+        padding: 10px;
+        color: rgba(255, 255, 255, 0.916);
+        font-family: 'Barlow', sans-serif;
+    }
+
+    h4 {
+        margin-left: 60px;
+        color: white;
+        font-size: 1.3em;
+        font-family: 'Barlow', sans-serif;
+        margin-top: 20px;
+        padding: 20px;
+        color: rgba(255, 255, 255, 0.916);
+    }
+
+    b.b1 {
+        border-bottom: 5px solid lightgreen ;
+    }
+    
+    b.b2 {
+        border-bottom: 2px solid lightgreen;
+    }
+    
+    b.b3 {
+        border-bottom: 2px solid lightgreen;
+    }
+    
+    hr {
+        width: 1050px;
+        margin: auto;
+        margin-top: 170px;
+    }
+
+    aside div#tabela2 {
+        padding: 30px;
+        color: rgba(255, 255, 255, 0.933);
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        margin: 60px;
+    }
+
+    aside div#tabela2 h1 {
+        margin-left: -80px;
+        padding: 40px;
+        font-size: 3.2em;
+    }
+
+    #skills h1 {
+        font-size: 2.4em;
+        margin-top: 100px;
+        text-align: justify;
+        margin: 0px;
+        padding-left: 60px;
+        padding-right: 80px;
+        padding-top: 90px;
+        padding-bottom: 25px;
+        color: rgba(255, 255, 255, 0.855);
+    }
+    
+    #skills p {
+        color: rgba(185, 184, 184, 0.942);
+        padding-left: 65px;
+        font-size: 0.8em;
+        font-family: 'Barlow', sans-serif;
+    }
+
+    aside h1 {
+        font-size: 4.3em;
+        color: rgba(255, 255, 255, 0.919);
+    }
+    
+    aside img {
+        width: 400px;
+        height: 300px;
+        margin: auto;
+        display: block;
+    }
+    
+    div#coluna1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;    
+        width: 1000px;
+        margin: auto;
+        padding: 20px;
+    }
+    
+    div#coluna2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;    
+        width: 1000px;
+        margin: auto;
+        padding: 20px;
+    }
+    
+    div#coluna3 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;    
+        width: 1000px;
+        margin: auto;
+        padding: 20px;
+    }
+    
+    aside div#imagens h1 {
+        color: rgba(255, 255, 255, 0.93);
+        font-size: 1.7em;
+    }
+    
+    aside div#imagens p {
+        color: rgba(255, 255, 255, 0.797);
+        font-size: 1.5em;
+    }
+    
+    div#imagens h1 {
+        padding: 10px;
+    }
+    
+    div#imagens p {
+        padding: 10px;
+        color: gray;
+    }
+
+    footer h1 {
+        color: rgba(247, 247, 247, 0.966);
+        font-size: 3.7em;
+        margin-left: 15px;
+        font-family: 'Barlow', sans-serif;
+        margin-bottom: 20px;
+    }
+
+    footer p {
+        color: rgba(255, 255, 255, 0.907);
+        text-align: justify;
+        font-size:  1.3em;
+        font-family: 'Barlow', sans-serif;
+        padding: 20px;
+    }
+
+    .footer img{
+        padding: 10px;
+        width: 20px;
+    }
+    
+    .linha4 {
+        margin-right: 100px;
+    }
+    
+    .linha5 {
+        margin-right: 40px;
+    }
+    
+    .linha6 {
+        margin-left: -10px;
+    }
+
+    aside div#imagens h1 {
+        color: rgba(255, 255, 255, 0.93);
+        font-size: 1.4em;
+    }
+    
+    aside div#imagens p {
+        color: rgba(255, 255, 255, 0.797);
+        font-size: 1.1em;
+    }
+    
+    
+    img#linha4 {
+        height: 230px;
+        margin-right: 60px;
+        margin-top: -3px;
+    }
+    
+    img#linha3 {
+        height: 240px;
+    }
+
+    img#linha2 {
+        width: 420px;
+        height: 240px;
+        margin-right: 40px;
+    }
+
+    img#linha1 {
+        height: 240px;
+    }
+
+    footer {
+        background-color: rgb(48, 47, 47);
+        padding: 110px 150px 0px 150px;
+        margin-top: 150px;
+    }
+    
+    footer h2 {
+        color: rgba(128, 128, 128, 0.941);
+        font-size: 1.8em;
+    }
+    
+    #geral {
+        display: flex;
+    }
+    
+    .imagens{
+        justify-content: left;
+    }
+    
+    .imagens img {
+        width: 30px;
+        padding: 50px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    
+    .footer .imgextra {
+        border-radius: 50%;
+        width: 300px;
+        height: 300px;
+        margin-left: 230px;
+    }
 }
+
+@media screen and (min-width:1056px) and (max-width:1159px){
+
+    * {
+        margin: 0px;
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+        background-color: rgba(0, 0, 0, 0.893);
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header img {
+        width: 30px;
+        padding-left: 20px;
+    }
+    
+    header img:hover {
+        padding: 2px;
+        background-color: beige;
+        transform: scale(1.2);
+    }
+
+    header h1 {
+        color: rgba(255, 255, 255, 0.905);
+        margin-left: 45px;
+        padding: 40px;
+        font-size: 1.4em;
+    }
+
+    main article h1 {
+        font-size: 3.7em;
+        text-align: center;
+        margin-right: 540px;
+        margin-top: 100px;
+        color: rgba(255, 255, 255, 0.916);
+        font-family: 'Barlow', sans-serif;
+        padding-left: 40px;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 3.6em;
+        margin-right: 490px;
+        color: rgba(255, 255, 255, 0.916);
+        font-family: 'Barlow', sans-serif;
+        padding-left: 40px;
+    }
+
+    .icons {
+        margin-right: 90px;
+        margin-top: 55px;
+        padding: 0px;
+    }
+
+    header img#imgprincipal {
+        width: 320px;
+        height: 500px;
+        z-index: -1;
+        position: absolute;
+        right: 70px;
+        top: 40px;
+        padding: 0px;
+        border: 3px solid lightgreen;
+        border-radius: 20px;
+    }
+
+    h3 {
+        font-size: 1.1em;
+        text-align: justify;
+        margin-left: 75px;
+        margin-top: 19px;
+        padding-left: -10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: rgba(255, 255, 255, 0.916);
+        font-family: 'Barlow', sans-serif;
+    }
+
+    h4 {
+        margin-left: 70px;
+        color: white;
+        font-size: 1.1em;
+        font-family: 'Barlow', sans-serif;
+        margin-top: 20px;
+        padding: 20px;
+        color: rgba(255, 255, 255, 0.916);
+    }
+
+    b.b1 {
+        border-bottom: 5px solid lightgreen ;
+    }
+    
+    b.b2 {
+        border-bottom: 2px solid lightgreen;
+    }
+    
+    b.b3 {
+        border-bottom: 2px solid lightgreen;
+    }
+    
+    hr {
+        width: 960px;
+        margin: auto;
+        margin-top: 170px;
+    }
+
+    aside div#tabela2 {
+        padding: 30px;
+        color: rgba(255, 255, 255, 0.933);
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        margin: 60px;
+    }
+
+    aside div#tabela2 h1 {
+        margin-left: -80px;
+        padding: 50px;
+        font-size: 2.3em;
+    }
+
+    #skills h1 {
+        font-size: 2.0em;
+        margin-top: 100px;
+        text-align: justify;
+        margin: 0px;
+        padding-left: 60px;
+        padding-right: 80px;
+        padding-top: 90px;
+        padding-bottom: 25px;
+        color: rgba(255, 255, 255, 0.855);
+    }
+    
+    #skills p {
+        color: rgba(185, 184, 184, 0.942);        
+        padding-left: 70px;
+        font-size: 0.8em;
+        font-family: 'Barlow', sans-serif;
+    }
+
+    aside h1 {
+        font-size: 4.3em;
+        color: rgba(255, 255, 255, 0.919);
+    }
+    
+    aside img {
+        width: 400px;
+        height: 300px;
+        margin: auto;
+        display: block;
+    }
+    
+    div#coluna1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;    
+        width: 1000px;
+        margin: auto;
+        padding: 20px;
+    }
+    
+    div#coluna2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;    
+        width: 1000px;
+        margin: auto;
+        padding: 20px;
+    }
+    
+    div#coluna3 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;    
+        width: 1000px;
+        margin: auto;
+        padding: 20px;
+    }
+    
+    aside div#imagens h1 {
+        color: rgba(255, 255, 255, 0.93);
+        font-size: 1.7em;
+    }
+    
+    aside div#imagens p {
+        color: rgba(255, 255, 255, 0.797);
+        font-size: 1.5em;
+    }
+    
+    div#imagens h1 {
+        padding: 10px;
+    }
+    
+    div#imagens p {
+        padding: 10px;
+        color: gray;
+    }
+    
+    .linha5 {
+        margin-right: 50px;
+    }
+
+    footer p {
+        color: rgba(255, 255, 255, 0.907);
+        text-align: justify;
+        font-size:  1.3em;
+        font-family: 'Barlow', sans-serif;
+        padding: 20px;
+    }
+
+    .footer .imgextra {
+        border-radius: 50%;
+        width: 250px;
+        height: 250px;
+        margin-left: 230px;
+    }
+
+    .linha4 {
+        margin-right: 120px;
+    }
+    
+    .linha6 {
+        margin-left: -10px;
+    }
+
+    aside div#imagens h1 {
+        color: rgba(255, 255, 255, 0.93);
+        font-size: 1.2em;
+        padding-left: 40px;
+    }
+    
+    aside div#imagens p {
+        color: rgba(255, 255, 255, 0.797);
+        font-size: 0.9em;
+        padding-left: 40px;
+    }
+    
+    
+    img#linha4 {
+        height: 210px;
+        margin-right: 70px;
+        margin-top: -3px;
+    }
+    
+    img#linha3 {
+        height: 210px;
+        padding-left: 40px;
+    }
+
+    img#linha2 {
+        width: 400px;
+        height: 210px;
+        margin-right: 70px;
+    }
+
+    img#linha1 {
+        height: 210px;
+        padding-left: 40px;
+    }
+
+
+
+
+    footer {
+        background-color: rgb(48, 47, 47);
+        padding: 110px 150px 0px 150px;
+        margin-top: 150px;
+    }
+    
+    footer h1 {
+        color: rgba(247, 247, 247, 0.966);
+        font-size: 4.3em;
+        margin-left: 15px;
+        font-family: 'Barlow', sans-serif;
+        margin-bottom: 20px;
+    }
+    
+    footer h2 {
+        color: rgba(128, 128, 128, 0.941);
+        font-size: 1.8em;
+    }
+    
+    #geral {
+        display: flex;
+    }
+    
+    
+    .footer img{
+        padding: 10px;
+        width: 30px;
+    }
+    
+    .imagens{
+        justify-content: left;
+    }
+    
+    .imagens img {
+        width: 30px;
+        padding: 50px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1056px){
+    
+    * {
+        margin: 0px;
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+        background-color: rgba(0, 0, 0, 0.893);
+    }
+
+    header img {
+        width: 30px;
+        padding-left: 20px;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    header img:hover {
+        padding: 2px;
+        background-color: beige;
+        transform: scale(1.2);
+    }
+
+    body {
+        background-color: red;
+    }
+
+    header h1 {
+        color: rgba(255, 255, 255, 0.905);
+        margin-left: 45px;
+        padding: 40px;
+        font-size: 1.4em;
+    }
+
+    main article h1 {
+        font-size: 3.4em;
+        text-align: center;
+        margin-right: 530px;
+        margin-top: 100px;
+        color: rgba(255, 255, 255, 0.916);
+        font-family: 'Barlow', sans-serif;
+        padding-left: 40px;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 3.3em;
+        margin-right: 490px;
+        color: rgba(255, 255, 255, 0.916);
+        font-family: 'Barlow', sans-serif;
+        padding-left: 40px;
+    }
+
+    .icons {
+        margin-right: 65px;
+        margin-top: 55px;
+        padding: 0px;
+    }
+
+    header img#imgprincipal {
+        width: 340px;
+        height: 450px;
+        z-index: -1;
+        position: absolute;
+        right: 60px;
+        top: 40px;
+        padding: 0px;
+        border: 3px solid lightgreen;
+        border-radius: 20px;
+    }
+
+    h3 {
+        font-size: 1.1em;
+        text-align: justify;
+        margin-left: 75px;
+        margin-top: 19px;
+        padding-left: -10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: rgba(255, 255, 255, 0.916);
+        font-family: 'Barlow', sans-serif;
+    }
+
+    h4 {
+        margin-left: 70px;
+        color: white;
+        font-size: 1.1em;
+        font-family: 'Barlow', sans-serif;
+        margin-top: 20px;
+        padding: 20px;
+        color: rgba(255, 255, 255, 0.916);
+    }
+
+    b.b1 {
+        border-bottom: 5px solid lightgreen ;
+    }
+    
+    b.b2 {
+        border-bottom: 2px solid lightgreen;
+    }
+    
+    b.b3 {
+        border-bottom: 2px solid lightgreen;
+    }
+    
+    hr {
+        width: 940px;    
+        margin-top: 170px;
+    }
+
+    aside div#tabela2 {
+        padding: 30px;
+        color: rgba(255, 255, 255, 0.933);
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        margin: 60px;
+    }
+
+    aside div#tabela2 h1 {
+        margin-left: -80px;
+        padding: 50px;
+        font-size: 2.6em;
+    }
+
+    #skills h1 {
+        font-size: 2.0em;
+        margin-top: 100px;
+        text-align: justify;
+        margin: 0px;
+        padding-left: 50px;
+        padding-right: 100px;
+        padding-top: 90px;
+        padding-bottom: 25px;
+        color: rgba(255, 255, 255, 0.855);
+    }
+    
+    #skills p {
+        color: rgba(185, 184, 184, 0.942);        
+        padding-left: 50px;
+        font-size: 0.8em;
+        font-family: 'Barlow', sans-serif;
+    }
+
+    aside h1 {
+        font-size: 4.3em;
+        color: rgba(255, 255, 255, 0.919);
+    }
+    
+    aside img {
+        width: 400px;
+        height: 300px;
+        margin: auto;
+        display: block;
+    }
+    
+    div#coluna1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;    
+        width: 1000px;
+        margin: auto;
+        padding: 20px;
+    }
+    
+    div#coluna2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;    
+        width: 1000px;
+        margin: auto;
+        padding: 20px;
+    }
+    
+    div#coluna3 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;    
+        width: 1000px;
+        margin: auto;
+        padding: 20px;
+    }
+    
+    aside div#imagens h1 {
+        color: rgba(255, 255, 255, 0.93);
+        font-size: 1.7em;
+    }
+    
+    aside div#imagens p {
+        color: rgba(255, 255, 255, 0.797);
+        font-size: 1.5em;
+    }
+    
+    div#imagens h1 {
+        padding: 10px;
+    }
+    
+    div#imagens p {
+        padding: 10px;
+        color: gray;
+    }
+    
+    
+    .linha5 {
+        margin-right: 50px;
+    }
+
+    footer h1 {
+        color: rgba(247, 247, 247, 0.966);
+        font-size: 3.7em;
+        margin-left: 15px;
+        font-family: 'Barlow', sans-serif;
+        margin-bottom: 20px;
+    }
+
+    footer p {
+        color: rgba(255, 255, 255, 0.907);
+        text-align: justify;
+        font-size:  1.1em;
+        font-family: 'Barlow', sans-serif;
+        padding: 20px;
+    }
+
+    .imagens img {
+        width: 26px;
+        padding: 50px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    .footer .imgextra {
+        border-radius: 50%;
+        width: 230px;
+        height: 230px;
+        margin-left: 230px;
+    }
+
+    .linha4 {
+        margin-left: -30px;
+    }
+    
+    .linha6 {
+        margin-right: 70px;
+    }
+
+    aside div#imagens h1 {
+        color: rgba(255, 255, 255, 0.93);
+        font-size: 1.0em;
+        padding-left: 60px;
+    }
+    
+    aside div#imagens p {
+        color: rgba(255, 255, 255, 0.797);
+        font-size: 0.8em;
+        padding-left: 60px;
+    }
+    
+    
+    img#linha4 {
+        height: 297px;
+        width: 300px;
+        margin-right: 70px;
+        margin-top: -3px;
+    }
+    
+    img#linha3 {
+        height: 300px;
+        width: 300px;
+        padding-left: 60px;
+    }
+
+    img#linha2 {
+        width: 300px;
+        height: 300px;
+        margin-right: 70px;
+    }
+
+    img#linha1 {
+        height: 300px;
+        width: 300px;
+        padding-left: 60px;
+    }
+
+    footer {
+        background-color: rgb(48, 47, 47);
+        padding: 110px 150px 0px 150px;
+        margin-top: 150px;
+    }
+    
+    footer h2 {
+        color: rgba(128, 128, 128, 0.941);
+        font-size: 1.8em;
+    }
+    
+    #geral {
+        display: flex;
+    }
+    
+    .imagens{
+        justify-content: left;
+    }
+    
+    .imagens img {
+        width: 30px;
+        padding: 50px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    
+}
+
+
+
