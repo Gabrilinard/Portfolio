@@ -161,7 +161,7 @@ div#coluna1 {
     display: flex;
     align-items: center;
     justify-content: space-between;    
-    width: 1000px;
+    
     margin: auto;
     padding: 20px;
 }
@@ -170,7 +170,7 @@ div#coluna2 {
     display: flex;
     align-items: center;
     justify-content: space-between;    
-    width: 1000px;
+    
     margin: auto;
     padding: 20px;
 }
