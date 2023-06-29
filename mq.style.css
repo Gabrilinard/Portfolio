@@ -133,22 +133,16 @@
         font-size: 2.3em;
     }
     
-    aside img {
-        width: 350px;
-        height: 250px;
-        margin: 0px;
-    }
-    
     div#coluna1 {
         display: inline-block;  
-        width: 400px;
+        width: 200px;
         padding: 20px;
         margin: 0px;
     }
     
     div#coluna2 {
         display: inline-block;
-        width: 400px;
+        width: 200px;
         padding: 20px;
         margin: 0px;
     }
@@ -184,7 +178,7 @@
         margin: 0px;
         margin-left: 75px;
         border-radius: 10px;
-        border: 2px solid lightgreen;
+        border: 1px solid lightgreen;
     }
 
     #linha1 {
@@ -199,43 +193,43 @@
     }
 
     aside #imagens #coluna2 .linha3 {
-        font-size: 1.1em;
-        padding-left: 80px;
+        font-size: 1.0em;
+        margin-left: 80px;
     }
 
     aside #imagens #coluna2 p.linha3 {
-        font-size: 1.0em;
-        padding-bottom: 70px;
+        font-size: 0.9em;
+        
     }
 
     aside #imagens #coluna2 .linha4 {
-        font-size: 1.1em;
-        padding-left: 80px;
+        font-size: 1.0em;
+        margin-left: 80px;
     }
 
     aside #imagens #coluna2 p.linha4 {
-        font-size: 1.0em;
-        padding-bottom: 70px;
+        font-size: 0.9em;
+       
     }
 
     aside #imagens #coluna1 .linha5 {
-        font-size: 1.1em;
-        padding-left: 80px;
+        font-size: 1.0em;
+        margin-left: 80px;
     }
 
     aside #imagens #coluna1 p.linha5 {
-        font-size: 1.0em;
+        font-size: 0.9em;
         padding-bottom: 70px;
     }
 
     aside #imagens #coluna1 .linha6 {
         font-size: 1.0em;
-        padding-left: 80px;
+        margin-left: 80px;
     }
 
     aside #imagens #coluna1 p.linha6 {
         font-size: 1.0em;
-        padding-bottom: 40px;
+        
     }
     
     #linha4 {
@@ -259,13 +253,7 @@
         margin-left: 75px;
         border-radius: 10px;
         border: 2px solid lightgreen;
-    }
-
-    #imagens #coluna1 #div1 a{
-        padding: 0px;
-        margin: 0px;
-    }
-
+    }    
 
     /*Footer*/
     #geral {
