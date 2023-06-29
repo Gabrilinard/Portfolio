@@ -197,11 +197,11 @@ div#imagens p {
 #linha2 {
     width: 490px;
     height: 280px;
-    margin-left: 20px;
+    margin-left: 180px;
 }
 
 .linha4 {
-    margin-left: 20px;
+    margin-left: 195px;
 }
 
 .linha5 {
@@ -212,13 +212,15 @@ div#imagens p {
     margin-left: 85px
 }
 
-h1 .linha6 {
+.linha6 {
     font-size: 2.3em;
+    margin-left: 170px;
 }
 
 
 #linha4 {
     height: 300px;
+    margin-left: 170px;
 }
 
 
