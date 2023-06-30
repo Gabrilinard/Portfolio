@@ -2,7 +2,7 @@
 
 /* rgba(0, 0, 0, 0.893) */
 
-@media screen and (min-width:200px) and (max-width:550px){
+@media screen and (max-width:550px){
     * {
         margin: 0px;
         padding: 0px;
