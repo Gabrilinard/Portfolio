@@ -2,3 +2,290 @@
 
 /* rgba(0, 0, 0, 0.893) */
 
+
+
+
+@media screen and (min-width:1200px){
+   
+    header img {
+        width: 30px;
+    }
+    
+    .icons {
+        padding: 0px;
+        margin: 0px;
+        padding-top: 90px;
+        padding-right: 210px;
+    }
+
+    header img#imgprincipal {
+        width: 340px;
+        height: 550px;
+        position: absolute;
+        left: 980px;
+        top: 80px;
+    }
+
+    header h1 {
+        font-size: 1.8em;
+        padding-left: 185px;
+        padding-top: 50px;
+    }
+    
+    
+    main article h1 {
+        font-size: 4.7em;
+        margin-top: 0px;
+        color: rgba(255, 255, 255, 0.916);
+        font-family: 'Barlow', sans-serif;
+        margin: 0px;
+        text-align: left;
+        padding: 0px;
+        padding-top: 50px;
+        padding-left: 180px;
+        
+    }
+    
+    h2 {
+        font-size: 4.5em;
+        color: rgba(255, 255, 255, 0.916);
+        font-family: 'Barlow', sans-serif;  
+        text-align: left;
+        padding-left: 180px;
+    }
+    
+    h3 {
+        font-size: 1.2em;
+        text-align: justify;
+        color: rgba(255, 255, 255, 0.916);
+        font-family: 'Barlow', sans-serif;
+        margin: 0px;
+        padding-top: 30px;
+        padding-left: 185px;
+    }
+    
+    h4 {
+        color: white;
+        font-size: 1.2em;
+        font-family: 'Barlow', sans-serif;
+        color: rgba(255, 255, 255, 0.916);
+        margin: 0px;
+        text-align: left;
+        padding-top: 40px;
+        padding-left: 185px;
+    }
+    
+
+    hr {
+        width: 1200px;
+        margin: auto;
+        display: block;
+        margin-top: 300px;
+    }
+
+
+    /*Tabela*/
+    #skills h1 {
+        font-size: 2.2em;
+        margin: 0px;
+        margin-bottom: 10px;
+        padding: 0px;
+        padding-top: 100px;
+        padding-left: 200px;
+        padding-right: 50px;
+        color: rgba(255, 255, 255, 0.855);
+    }
+    
+    #skills p {
+        color: rgba(185, 184, 184, 0.942);
+        padding: 0px;
+        font-size: 1.2em;
+        font-family: 'Barlow', sans-serif;
+        padding-left: 165px;
+        padding-top: 15px;
+    }
+
+
+    /* Project/Contact */
+
+    aside div#tabela2 #h1 h1 {
+        margin: 0px;
+        padding: 0px;
+        padding-top: 150px;
+        padding-right: 550px;
+        font-size: 3.7rem;
+        color: rgba(255, 255, 255, 0.916);
+    }
+
+    b.b3 {
+        color: rgba(255, 255, 255, 0.916);
+        font-size: 2.0rem;    
+    }
+
+    /* Tabela2 */
+
+    div#coluna1 { 
+        padding: 20px;
+        margin: 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+    }
+    
+    div#coluna2 {  
+        padding: 20px;
+        margin: 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+    }
+
+    aside #imagens #coluna2 h1.linha3 {
+        font-size: 1.6em;
+        text-align: center;
+        padding-left: 10px;
+        padding-top: 15px;
+    }
+
+    aside #imagens #coluna2 p.linha3 {
+        font-size: 1.3em;
+        text-align: center;
+        padding-left: 92px;
+        padding-top: 20px;
+    }
+
+    aside #imagens #coluna2 h1.linha4 {
+        font-size: 1.6em;
+        text-align: center;
+        padding-right: 300px;
+        padding-left: 20px;
+        padding-top: 15px;
+    }
+
+    aside #imagens #coluna2 p.linha4 {
+        font-size: 1.3em;
+        text-align: center;
+        padding-right: 384px;
+        padding-top: 20px;
+    }
+
+    aside #imagens #coluna1 h1.linha5 {
+        font-size: 1.6em;
+        text-align: center;
+        padding-left: 160px;
+        padding-top: 20px;
+    }
+
+    aside #imagens #coluna1 p.linha5 {
+        font-size: 1.3em;
+        padding-left: 235px;
+        padding-top: 30px;
+    }
+    aside #imagens #coluna1 h1.linha6 {
+        font-size: 1.6em;
+        text-align: center;
+        padding-right: 140px;
+        padding-top: 15px;
+    }
+
+    aside #imagens #coluna1 p.linha6 {
+        font-size: 1.3em;
+        padding-left: 85px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        
+    }
+    
+    #linha4 {
+        width: auto;
+        height: auto;
+        max-width: 420px;
+        min-height: 280px;
+        margin: auto;
+        display: block;
+        margin-right: 200px;
+        margin-top: 80px;
+        border-radius: 10px;
+        border: 2px solid lightgreen;
+    }
+    
+    
+    #linha3 {
+        width: auto;
+        height: auto;
+        max-width: 420px;
+        min-height: 280px;
+        margin: auto;
+        display: block;
+        margin-left: 200px;
+        border-radius: 10px;
+        margin-top: 40px;
+        border: 2px solid lightgreen;
+    }    
+
+    #linha2 {
+        width: auto;
+        height: auto;
+        max-width: 420px;
+        min-height: 285px;
+        margin: auto;
+        display: block;
+        border-radius: 10px;
+        margin-right: 203px;
+        margin-bottom: 10px;
+        border: 2px solid lightgreen;
+    }
+
+    #linha1 {
+        width: auto;
+        height: auto;
+        max-width: 420px;
+        min-height: 280px;
+        margin: auto;
+        display: block;
+        border-radius: 10px;
+        margin-left: 200px;
+        margin-top: 40px;
+        border: 2px solid lightgreen;
+    }
+
+    footer {
+        background-color: rgb(48, 47, 47);
+        padding: 60px;
+        margin-top: 130px;
+    }
+
+    .footer .imgextra {
+        border-radius: 50%;
+        width: 380px;
+        height: 380px;
+        margin-left: 400px;
+        margin-top: 10px;
+    }
+
+    footer h1 {
+        color: rgba(247, 247, 247, 0.966);
+        font-size: 4.6em;
+        font-family: 'Barlow', sans-serif;
+        margin: 0px;
+        padding-left: 50px;
+    }
+    
+    footer #geral p {
+        color: rgba(255, 255, 255, 0.907);
+        font-size:  1.8rem;
+        padding-top: 30px;
+        font-family: 'Barlow', sans-serif;
+        text-align: justify;
+        width: 450px;
+        padding-left: 58px;
+    }
+
+    .imagens img {
+        width: 32px;
+        margin-top: 50px;
+        padding: 0px;
+        margin-left: 58px;
+    } 
+
+}
