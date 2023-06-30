@@ -137,29 +137,28 @@
     
     div#coluna1 {
         display: inline-block;  
-        width: 200px;
+        width: 400px;
         padding: 20px;
         margin: 0px;
     }
     
     div#coluna2 {
         display: inline-block;
-        width: 200px;
+        width: 400px;
         padding: 20px;
         margin: 0px;
     }
     
     aside div#imagens h1 {
         color: rgba(255, 255, 255, 0.93);
-        font-size: 1.7em;
-        margin: 0px;
+        font-size: 1.5em;
+        margin-left: 70px;
     }
         
 
     aside div#imagens p {
         color: rgba(255, 255, 255, 0.797);
-        font-size: 1.5em;
-        margin: 0px;
+        font-size: 1.1em;
     }
     
     div#imagens h1 {
@@ -179,6 +178,7 @@
         min-height: 150px;
         margin: 0px;
         margin-left: 75px;
+        margin-top: 50px;
         border-radius: 10px;
         border: 1px solid lightgreen;
     }
@@ -201,7 +201,7 @@
 
     aside #imagens #coluna2 p.linha3 {
         font-size: 0.9em;
-        
+        margin-left: 80px;
     }
 
     aside #imagens #coluna2 .linha4 {
@@ -258,6 +258,7 @@
     }    
 
     /*Footer*/
+    
     #geral {
         display: flex
         
