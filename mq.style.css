@@ -2,7 +2,7 @@
 
 /* rgba(0, 0, 0, 0.893) */
 
-@media screen and (min-width: 0px) and (max-width:550px){
+@media screen and (min-width:1340px) and (max-width: 1400px) {
     * {
         margin: 0px;
         padding: 0px;
@@ -11,7 +11,7 @@
 
     /*Header*/
     header img {
-        width: 20px;
+        width: 30px;
     }
     
     header img:hover {
@@ -29,1902 +29,65 @@
         padding: 0px;
         padding-top: 110px;
         margin: 0px;
-        margin-right: 25px;
-        margin-top:-60px;
+        margin-right: 140px;
+        margin-top:-55px;
     }
     
     header img#imgprincipal {
-        width: 200px;
-        height: 300px;
-        z-index: -1;
-        margin-right: -220px;
-        margin-top: 0px;
-        border: 2px solid lightgreen;
-        border-radius: 20px;
-        right: 240px;
-        top: 45px;
-    }
-
-    header h1 {
-        color: rgba(255, 255, 255, 0.905);
-        font-size: 1.1em;
-        margin: 0px;
-        margin-left: -10px;
-    }
-    
-    
-    main article h1 {
-        font-size: 1.7em;
-        margin-top: 0px;
-        color: rgba(255, 255, 255, 0.916);
-        font-family: 'Barlow', sans-serif;
-        margin: 0px;
-        margin-left: -220px;
-    }
-    
-    h2 {
-        font-size:1.5em;
-        color: rgba(255, 255, 255, 0.916);
-        font-family: 'Barlow', sans-serif;
-        margin: 10px;
-        margin-left: -210px;
-    }
-    
-    h3 {
-        font-size: 0.8em;
-        text-align: justify;
-        color: rgba(255, 255, 255, 0.916);
-        font-family: 'Barlow', sans-serif;
-        margin: 0px;
-        margin-left: 20px;
-    }
-    
-    h4 {
-        color: white;
-        font-size: 0.9em;
-        font-family: 'Barlow', sans-serif;
-        color: rgba(255, 255, 255, 0.916);
-        margin: 0px;
-        margin-left: 10px;
-
-    }
-    
-    b.b1 {
-        border-bottom: 3px solid lightgreen ;
-    }
-    
-    b.b2 {
-        border-bottom: 2px solid lightgreen;
-    }
-    
-    b.b3 {
-        border-bottom: 2px solid lightgreen;
-    }
-
-    hr {
-        width: 420px;
-        margin-top: 100px;
-        text-align: center;
-    }
-
-    /*Tabela*/
-    #skills h1 {
-        font-size: 1.1em;
-        margin: 0px;
-        margin-bottom: 10px;
-        margin-left: 40px;
-        margin-top: 50px;
-        padding: 0px;
-        color: rgba(255, 255, 255, 0.855);
-    }
-    
-    #skills p {
-        color: rgba(185, 184, 184, 0.942);
-        padding: 0px;
-        font-size: 0.6em;
-        margin-left: 40px;
-        font-family: 'Barlow', sans-serif;
-    }
-
-
-    /*Tabela2 */
-    aside div#tabela2 h1 {
-        margin: 0px;
-        margin-left: -78px;
-        padding: 20px;
-        font-size: 2.3em;
-    }
-    
-    div#coluna1 {
-        display: inline-block;  
-        width: 400px;
-        padding: 20px;
-        margin: 0px;
-    }
-    
-    div#coluna2 {
-        display: inline-block;
-        width: 400px;
-        padding: 20px;
-        margin: 0px;
-    }
-    
-    aside div#imagens h1 {
-        color: rgba(255, 255, 255, 0.93);
-        font-size: 1.5em;
-        margin-left: 70px;
-    }
-        
-
-    aside div#imagens p {
-        color: rgba(255, 255, 255, 0.797);
-        font-size: 1.1em;
-    }
-    
-    div#imagens h1 {
-        padding: 10px; 
-        margin: 0px;
-    }
-    
-    div#imagens p {
-        padding: 10px;
-        color: gray;
-    }
-    
-    #linha2 {
-        width: auto;
-        height: auto;
-        max-width: 300px;
-        min-height: 150px;
-        margin: 0px;
-        margin-left: 75px;
-        margin-top: 50px;
-        border-radius: 10px;
-        border: 1px solid lightgreen;
-    }
-
-    #linha1 {
-        width: auto;
-        height: auto;
-        max-width: 300px;
-        min-height: 150px;
-        margin: 0px;
-        margin-left: 75px;
-        border-radius: 10px;
-        border: 2px solid lightgreen;
-    }
-
-    aside #imagens #coluna2 .linha3 {
-        font-size: 1.0em;
-        margin-left: 80px;
-    }
-
-    aside #imagens #coluna2 p.linha3 {
-        font-size: 0.9em;
-        margin-left: 80px;
-    }
-
-    aside #imagens #coluna2 .linha4 {
-        font-size: 1.0em;
-        margin-left: 80px;
-    }
-
-    aside #imagens #coluna2 p.linha4 {
-        font-size: 0.9em;
-       
-    }
-
-    aside #imagens #coluna1 .linha5 {
-        font-size: 1.0em;
-        margin-left: 80px;
-    }
-
-    aside #imagens #coluna1 p.linha5 {
-        font-size: 0.9em;
-        padding-bottom: 70px;
-    }
-
-    aside #imagens #coluna1 .linha6 {
-        font-size: 1.0em;
-        margin-left: 80px;
-    }
-
-    aside #imagens #coluna1 p.linha6 {
-        font-size: 1.0em;
-        
-    }
-    
-    #linha4 {
-        width: auto;
-        height: auto;
-        max-width: 300px;
-        min-height: 150px;
-        margin: 0px;
-        margin-left: 75px;
-        border-radius: 10px;
-        border: 2px solid lightgreen;
-    }
-    
-    
-    #linha3 {
-        width: auto;
-        height: auto;
-        max-width: 300px;
-        min-height: 150px;
-        margin: 0px;
-        margin-left: 75px;
-        border-radius: 10px;
-        border: 2px solid lightgreen;
-    }    
-
-    /*Footer*/
-    
-    #geral {
-        display: flex
-        
-    }
-
-    footer {
-        background-color: rgb(48, 47, 47);
-        padding: 20px;
-        margin-top: 130px;
-    }
-
-    .footer .imgextra {
-        border-radius: 50%;
-        width: 160px;
-        height: 160px;
-        margin-left: 25px;
-        margin-top: 35px;
-    }
-
-    footer h1 {
-        color: rgba(247, 247, 247, 0.966);
-        font-size: 2.6em;
-        font-family: 'Barlow', sans-serif;
-        padding: 20px;
-        margin: 0px;
-        margin-left: -5px;
-    }
-    
-    footer p {
-        color: rgba(255, 255, 255, 0.907);
-        font-size:  1.1em;
-        padding-top: 0px;
-        margin-left: 0px;
-        font-family: 'Barlow', sans-serif;
-        text-align: justify;
-        
-    }
-
-    .imagens img {
-        width: 20px;
-        margin-top: 20px;
-        padding: 0px;
-        margin-left: 20px;
-    } 
-}
-
-@media screen and (min-width:550px) and (max-width:603px){
-    * {
-        margin: 0px;
-        padding: 0px;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    
-    /*Header*/
-    header img {
-        width: 20px;
-    }
-    
-    header img:hover {
-        padding: 2px;
-        background-color: beige;
-        transform: scale(1.2);
-    }
-    
-    header {
-        display: flex;
-        justify-content: space-between;
-    }
-    
-    .icons {
-        padding: 0px;
-        padding-top: 110px;
-        margin: 0px;
-        margin-right: 25px;
-        margin-top:-60px;
-    }
-    
-    header img#imgprincipal {
-        width: 200px;
-        height: 300px;
-        z-index: -1;
-        margin-right: -220px;
-        margin-top: 0px;
-        border: 2px solid lightgreen;
-        border-radius: 20px;
-    }
-
-    header h1 {
-        color: rgba(255, 255, 255, 0.905);
-        font-size: 1.1em;
-        margin: 0px;
-        margin-left: -10px;
-    }
-    
-    
-    main article h1 {
-        font-size: 1.7em;
-        margin-top: 0px;
-        color: rgba(255, 255, 255, 0.916);
-        font-family: 'Barlow', sans-serif;
-        margin: 0px;
-        margin-left: -274px;
-    }
-    
-    h2 {
-        font-size:1.5em;
-        color: rgba(255, 255, 255, 0.916);
-        font-family: 'Barlow', sans-serif;
-        margin: 10px;
-        margin-left: -264px;
-    }
-    
-    h3 {
-        font-size: 0.8em;
-        text-align: justify;
-        color: rgba(255, 255, 255, 0.916);
-        font-family: 'Barlow', sans-serif;
-        margin: 0px;
-        margin-left: 20px;
-    }
-    
-    h4 {
-        color: white;
-        font-size: 0.9em;
-        font-family: 'Barlow', sans-serif;
-        color: rgba(255, 255, 255, 0.916);
-        margin: 0px;
-        margin-left: 10px;
-
-    }
-    
-    b.b1 {
-        border-bottom: 3px solid lightgreen ;
-    }
-    
-    b.b2 {
-        border-bottom: 2px solid lightgreen;
-    }
-    
-    b.b3 {
-        border-bottom: 2px solid lightgreen;
-    }
-
-    hr {
-        width: 470px;
-        margin-top: 100px;
-        text-align: center;
-    }
-
-    /*Tabela*/
-    #skills h1 {
-        font-size: 1.3em;
-        margin: 0px;
-        margin-bottom: 10px;
-        margin-left: 40px;
-        margin-top: 60px;
-        padding: 0px;
-        color: rgba(255, 255, 255, 0.855);
-    }
-    
-    #skills p {
-        color: rgba(185, 184, 184, 0.942);
-        padding: 0px;
-        font-size: 0.7em;
-        margin-left: 40px;
-        font-family: 'Barlow', sans-serif;
-    }
-
-
-    /*Tabela2 */
-    aside div#tabela2 h1 {
-        margin: 0px;
-        margin-left: -78px;
-        padding: 20px;
-        font-size: 2.3em;
-    }
-    
-    aside img {
         width: 350px;
-        height: 250px;
-        margin: 0px;
-    }
-    
-    div#coluna1 {
-        display: inline-block;  
-        width: 400px;
-        padding: 20px;
-        margin: 0px;
-    }
-    
-    div#coluna2 {
-        display: inline-block;
-        width: 400px;
-        padding: 20px;
-        margin: 0px;
-    }
-    
-    aside div#imagens h1 {
-        color: rgba(255, 255, 255, 0.93);
-        font-size: 1.7em;
-        margin: 0px;
-    }
-        
-
-    aside div#imagens p {
-        color: rgba(255, 255, 255, 0.797);
-        font-size: 1.5em;
-        margin: 0px;
-    }
-    
-    div#imagens h1 {
-        padding: 10px; 
-        margin: 0px;
-    }
-    
-    div#imagens p {
-        padding: 10px;
-        color: gray;
-    }
-    
-    #linha2 {
-        width: auto;
-        height: auto;
-        max-width: 400px;
-        min-height: 150px;
-        margin-left: 50px;
-        border-radius: 10px;
-        border: 1px solid lightgreen;
-    }
-
-    #linha1 {
-        width: auto;
-        height: auto;
-        max-width: 400px;
-        min-height: 150px;
-        margin: auto;
-        display: block;
-        margin-left: 48px;
-        border-radius: 10px;
-        border: 1px solid lightgreen;
-    }
-
-    aside #imagens #coluna2 .linha3 {
-        font-size: 1.1em;
-        padding-left: 55px;
-    }
-
-    aside #imagens #coluna2 p.linha3 {
-        font-size: 1.0em;
-        padding-bottom: 70px;
-    }
-
-    aside #imagens #coluna2 .linha4 {
-        font-size: 1.1em;
-        padding-left: 55px;
-    }
-
-    aside #imagens #coluna2 p.linha4 {
-        font-size: 1.0em;
-    }
-
-    aside #imagens #coluna1 .linha5 {
-        font-size: 1.1em;
-        padding-left: 55px;
-    }
-
-    aside #imagens #coluna1 p.linha5 {
-        font-size: 1.0em;
-        padding-bottom: 70px;
-    }
-
-    aside #imagens #coluna1 .linha6 {
-        font-size: 1.0em;
-        padding-left: 55px;
-    }
-
-    aside #imagens #coluna1 p.linha6 {
-        font-size: 1.0em;
-        padding-bottom: 70px;
-    }
-    
-    #linha4 {
-        width: auto;
-        height: auto;
-        max-width: 400px;
-        min-height: 150px;
-        margin: 0px;
-        margin-left: 48px;
-        border-radius: 10px;
-        border: 2px solid lightgreen;
-    }
-    
-    
-    #linha3 {
-        width: auto;
-        height: auto;
-        max-width: 400px;
-        min-height: 150px;
-        margin: 0px;
-        margin-left: 48px;
-        border-radius: 10px;
-        border: 2px solid lightgreen;
-    }
-
-    #imagens #coluna1 #div1 a{
-        padding: 0px;
-        margin: 0px;
-    }
-
-
-    /*Footer*/
-    #geral {
-        display: flex
-        
-    }
-
-    footer {
-        background-color: rgb(48, 47, 47);
-        padding: 20px;
-        margin-top: 130px;
-    }
-
-    .footer .imgextra {
-        border-radius: 50%;
-        width: 160px;
-        height: 160px;
-        margin-left: 25px;
-        margin-top: 35px;
-    }
-
-    footer h1 {
-        color: rgba(247, 247, 247, 0.966);
-        font-size: 2.6em;
-        font-family: 'Barlow', sans-serif;
-        padding: 20px;
-        margin: 0px;
-        margin-left: -5px;
-    }
-    
-    footer p {
-        color: rgba(255, 255, 255, 0.907);
-        font-size:  1.1em;
-        padding-top: 0px;
-        margin-left: 0px;
-        font-family: 'Barlow', sans-serif;
-        text-align: justify;
-        
-    }
-
-    .imagens img {
-        width: 20px;
-        margin-top: 20px;
-        padding: 0px;
-        margin-left: 20px;
-    }
-}
-
-@media screen and (min-width: 603px) and (max-width:647px){
-    * {
-        margin: 0px;
-        padding: 0px;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    
-    /*Header*/
-    header img {
-        width: 20px;
-    }
-    
-    header img:hover {
-        padding: 2px;
-        background-color: beige;
-        transform: scale(1.2);
-    }
-    
-    header {
-        display: flex;
-        justify-content: space-between;
-    }
-    
-    .icons {
-        padding: 0px;
-        padding-top: 110px;
-        margin: 0px;
-        margin-right: 25px;
-        margin-top:-60px;
-    }
-    
-    header img#imgprincipal {
-        width: 200px;
-        height: 300px;
+        height: 550px;
         z-index: -1;
-        margin-right: -220px;
+        margin-right: -110px;
         margin-top: 0px;
-        border: 2px solid lightgreen;
+        border: 3px solid lightgreen;
         border-radius: 20px;
     }
 
     header h1 {
         color: rgba(255, 255, 255, 0.905);
-        font-size: 1.2em;
+        font-size: 2.0em;
         margin: 0px;
-        margin-left: -9px;
+        margin-left: 125px;
+    
     }
-    
-    
     main article h1 {
-        font-size: 1.7em;
+        font-size: 4.6em;
         margin-top: 0px;
         color: rgba(255, 255, 255, 0.916);
         font-family: 'Barlow', sans-serif;
         margin: 0px;
-        margin-left: -320px;
+        margin-left: -445px;
     }
     
     h2 {
-        font-size:1.5em;
+        font-size: 4.3em;
         color: rgba(255, 255, 255, 0.916);
         font-family: 'Barlow', sans-serif;
         margin: 10px;
-        margin-left: -310px;
-    }
-    
-    h3 {
-        font-size: 0.9em;
-        text-align: justify;
-        color: rgba(255, 255, 255, 0.916);
-        font-family: 'Barlow', sans-serif;
-        margin: 0px;
-        margin-left: 22px;
-    }
-    
-    h4 {
-        color: white;
-        font-size: 1.0em;
-        font-family: 'Barlow', sans-serif;
-        color: rgba(255, 255, 255, 0.916);
-        margin: 0px;
-        margin-left: 15px;
-
-    }
-    
-    b.b1 {
-        border-bottom: 3px solid lightgreen ;
-    }
-    
-    b.b2 {
-        border-bottom: 2px solid lightgreen;
-    }
-    
-    b.b3 {
-        border-bottom: 2px solid lightgreen;
-    }
-
-    hr {
-        width: 520px;
-        margin-top: 100px;
-        text-align: center;
-    }
-
-    /*Tabela*/
-    #skills h1 {
-        font-size: 1.5em;
-        margin: 0px;
-        margin-bottom: 10px;
-        margin-left: 45px;
-        margin-top: 60px;
-        padding: 0px;
-        color: rgba(255, 255, 255, 0.855);
-    }
-    
-    #skills p {
-        color: rgba(185, 184, 184, 0.942);
-        padding: 0px;
-        font-size: 0.8em;
-        margin-left: 40px;
-        font-family: 'Barlow', sans-serif;
-    }
-
-
-    /*Tabela2 */
-    aside div#tabela2 h1 {
-        margin: 0px;
-        margin-left: -70px;
-        padding: 20px;
-        font-size: 2.4em;
-    }
-    
-    aside img {
-        width: 350px;
-        height: 250px;
-        margin: 0px;
-    }
-    
-    div#coluna1 {
-        display: inline-block;  
-        width: 400px;
-        padding: 20px;
-        margin: 0px;
-    }
-    
-    div#coluna2 {
-        display: inline-block;
-        width: 400px;
-        padding: 20px;
-        margin: 0px;
-    }
-    
-    aside div#imagens h1 {
-        color: rgba(255, 255, 255, 0.93);
-        font-size: 1.7em;
-        margin: 0px;
-    }
-        
-
-    aside div#imagens p {
-        color: rgba(255, 255, 255, 0.797);
-        font-size: 1.5em;
-        margin: 0px;
-    }
-    
-    div#imagens h1 {
-        padding: 10px; 
-        margin: 0px;
-    }
-    
-    div#imagens p {
-        padding: 10px;
-        color: gray;
-    }
-    
-    #linha2 {
-        width: auto;
-        height: auto;
-        max-width: 400px;
-        min-height: 150px;
-        margin-left: 80px;
-        border-radius: 10px;
-        border: 1px solid lightgreen;
-    }
-
-    #linha1 {
-        width: auto;
-        height: auto;
-        max-width: 400px;
-        min-height: 150px;
-        margin: auto;
-        display: block;
-        margin-left: 76px;
-        border-radius: 10px;
-        border: 1px solid lightgreen;
-    }
-
-    aside #imagens #coluna2 .linha3 {
-        font-size: 1.1em;
-        padding-left: 85px;
-    }
-
-    aside #imagens #coluna2 p.linha3 {
-        font-size: 1.0em;
-        padding-bottom: 70px;
-    }
-
-    aside #imagens #coluna2 .linha4 {
-        font-size: 1.1em;
-        padding-left: 85px;
-    }
-
-    aside #imagens #coluna2 p.linha4 {
-        font-size: 1.0em;
-    }
-
-    aside #imagens #coluna1 .linha5 {
-        font-size: 1.1em;
-        padding-left: 85px;
-    }
-
-    aside #imagens #coluna1 p.linha5 {
-        font-size: 1.0em;
-        padding-bottom: 70px;
-    }
-
-    aside #imagens #coluna1 .linha6 {
-        font-size: 1.0em;
-        padding-left: 85px;
-    }
-
-    aside #imagens #coluna1 p.linha6 {
-        font-size: 1.0em;
-        padding-bottom: 70px;
-    }
-    
-    #linha4 {
-        width: auto;
-        height: auto;
-        max-width: 400px;
-        min-height: 150px;
-        margin: 0px;
-        margin-left: 75px;
-        border-radius: 10px;
-        border: 2px solid lightgreen;
-    }
-    
-    
-    #linha3 {
-        width: auto;
-        height: auto;
-        max-width: 400px;
-        min-height: 150px;
-        margin: 0px;
-        margin-left: 75px;
-        border-radius: 10px;
-        border: 2px solid lightgreen;
-    }
-
-    #imagens #coluna1 #div1 a{
-        padding: 0px;
-        margin: 0px;
-    }
-
-
-    /*Footer*/
-    #geral {
-        display: flex
-        
-    }
-
-    footer {
-        background-color: rgb(48, 47, 47);
-        padding: 20px;
-        margin-top: 130px;
-    }
-
-    .footer .imgextra {
-        border-radius: 50%;
-        width: 180px;
-        height: 180px;
-        margin-left: 25px;
-        margin-top: 35px;
-    }
-
-    footer h1 {
-        color: rgba(247, 247, 247, 0.966);
-        font-size: 2.8em;
-        font-family: 'Barlow', sans-serif;
-        padding: 20px;
-        margin: 0px;
-        margin-left: -5px;
-    }
-    
-    footer p {
-        color: rgba(255, 255, 255, 0.907);
-        font-size:  1.3em;
-        padding-top: 0px;
-        margin-left: 0px;
-        font-family: 'Barlow', sans-serif;
-        text-align: justify;
-        
-    }
-
-    .imagens img {
-        width: 25px;
-        margin-top: 20px;
-        padding: 0px;
-        margin-left: 20px;
-    }
-}
-
-@media screen and (min-width: 647px) and (max-width: 706px){
-    * {
-        margin: 0px;
-        padding: 0px;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    
-    /*Header*/
-    header img {
-        width: 25px;
-    }
-    
-    header img:hover {
-        padding: 2px;
-        background-color: beige;
-        transform: scale(1.2);
-    }
-    
-    header {
-        display: flex;
-        justify-content: space-between;
-    }
-    
-    .icons {
-        padding: 0px;
-        padding-top: 110px;
-        margin: 0px;
-        margin-right: 25px;
-        margin-top:-60px;
-    }
-    
-    header img#imgprincipal {
-        width: 250px;
-        height: 370px;
-        z-index: -1;
-        margin-right: -220px;
-        margin-top: 0px;
-        border: 2px solid lightgreen;
-        border-radius: 20px;
-    }
-
-    header h1 {
-        color: rgba(255, 255, 255, 0.905);
-        font-size: 1.4em;
-        margin: 0px;
-        margin-left: -15px;
-    
-    }
-    main article h1 {
-        font-size: 2.6em;
-        margin-top: 0px;
-        color: rgba(255, 255, 255, 0.916);
-        font-family: 'Barlow', sans-serif;
-        margin: 0px;
-        margin-left: -270px;
-    }
-    
-    h2 {
-        font-size: 2.3em;
-        color: rgba(255, 255, 255, 0.916);
-        font-family: 'Barlow', sans-serif;
-        margin: 10px;
-        margin-left: -255px;
-    }
-    
-    h3 {
-        font-size: 1.1em;
-        text-align: justify;
-        color: rgba(255, 255, 255, 0.916);
-        font-family: 'Barlow', sans-serif;
-        margin: 0px;
-        margin-left: 18px;
-    }
-    
-    h4 {
-        color: white;
-        font-size: 1.1em;
-        font-family: 'Barlow', sans-serif;
-        color: rgba(255, 255, 255, 0.916);
-        margin: 0px;
-        margin-left: 10px;
-
-    }
-    
-    b.b1 {
-        border-bottom: 3px solid lightgreen ;
-    }
-    
-    b.b2 {
-        border-bottom: 2px solid lightgreen;
-    }
-    
-    b.b3 {
-        border-bottom: 2px solid lightgreen;
-    }
-
-    hr {
-        width: 600px;
-        margin-top: 100px;
-        text-align: center;
-    }
-
-    /*Tabela*/
-    #skills h1 {
-        font-size: 1.7em;
-        margin: 0px;
-        margin-bottom: 10px;
-        margin-left: 30px;
-        margin-top: 60px;
-        padding: 0px;
-        padding-right: 20px;
-        color: rgba(255, 255, 255, 0.855);
-    }
-    
-    #skills p {
-        color: rgba(185, 184, 184, 0.942);
-        padding: 0px;
-        font-size: 1.0em;
-        margin-left: 40px;
-        font-family: 'Barlow', sans-serif;
-    }
-
-
-    /*Tabela2 */
-    aside div#tabela2 h1 {
-        margin: 0px;
-        margin-left: -70px;
-        padding: 20px;
-        font-size: 2.6em;
-    }
-    
-    aside img {
-        width: 350px;
-        height: 250px;
-        margin: 0px;
-    }
-    
-    div#coluna1 {
-        display: inline-block;  
-        width: 400px;
-        padding: 20px;
-        margin: auto;
-    }
-    
-    div#coluna2 {
-        display: inline-block;
-        width: 400px;
-        padding: 20px;
-        margin: auto;
-    }
-    
-    aside div#imagens h1 {
-        color: rgba(255, 255, 255, 0.93);
-        font-size: 1.7em;
-        margin: 0px;
-    }
-        
-
-    aside div#imagens p {
-        color: rgba(255, 255, 255, 0.797);
-        font-size: 1.5em;
-        margin: 0px;
-    }
-    
-    div#imagens h1 {
-        padding: 10px; 
-        margin: 0px;
-    }
-    
-    div#imagens p {
-        padding: 10px;
-        color: gray;
-    }
-    
-    #linha2 {
-        width: auto;
-        height: auto;
-        max-width: 400px;
-        min-height: 150px;
-        margin-left: 105px;
-        border-radius: 10px;
-        border: 1px solid lightgreen;
-    }
-
-    #linha1 {
-        width: auto;
-        height: auto;
-        max-width: 400px;
-        min-height: 150px;
-        margin: auto;
-        display: block;
-        margin-left: 105px;
-        border-radius: 10px;
-        border: 1px solid lightgreen;
-    }
-
-    aside #imagens #coluna2 .linha3 {
-        font-size: 1.1em;
-        padding-left: 110px;
-    }
-
-    aside #imagens #coluna2 p.linha3 {
-        font-size: 1.0em;
-        padding-bottom: 70px;
-    }
-
-    aside #imagens #coluna2 .linha4 {
-        font-size: 1.1em;
-        padding-left: 110px;
-    }
-
-    aside #imagens #coluna2 p.linha4 {
-        font-size: 1.0em;
-    }
-
-    aside #imagens #coluna1 .linha5 {
-        font-size: 1.1em;
-        padding-left: 110px;
-    }
-
-    aside #imagens #coluna1 p.linha5 {
-        font-size: 1.0em;
-        padding-bottom: 70px;
-    }
-
-    aside #imagens #coluna1 .linha6 {
-        font-size: 1.0em;
-        padding-left: 110px;
-    }
-
-    aside #imagens #coluna1 p.linha6 {
-        font-size: 1.0em;
-        padding-bottom: 70px;
-    }
-    
-    #linha4 {
-        width: auto;
-        height: auto;
-        max-width: 400px;
-        min-height: 150px;
-        margin: 0px;
-        margin-left: 100px;
-        border-radius: 10px;
-        border: 2px solid lightgreen;
-    }
-    
-    
-    #linha3 {
-        width: auto;
-        height: auto;
-        max-width: 400px;
-        min-height: 150px;
-        margin: 0px;
-        margin-left: 100px;
-        border-radius: 10px;
-        border: 2px solid lightgreen;
-    }
-
-
-    /*Footer*/
-    #geral {
-        display: flex
-        
-    }
-
-    footer {
-        background-color: rgb(48, 47, 47);
-        padding: 20px;
-        margin-top: 130px;
-    }
-
-    .footer .imgextra {
-        border-radius: 50%;
-        width: 220px;
-        height: 220px;
-        margin-left: 25px;
-        margin-top: 35px;
-    }
-
-    footer h1 {
-        color: rgba(247, 247, 247, 0.966);
-        font-size: 2.8em;
-        font-family: 'Barlow', sans-serif;
-        padding: 20px;
-        margin: 0px;
-        margin-left: -5px;
-    }
-    
-    footer p {
-        color: rgba(255, 255, 255, 0.907);
-        font-size:  1.3em;
-        padding-top: 0px;
-        margin-left: 0px;
-        font-family: 'Barlow', sans-serif;
-        text-align: justify;
-        
-    }
-
-    .imagens img {
-        width: 25px;
-        margin-top: 20px;
-        padding: 0px;
-        margin-left: 20px;
-    }
-}
-
-@media screen and (min-width: 706px) and (max-width: 756px) {
-    * {
-        margin: 0px;
-        padding: 0px;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    
-    /*Header*/
-    header img {
-        width: 25px;
-    }
-    
-    header img:hover {
-        padding: 2px;
-        background-color: beige;
-        transform: scale(1.2);
-    }
-    
-    header {
-        display: flex;
-        justify-content: space-between;
-    }
-    
-    .icons {
-        padding: 0px;
-        padding-top: 110px;
-        margin: 0px;
-        margin-right: 25px;
-        margin-top:-60px;
-    }
-    
-    header img#imgprincipal {
-        width: 280px;
-        height: 400px;
-        z-index: -1;
-        margin-right: -220px;
-        margin-top: 0px;
-        border: 2px solid lightgreen;
-        border-radius: 20px;
-    }
-
-    header h1 {
-        color: rgba(255, 255, 255, 0.905);
-        font-size: 1.4em;
-        margin: 0px;
-        margin-left: -15px;
-    
-    }
-    main article h1 {
-        font-size: 2.7em;
-        margin-top: 0px;
-        color: rgba(255, 255, 255, 0.916);
-        font-family: 'Barlow', sans-serif;
-        margin: 0px;
-        margin-left: -320px;
-    }
-    
-    h2 {
-        font-size: 2.6em;
-        color: rgba(255, 255, 255, 0.916);
-        font-family: 'Barlow', sans-serif;
-        margin: 10px;
-        margin-left: -280px;
-    }
-    
-    h3 {
-        font-size: 1.1em;
-        text-align: justify;
-        color: rgba(255, 255, 255, 0.916);
-        font-family: 'Barlow', sans-serif;
-        margin: 10px;
-        margin-left: 18px;
-    }
-    
-    h4 {
-        color: white;
-        font-size: 1.1em;
-        font-family: 'Barlow', sans-serif;
-        color: rgba(255, 255, 255, 0.916);
-        margin: 10px;
-        margin-left: 10px;
-
-    }
-    
-    b.b1 {
-        border-bottom: 3px solid lightgreen ;
-    }
-    
-    b.b2 {
-        border-bottom: 2px solid lightgreen;
-    }
-    
-    b.b3 {
-        border-bottom: 2px solid lightgreen;
-    }
-
-    hr {
-        width: 650px;
-        margin-top: 100px;
-        text-align: center;
-    }
-
-    /*Tabela*/
-    #skills h1 {
-        font-size: 1.8em;
-        margin: 0px;
-        margin-bottom: 10px;
-        margin-left: 30px;
-        margin-top: 60px;
-        padding: 0px;
-        padding-right: 20px;
-        color: rgba(255, 255, 255, 0.855);
-    }
-    
-    #skills p {
-        color: rgba(185, 184, 184, 0.942);
-        padding: 0px;
-        font-size: 1.1em;
-        margin-left: 40px;
-        font-family: 'Barlow', sans-serif;
-    }
-
-
-    /*Tabela2 */
-    aside div#tabela2 h1 {
-        margin: 0px;
-        margin-left: -70px;
-        padding: 20px;
-        font-size: 2.9em;
-    }
-    
-    div#coluna1 {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;    
-        width: 500px;
-        margin: auto;
-        padding: 20px;
-    }
-    
-    div#coluna2 {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;    
-        width: 500px;
-        margin: auto;
-        padding: 20px;
-    }
-    
-    aside div#imagens h1 {
-        color: rgba(255, 255, 255, 0.93);
-        font-size: 1.0em;
-        margin-left: -20px;
-        text-align: center;
-    }
-        
-
-    aside div#imagens p {
-        color: rgba(255, 255, 255, 0.797);
-        font-size: 0.8em;
-        margin-left: 10px;
-        text-align: center;
-    }
-    
-    div#imagens h1 {
-        padding: 10px; 
-    }
-    
-    div#imagens p {
-        padding: 10px;
-        color: gray;
-    }
-
-    aside #imagens #coluna2 .linha3 {
-        font-size: 0.8em;
-        margin-left: -165px;
-        margin-top: 5px;
-    }
-
-    aside #imagens #coluna2 p.linha3 {
-        font-size: 0.7em;
-        padding: 0px;
-        padding-left: 50px;
-    }
-
-    aside #imagens #coluna2 .linha4 {
-        font-size: 0.8em;
-        margin-left: -30px;
-    }
-
-    aside #imagens #coluna2 p.linha4 {
-        font-size: 0.7em;
-    }
-
-    aside #imagens #coluna1 .linha5 {
-        font-size: 0.8em;
-        margin-left: -70px;
-    }
-
-    aside #imagens #coluna1 p.linha5 {
-        font-size: 0.7em;
-    }
-
-    aside #imagens #coluna1 h1.linha6 {
-        font-size: 0.8em;
-        margin-left: 30px;
-    }
-
-
-    aside #imagens #coluna1 p.linha6 {
-        font-size: 0.7em;
-        }
-    
-        #linha2 {
-            width: auto;
-            height: auto;
-            max-width: 280px;
-            min-height: 150px;
-            border-radius: 10px;
-            margin-left: 61px;
-            margin-top: 17px;
-                }
-        
-        #linha4 {
-            width: auto;
-            height: auto;
-            max-width: 280px;
-            min-height: 150px;
-            border-radius: 10px;
-            margin-left: 58px;
-            margin-top: 20px;
-        }
-        
-        
-        #linha3 {
-            width: auto;
-            height: auto;
-            max-width: 280px;
-            min-height: 150px;
-            border-radius: 10px;
-            margin-left: -60px;
-        }
-    
-        #linha1 {
-            width: auto;
-            height: auto;
-            max-width: 280px;
-            min-height: 150px;
-            border-radius: 10px;
-            margin-left: -60px;
-            margin-top: 15px;
-        }
-        
-    
-
-    /*Footer*/
-    #geral {
-        display: flex
-        
-    }
-
-    footer {
-        background-color: rgb(48, 47, 47);
-        padding: 20px;
-        margin-top: 130px;
-    }
-
-    .footer .imgextra {
-        border-radius: 50%;
-        width: 220px;
-        height: 220px;
-        margin-left: 25px;
-        margin-top: 35px;
-    }
-
-    footer h1 {
-        color: rgba(247, 247, 247, 0.966);
-        font-size: 2.8em;
-        font-family: 'Barlow', sans-serif;
-        padding: 20px;
-        margin: 0px;
-        margin-left: -5px;
-    }
-    
-    footer p {
-        color: rgba(255, 255, 255, 0.907);
-        font-size:  1.3em;
-        padding-top: 0px;
-        margin-left: 0px;
-        font-family: 'Barlow', sans-serif;
-        text-align: justify;
-        
-    }
-
-    .imagens img {
-        width: 25px;
-        margin-top: 20px;
-        padding: 0px;
-        margin-left: 20px;
-    }
-
-}
-
-@media screen and (min-width:756px) and (max-width: 823px) {
-    * {
-        margin: 0px;
-        padding: 0px;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    
-    /*Header*/
-    header img {
-        width: 25px;
-    }
-    
-    header img:hover {
-        padding: 2px;
-        background-color: beige;
-        transform: scale(1.2);
-    }
-    
-    header {
-        display: flex;
-        justify-content: space-between;
-    }
-    
-    .icons {
-        padding: 0px;
-        padding-top: 110px;
-        margin: 0px;
-        margin-right: 25px;
-        margin-top:-60px;
-    }
-    
-    header img#imgprincipal {
-        width: 280px;
-        height: 400px;
-        z-index: -1;
-        margin-right: -220px;
-        margin-top: 0px;
-        border: 2px solid lightgreen;
-        border-radius: 20px;
-    }
-
-    header h1 {
-        color: rgba(255, 255, 255, 0.905);
-        font-size: 1.4em;
-        margin: 0px;
-        margin-left: -15px;
-    
-    }
-    main article h1 {
-        font-size: 2.7em;
-        margin-top: 0px;
-        color: rgba(255, 255, 255, 0.916);
-        font-family: 'Barlow', sans-serif;
-        margin: 0px;
-        margin-left: -360px;
-    }
-    
-    h2 {
-        font-size: 2.6em;
-        color: rgba(255, 255, 255, 0.916);
-        font-family: 'Barlow', sans-serif;
-        margin: 10px;
-        margin-left: -320px;
-    }
-    
-    h3 {
-        font-size: 1.1em;
-        text-align: justify;
-        color: rgba(255, 255, 255, 0.916);
-        font-family: 'Barlow', sans-serif;
-        margin: 10px;
-        margin-left: 18px;
-    }
-    
-    h4 {
-        color: white;
-        font-size: 1.1em;
-        font-family: 'Barlow', sans-serif;
-        color: rgba(255, 255, 255, 0.916);
-        margin: 10px;
-        margin-left: 10px;
-
-    }
-    
-    b.b1 {
-        border-bottom: 3px solid lightgreen ;
-    }
-    
-    b.b2 {
-        border-bottom: 2px solid lightgreen;
-    }
-    
-    b.b3 {
-        border-bottom: 2px solid lightgreen;
-    }
-
-    hr {
-        width: 700px;
-        margin-top: 100px;
-        text-align: center;
-    }
-
-    /*Tabela*/
-    #skills h1 {
-        font-size: 1.8em;
-        margin: 0px;
-        margin-bottom: 10px;
-        margin-left: 30px;
-        margin-top: 60px;
-        padding: 0px;
-        padding-right: 35px;
-        color: rgba(255, 255, 255, 0.855);
-    }
-    
-    #skills p {
-        color: rgba(185, 184, 184, 0.942);
-        padding: 0px;
-        font-size: 1.1em;
-        margin-left: 40px;
-        font-family: 'Barlow', sans-serif;
-    }
-
-
-    /*Tabela2 */
-    aside div#tabela2 h1 {
-        margin: 0px;
-        margin-left: -70px;
-        padding: 20px;
-        font-size: 2.9em;
-    }
-    
-    div#coluna1 {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;    
-        width: 500px;
-        margin: auto;
-        padding: 20px;
-    }
-    
-    div#coluna2 {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;    
-        width: 500px;
-        margin: auto;
-        padding: 20px;
-    }
-    
-    aside div#imagens h1 {
-        color: rgba(255, 255, 255, 0.93);
-        font-size: 1.0em;
-        margin-left: -20px;
-        text-align: center;
-    }
-        
-
-    aside div#imagens p {
-        color: rgba(255, 255, 255, 0.797);
-        font-size: 0.8em;
-        margin-left: 10px;
-        text-align: center;
-    }
-    
-    div#imagens h1 {
-        padding: 10px; 
-    }
-    
-    div#imagens p {
-        padding: 10px;
-        color: gray;
-    }
-
-    aside #imagens #coluna2 .linha3 {
-        font-size: 0.8em;
-        margin-left: -165px;
-        margin-top: 5px;
-    }
-
-    aside #imagens #coluna2 p.linha3 {
-        font-size: 0.7em;
-        padding: 0px;
-        padding-left: 50px;
-    }
-
-    aside #imagens #coluna2 .linha4 {
-        font-size: 0.8em;
-        margin-left: -30px;
-    }
-
-    aside #imagens #coluna2 p.linha4 {
-        font-size: 0.7em;
-    }
-
-    aside #imagens #coluna1 .linha5 {
-        font-size: 0.8em;
-        margin-left: -70px;
-    }
-
-    aside #imagens #coluna1 p.linha5 {
-        font-size: 0.7em;
-    }
-
-    aside #imagens #coluna1 h1.linha6 {
-        font-size: 0.8em;
-        margin-left: 30px;
-    }
-
-
-    aside #imagens #coluna1 p.linha6 {
-        font-size: 0.7em;
-        }
-    
-        #linha2 {
-            width: auto;
-            height: auto;
-            max-width: 280px;
-            min-height: 150px;
-            border-radius: 10px;
-            margin-left: 61px;
-            margin-top: 17px;
-                }
-        
-        #linha4 {
-            width: auto;
-            height: auto;
-            max-width: 280px;
-            min-height: 150px;
-            border-radius: 10px;
-            margin-left: 58px;
-            margin-top: 20px;
-        }
-        
-        
-        #linha3 {
-            width: auto;
-            height: auto;
-            max-width: 280px;
-            min-height: 150px;
-            border-radius: 10px;
-            margin-left: -60px;
-        }
-    
-        #linha1 {
-            width: auto;
-            height: auto;
-            max-width: 280px;
-            min-height: 150px;
-            border-radius: 10px;
-            margin-left: -60px;
-            margin-top: 15px;
-        }
-        
-    
-
-    /*Footer*/
-    #geral {
-        display: flex
-        
-    }
-
-    footer {
-        background-color: rgb(48, 47, 47);
-        padding: 20px;
-        margin-top: 130px;
-    }
-
-    .footer .imgextra {
-        border-radius: 50%;
-        width: 220px;
-        height: 220px;
-        margin-left: 25px;
-        margin-top: 35px;
-    }
-
-    footer h1 {
-        color: rgba(247, 247, 247, 0.966);
-        font-size: 2.8em;
-        font-family: 'Barlow', sans-serif;
-        padding: 20px;
-        margin: 0px;
-        margin-left: -5px;
-    }
-    
-    footer p {
-        color: rgba(255, 255, 255, 0.907);
-        font-size:  1.3em;
-        padding-top: 0px;
-        margin-left: 0px;
-        font-family: 'Barlow', sans-serif;
-        text-align: justify;
-        
-    }
-
-    .imagens img {
-        width: 25px;
-        margin-top: 20px;
-        padding: 0px;
-        margin-left: 20px;
-    }
-}
-
-
-@media screen and (min-width:823px) and (max-width: 895px) {
-    * {
-        margin: 0px;
-        padding: 0px;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    
-    /*Header*/
-    header img {
-        width: 28px;
-    }
-    
-    header img:hover {
-        padding: 2px;
-        background-color: beige;
-        transform: scale(1.2);
-    }
-    
-    header {
-        display: flex;
-        justify-content: space-between;
-    }
-    
-    .icons {
-        padding: 0px;
-        padding-top: 110px;
-        margin: 0px;
-        margin-right: 25px;
-        margin-top:-60px;
-    }
-    
-    header img#imgprincipal {
-        width: 310px;
-        height: 430px;
-        z-index: -1;
-        margin-right: -220px;
-        margin-top: 0px;
-        border: 2px solid lightgreen;
-        border-radius: 20px;
-    }
-
-    header h1 {
-        color: rgba(255, 255, 255, 0.905);
-        font-size: 1.6em;
-        margin: 0px;
-        margin-left: -10px;
-    
-    }
-    main article h1 {
-        font-size: 2.9em;
-        margin-top: 0px;
-        color: rgba(255, 255, 255, 0.916);
-        font-family: 'Barlow', sans-serif;
-        margin: 0px;
         margin-left: -400px;
     }
     
-    h2 {
-        font-size: 2.8em;
-        color: rgba(255, 255, 255, 0.916);
-        font-family: 'Barlow', sans-serif;
-        margin: 10px;
-        margin-left: -360px;
-    }
-    
     h3 {
-        font-size: 1.4em;
+        font-size: 1.3em;
         text-align: justify;
         color: rgba(255, 255, 255, 0.916);
         font-family: 'Barlow', sans-serif;
         margin: 10px;
-        margin-left: 20px;
+        margin-left: 162px;
     }
     
     h4 {
         color: white;
-        font-size: 1.3em;
+        font-size: 1.4em;
         font-family: 'Barlow', sans-serif;
         color: rgba(255, 255, 255, 0.916);
         margin: 10px;
-        margin-left: 15px;
+        margin-left: 150px;
 
     }
     
     b.b1 {
-        border-bottom: 3px solid lightgreen ;
+        border-bottom: 4px solid lightgreen ;
     }
     
     b.b2 {
@@ -1936,28 +99,28 @@
     }
 
     hr {
-        width: 760px;
-        margin-top: 100px;
+        width: 1050px;
+        margin-top: 200px;
         text-align: center;
     }
 
     /*Tabela*/
     #skills h1 {
-        font-size: 1.9em;
+        font-size: 2.2em;
         margin: 0px;
         margin-bottom: 10px;
-        margin-left: 40px;
-        margin-top: 60px;
+        margin-left: 140px;
+        margin-top: 70px;
         padding: 0px;
-        padding-right: 40px;
+        padding-right: 100px;
         color: rgba(255, 255, 255, 0.855);
     }
     
     #skills p {
         color: rgba(185, 184, 184, 0.942);
         padding: 0px;
-        font-size: 1.3em;
-        margin-left: 45px;
+        font-size: 1.1em;
+        margin-left: 145px;
         font-family: 'Barlow', sans-serif;
     }
 
@@ -1965,9 +128,13 @@
     /*Tabela2 */
     aside div#tabela2 h1 {
         margin: 0px;
-        margin-left: -70px;
+        margin-left: -5px;
         padding: 20px;
-        font-size: 3.1em;
+        font-size: 3.8em;
+    }
+
+    b.b3 {
+        font-size: 1.4em;
     }
     
     div#coluna1 {
@@ -2013,83 +180,1018 @@
     }
 
     aside #imagens #coluna2 .linha3 {
-        font-size: 1.1em;
-        margin-left: -250px;
-        margin-top: 5px;
+        font-size: 1.3em;
+        margin-left: -520px;
+        margin-top: -17px;
     }
 
     aside #imagens #coluna2 p.linha3 {
-        font-size: 1.0em;
+        font-size: 1.2em;
         padding: 0px;
-        padding-left: 75px;
+        padding-left: 90px;
+        margin-top: 5px;
     }
 
     aside #imagens #coluna2 .linha4 {
-        font-size: 1.1em;
-        margin-left: -20px;
+        font-size: 1.3em;
+        margin-left: -60px;
     }
 
     aside #imagens #coluna2 p.linha4 {
-        font-size: 1.0em;
+        font-size: 1.2em;
     }
 
     aside #imagens #coluna1 .linha5 {
-        font-size: 1.1em;
-        margin-left: -100px;
+        font-size: 1.3em;
+        margin-left: -360px;
+        margin-top: -20px;
     }
 
     aside #imagens #coluna1 p.linha5 {
-        font-size: 1.0em;
+        font-size: 1.2em;
+        margin-top: 5px;
     }
 
     aside #imagens #coluna1 h1.linha6 {
-        font-size: 1.05em;
-        margin-left: 35px;
+        font-size: 1.3em;
+        margin-left: 70px;
     }
 
 
     aside #imagens #coluna1 p.linha6 {
-        font-size: 0.9em;
+        font-size: 1.2em;
+        padding-left: 30px;
         }
     
         #linha2 {
             width: auto;
             height: auto;
-            max-width: 330px;
-            min-height: 160px;
-            border-radius: 10px;
-            margin-left: 50px;
-            margin-top: 17px;
+            max-width: 420px;
+            height: 340px;
+            margin-left: 80px;
+            margin-top: 20px;
                 }
         
         #linha4 {
             width: auto;
             height: auto;
-            max-width: 330px;
-            min-height: 150px;
-            border-radius: 10px;
-            margin-left: 50px;
-            margin-top: 20px;
+            max-width: 420px;
+            min-height: 340px;   
+            margin-left: 80px;
+            margin-top: 38px;
         }
         
         
         #linha3 {
             width: auto;
             height: auto;
-            max-width: 330px;
-            min-height: 150px;
-            border-radius: 10px;
-            margin-left: -110px;
+            max-width: 425px;
+            height: 332px;
+            border-radius: 15px;
+            margin-left: -260px;
+            margin-top: -15px;
+            padding: 20px;
+            padding-right: 30px;
         }
     
         #linha1 {
             width: auto;
             height: auto;
-            max-width: 330px;
-            min-height: 150px;
-            border-radius: 10px;
-            margin-left: -110px;
+            max-width: 425px;
+            height: 340px;
+            margin-left: -260px;
+            padding: 20px;
+            padding-right: 30px;
             margin-top: 20px;
+            border-radius: 15px;
+        }
+        
+    
+
+    /*Footer*/
+    #geral {
+        display: flex      
+    }
+
+    footer {
+        background-color: rgb(48, 47, 47);
+        padding: 20px;
+        margin-top: 130px;
+    }
+
+    .footer .imgextra {
+        border-radius: 50%;
+        width: 290px;
+        height: 290px;
+        margin-left: 220px;
+        margin-top: 25px;
+    }
+
+    footer h1 {
+        color: rgba(247, 247, 247, 0.966);
+        font-size: 3.7em;
+        font-family: 'Barlow', sans-serif;
+        padding: 20px;
+        margin: 0px;
+        margin-left: 60px;
+    }
+    
+    footer p {
+        color: rgba(255, 255, 255, 0.907);
+        font-size:  1.3em;
+        padding-top: 0px;
+        margin-left: 65px;
+        font-family: 'Barlow', sans-serif;
+        text-align: justify;
+        width: 500px;
+    }
+
+    .imagens img {
+        width: 32px;
+        margin: 0px;
+        margin-top: 20px; 
+        margin-left: 80px;
+    }
+}
+
+@media screen and (min-width:1286px) and (max-width: 1340px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    /*Header*/
+    header img {
+        width: 30px;
+    }
+    
+    header img:hover {
+        padding: 2px;
+        background-color: beige;
+        transform: scale(1.2);
+    }
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .icons {
+        padding: 0px;
+        padding-top: 110px;
+        margin: 0px;
+        margin-right: 140px;
+        margin-top:-55px;
+    }
+    
+    header img#imgprincipal {
+        width: 350px;
+        height: 550px;
+        z-index: -1;
+        margin-right: -110px;
+        margin-top: 0px;
+        border: 3px solid lightgreen;
+        border-radius: 20px;
+    }
+
+    header h1 {
+        color: rgba(255, 255, 255, 0.905);
+        font-size: 2.0em;
+        margin: 0px;
+        margin-left: 63px;
+    
+    }
+    main article h1 {
+        font-size: 4.5em;
+        margin-top: 0px;
+        color: rgba(255, 255, 255, 0.916);
+        font-family: 'Barlow', sans-serif;
+        margin: 0px;
+        margin-left: -530px;
+    }
+    
+    h2 {
+        font-size: 4.0em;
+        color: rgba(255, 255, 255, 0.916);
+        font-family: 'Barlow', sans-serif;
+        margin: 10px;
+        margin-left: -510px;
+    }
+    
+    h3 {
+        font-size: 1.3em;
+        text-align: justify;
+        color: rgba(255, 255, 255, 0.916);
+        font-family: 'Barlow', sans-serif;
+        margin: 10px;
+        margin-left: 100px;
+    }
+    
+    h4 {
+        color: white;
+        font-size: 1.4em;
+        font-family: 'Barlow', sans-serif;
+        color: rgba(255, 255, 255, 0.916);
+        margin: 10px;
+        margin-left: 85px;
+
+    }
+    
+    b.b1 {
+        border-bottom: 4px solid lightgreen ;
+    }
+    
+    b.b2 {
+        border-bottom: 2px solid lightgreen;
+    }
+    
+    b.b3 {
+        border-bottom: 2px solid lightgreen;
+    }
+
+    hr {
+        width: 1050px;
+        margin-top: 200px;
+        text-align: center;
+    }
+
+    /*Tabela*/
+    #skills h1 {
+        font-size: 2.2em;
+        margin: 0px;
+        margin-bottom: 10px;
+        margin-left: 110px;
+        margin-top: 70px;
+        padding: 0px;
+        padding-right: 110px;
+        color: rgba(255, 255, 255, 0.855);
+    }
+    
+    #skills p {
+        color: rgba(185, 184, 184, 0.942);
+        padding: 0px;
+        font-size: 1.1em;
+        margin-left: 115px;
+        font-family: 'Barlow', sans-serif;
+    }
+
+
+    /*Tabela2 */
+    aside div#tabela2 h1 {
+        margin: 0px;
+        margin-left: -5px;
+        padding: 20px;
+        font-size: 3.8em;
+    }
+
+    b.b3 {
+        font-size: 1.4em;
+    }
+    
+    div#coluna1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;    
+        width: 500px;
+        margin: auto;
+        padding: 20px;
+    }
+    
+    div#coluna2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;    
+        width: 500px;
+        margin: auto;
+        padding: 20px;
+    }
+    
+    aside div#imagens h1 {
+        color: rgba(255, 255, 255, 0.93);
+        font-size: 1.0em;
+        margin-left: -20px;
+        text-align: center;
+    }
+        
+
+    aside div#imagens p {
+        color: rgba(255, 255, 255, 0.797);
+        font-size: 0.8em;
+        margin-left: 10px;
+        text-align: center;
+    }
+    
+    div#imagens h1 {
+        padding: 10px; 
+    }
+    
+    div#imagens p {
+        padding: 10px;
+        color: gray;
+    }
+
+    aside #imagens #coluna2 .linha3 {
+        font-size: 1.3em;
+        margin-left: -520px;
+        margin-top: -17px;
+    }
+
+    aside #imagens #coluna2 p.linha3 {
+        font-size: 1.2em;
+        padding: 0px;
+        padding-left: 90px;
+        margin-top: 5px;
+    }
+
+    aside #imagens #coluna2 .linha4 {
+        font-size: 1.3em;
+        margin-left: -60px;
+    }
+
+    aside #imagens #coluna2 p.linha4 {
+        font-size: 1.2em;
+    }
+
+    aside #imagens #coluna1 .linha5 {
+        font-size: 1.3em;
+        margin-left: -360px;
+        margin-top: -20px;
+    }
+
+    aside #imagens #coluna1 p.linha5 {
+        font-size: 1.2em;
+        margin-top: 5px;
+    }
+
+    aside #imagens #coluna1 h1.linha6 {
+        font-size: 1.3em;
+        margin-left: 70px;
+    }
+
+
+    aside #imagens #coluna1 p.linha6 {
+        font-size: 1.2em;
+        padding-left: 30px;
+        }
+    
+        #linha2 {
+            width: auto;
+            height: auto;
+            max-width: 420px;
+            height: 340px;
+            margin-left: 80px;
+            margin-top: 20px;
+                }
+        
+        #linha4 {
+            width: auto;
+            height: auto;
+            max-width: 420px;
+            min-height: 340px;   
+            margin-left: 80px;
+            margin-top: 38px;
+        }
+        
+        
+        #linha3 {
+            width: auto;
+            height: auto;
+            max-width: 425px;
+            height: 332px;
+            border-radius: 15px;
+            margin-left: -260px;
+            margin-top: -15px;
+            padding: 20px;
+            padding-right: 30px;
+        }
+    
+        #linha1 {
+            width: auto;
+            height: auto;
+            max-width: 425px;
+            height: 340px;
+            margin-left: -260px;
+            padding: 20px;
+            padding-right: 30px;
+            margin-top: 20px;
+            border-radius: 15px;
+        }
+        
+    
+
+    /*Footer*/
+    #geral {
+        display: flex      
+    }
+
+    footer {
+        background-color: rgb(48, 47, 47);
+        padding: 20px;
+        margin-top: 130px;
+    }
+
+    .footer .imgextra {
+        border-radius: 50%;
+        width: 290px;
+        height: 290px;
+        margin-left: 170px;
+        margin-top: 25px;
+    }
+
+    footer h1 {
+        color: rgba(247, 247, 247, 0.966);
+        font-size: 3.7em;
+        font-family: 'Barlow', sans-serif;
+        padding: 20px;
+        margin: 0px;
+        margin-left: 60px;
+    }
+    
+    footer p {
+        color: rgba(255, 255, 255, 0.907);
+        font-size:  1.3em;
+        padding-top: 0px;
+        margin-left: 65px;
+        font-family: 'Barlow', sans-serif;
+        text-align: justify;
+        width: 500px;
+    }
+
+    .imagens img {
+        width: 32px;
+        margin: 0px;
+        margin-top: 20px; 
+        margin-left: 80px;
+    }
+}
+
+@media screen and (min-width:1244px) and (max-width: 1286px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /*Header*/
+    header img {
+        width: 30px;
+    }
+    
+    header img:hover {
+        padding: 2px;
+        background-color: beige;
+        transform: scale(1.2);
+    }
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .icons {
+        padding: 0px;
+        padding-top: 110px;
+        margin: 0px;
+        margin-right: 112px;
+        margin-top:-55px;
+    }
+    
+    header img#imgprincipal {
+        width: 400px;
+        height: 550px;
+        z-index: -1;
+        margin-right: -140px;
+        margin-top: 0px;
+        border: 3px solid lightgreen;
+        border-radius: 20px;
+    }
+
+    header h1 {
+        color: rgba(255, 255, 255, 0.905);
+        font-size: 2.0em;
+        margin: 0px;
+        margin-left: 45px;
+    
+    }
+    main article h1 {
+        font-size: 3.9em;
+        margin-top: 0px;
+        color: rgba(255, 255, 255, 0.916);
+        font-family: 'Barlow', sans-serif;
+        margin: 0px;
+        margin-left: -590px;
+    }
+    
+    h2 {
+        font-size: 3.8em;
+        color: rgba(255, 255, 255, 0.916);
+        font-family: 'Barlow', sans-serif;
+        margin: 10px;
+        margin-left: -530px;
+    }
+    
+    h3 {
+        font-size: 1.3em;
+        text-align: justify;
+        color: rgba(255, 255, 255, 0.916);
+        font-family: 'Barlow', sans-serif;
+        margin: 10px;
+        margin-left: 80px;
+    }
+    
+    h4 {
+        color: white;
+        font-size: 1.4em;
+        font-family: 'Barlow', sans-serif;
+        color: rgba(255, 255, 255, 0.916);
+        margin: 10px;
+        margin-left: 68px;
+
+    }
+    
+    b.b1 {
+        border-bottom: 4px solid lightgreen ;
+    }
+    
+    b.b2 {
+        border-bottom: 2px solid lightgreen;
+    }
+    
+    b.b3 {
+        border-bottom: 2px solid lightgreen;
+    }
+
+    hr {
+        width: 1050px;
+        margin-top: 200px;
+        text-align: center;
+    }
+
+    /*Tabela*/
+    #skills h1 {
+        font-size: 2.2em;
+        margin: 0px;
+        margin-bottom: 10px;
+        margin-left: 95px;
+        margin-top: 70px;
+        padding: 0px;
+        padding-right: 110px;
+        color: rgba(255, 255, 255, 0.855);
+    }
+    
+    #skills p {
+        color: rgba(185, 184, 184, 0.942);
+        padding: 0px;
+        font-size: 1.1em;
+        margin-left: 95px;
+        font-family: 'Barlow', sans-serif;
+    }
+
+
+    /*Tabela2 */
+    aside div#tabela2 h1 {
+        margin: 0px;
+        margin-left: -5px;
+        padding: 20px;
+        font-size: 3.8em;
+    }
+
+    b.b3 {
+        font-size: 1.4em;
+    }
+    
+    div#coluna1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;    
+        width: 500px;
+        margin: auto;
+        padding: 20px;
+    }
+    
+    div#coluna2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;    
+        width: 500px;
+        margin: auto;
+        padding: 20px;
+    }
+    
+    aside div#imagens h1 {
+        color: rgba(255, 255, 255, 0.93);
+        font-size: 1.0em;
+        margin-left: -20px;
+        text-align: center;
+    }
+        
+
+    aside div#imagens p {
+        color: rgba(255, 255, 255, 0.797);
+        font-size: 0.8em;
+        margin-left: 10px;
+        text-align: center;
+    }
+    
+    div#imagens h1 {
+        padding: 10px; 
+    }
+    
+    div#imagens p {
+        padding: 10px;
+        color: gray;
+    }
+
+    aside #imagens #coluna2 .linha3 {
+        font-size: 1.3em;
+        margin-left: -450px;
+        margin-top: 5px;
+    }
+
+    aside #imagens #coluna2 p.linha3 {
+        font-size: 1.2em;
+        padding: 0px;
+        padding-left: 90px;
+    }
+
+    aside #imagens #coluna2 .linha4 {
+        font-size: 1.3em;
+        margin-left: -60px;
+    }
+
+    aside #imagens #coluna2 p.linha4 {
+        font-size: 1.2em;
+    }
+
+    aside #imagens #coluna1 .linha5 {
+        font-size: 1.3em;
+        margin-left: -270px;
+    }
+
+    aside #imagens #coluna1 p.linha5 {
+        font-size: 1.2em;
+    }
+
+    aside #imagens #coluna1 h1.linha6 {
+        font-size: 1.3em;
+        margin-left: 70px;
+    }
+
+
+    aside #imagens #coluna1 p.linha6 {
+        font-size: 1.2em;
+        padding-left: 30px;
+        }
+    
+        #linha2 {
+            width: auto;
+            height: auto;
+            max-width: 420px;
+            height: 340px;
+            border-radius: 5px;
+            margin-left: 80px;
+            margin-top: 18px;
+                }
+        
+        #linha4 {
+            width: auto;
+            height: auto;
+            max-width: 420px;
+            min-height: 340px;
+            border-radius: 5px;
+            margin-left: 80px;
+            margin-top: 55px;
+        }
+        
+        
+        #linha3 {
+            width: auto;
+            height: auto;
+            max-width: 425px;
+            height: 332px;
+            border-radius: 15px;
+            margin-left: -255px;
+            padding: 30px;
+        }
+    
+        #linha1 {
+            width: auto;
+            height: auto;
+            max-width: 425px;
+            height: 340px;
+            margin-left: -255px;
+            padding: 30px;
+            margin-top: 50px;
+            border-radius: 15px;
+        }
+        
+    
+
+    /*Footer*/
+    #geral {
+        display: flex      
+    }
+
+    footer {
+        background-color: rgb(48, 47, 47);
+        padding: 20px;
+        margin-top: 130px;
+    }
+
+    .footer .imgextra {
+        border-radius: 50%;
+        width: 290px;
+        height: 290px;
+        margin-left: 170px;
+        margin-top: 25px;
+    }
+
+    footer h1 {
+        color: rgba(247, 247, 247, 0.966);
+        font-size: 3.7em;
+        font-family: 'Barlow', sans-serif;
+        padding: 20px;
+        margin: 0px;
+        margin-left: 60px;
+    }
+    
+    footer p {
+        color: rgba(255, 255, 255, 0.907);
+        font-size:  1.3em;
+        padding-top: 0px;
+        margin-left: 65px;
+        font-family: 'Barlow', sans-serif;
+        text-align: justify;
+        width: 500px;
+    }
+
+    .imagens img {
+        width: 32px;
+        margin: 0px;
+        margin-top: 20px; 
+        margin-left: 80px;
+    }
+}
+
+@media screen and (min-width:1184px) and (max-width: 1244px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /*Header*/
+    header img {
+        width: 30px;
+    }
+    
+    header img:hover {
+        padding: 2px;
+        background-color: beige;
+        transform: scale(1.2);
+    }
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .icons {
+        padding: 0px;
+        padding-top: 110px;
+        margin: 0px;
+        margin-right: 112px;
+        margin-top:-55px;
+    }
+    
+    header img#imgprincipal {
+        width: 400px;
+        height: 550px;
+        z-index: -1;
+        margin-right: -140px;
+        margin-top: 0px;
+        border: 3px solid lightgreen;
+        border-radius: 20px;
+    }
+
+    header h1 {
+        color: rgba(255, 255, 255, 0.905);
+        font-size: 2.0em;
+        margin: 0px;
+        margin-left: 35px;
+    
+    }
+    main article h1 {
+        font-size: 3.9em;
+        margin-top: 0px;
+        color: rgba(255, 255, 255, 0.916);
+        font-family: 'Barlow', sans-serif;
+        margin: 0px;
+        margin-left: -560px;
+    }
+    
+    h2 {
+        font-size: 3.6em;
+        color: rgba(255, 255, 255, 0.916);
+        font-family: 'Barlow', sans-serif;
+        margin: 10px;
+        margin-left: -530px;
+    }
+    
+    h3 {
+        font-size: 1.3em;
+        text-align: justify;
+        color: rgba(255, 255, 255, 0.916);
+        font-family: 'Barlow', sans-serif;
+        margin: 10px;
+        margin-left: 65px;
+    }
+    
+    h4 {
+        color: white;
+        font-size: 1.4em;
+        font-family: 'Barlow', sans-serif;
+        color: rgba(255, 255, 255, 0.916);
+        margin: 10px;
+        margin-left: 50px;
+
+    }
+    
+    b.b1 {
+        border-bottom: 4px solid lightgreen ;
+    }
+    
+    b.b2 {
+        border-bottom: 2px solid lightgreen;
+    }
+    
+    b.b3 {
+        border-bottom: 2px solid lightgreen;
+    }
+
+    hr {
+        width: 1050px;
+        margin-top: 200px;
+        text-align: center;
+    }
+
+    /*Tabela*/
+    #skills h1 {
+        font-size: 2.2em;
+        margin: 0px;
+        margin-bottom: 10px;
+        margin-left: 67px;
+        margin-top: 70px;
+        padding: 0px;
+        padding-right: 120px;
+        color: rgba(255, 255, 255, 0.855);
+    }
+    
+    #skills p {
+        color: rgba(185, 184, 184, 0.942);
+        padding: 0px;
+        font-size: 1.0em;
+        margin-left: 75px;
+        font-family: 'Barlow', sans-serif;
+    }
+
+
+    /*Tabela2 */
+    aside div#tabela2 h1 {
+        margin: 0px;
+        margin-left: -70px;
+        padding: 20px;
+        font-size: 3.5em;
+    }
+
+    b.b3 {
+        font-size: 1.4em;
+    }
+    
+    div#coluna1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;    
+        width: 500px;
+        margin: auto;
+        padding: 20px;
+    }
+    
+    div#coluna2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;    
+        width: 500px;
+        margin: auto;
+        padding: 20px;
+    }
+    
+    aside div#imagens h1 {
+        color: rgba(255, 255, 255, 0.93);
+        font-size: 1.0em;
+        margin-left: -20px;
+        text-align: center;
+    }
+        
+
+    aside div#imagens p {
+        color: rgba(255, 255, 255, 0.797);
+        font-size: 0.8em;
+        margin-left: 10px;
+        text-align: center;
+    }
+    
+    div#imagens h1 {
+        padding: 10px; 
+    }
+    
+    div#imagens p {
+        padding: 10px;
+        color: gray;
+    }
+
+    aside #imagens #coluna2 .linha3 {
+        font-size: 1.3em;
+        margin-left: -450px;
+        margin-top: 5px;
+    }
+
+    aside #imagens #coluna2 p.linha3 {
+        font-size: 1.2em;
+        padding: 0px;
+        padding-left: 90px;
+    }
+
+    aside #imagens #coluna2 .linha4 {
+        font-size: 1.3em;
+        margin-left: -60px;
+    }
+
+    aside #imagens #coluna2 p.linha4 {
+        font-size: 1.2em;
+    }
+
+    aside #imagens #coluna1 .linha5 {
+        font-size: 1.3em;
+        margin-left: -270px;
+    }
+
+    aside #imagens #coluna1 p.linha5 {
+        font-size: 1.2em;
+    }
+
+    aside #imagens #coluna1 h1.linha6 {
+        font-size: 1.3em;
+        margin-left: 70px;
+    }
+
+
+    aside #imagens #coluna1 p.linha6 {
+        font-size: 1.2em;
+        padding-left: 30px;
+        }
+    
+        #linha2 {
+            width: auto;
+            height: auto;
+            max-width: 400px;
+            height: 320px;
+            border-radius: 5px;
+            margin-left: 80px;
+            margin-top: 18px;
+                }
+        
+        #linha4 {
+            width: auto;
+            height: auto;
+            max-width: 400px;
+            min-height: 320px;
+            border-radius: 5px;
+            margin-left: 80px;
+            margin-top: 55px;
+        }
+        
+        
+        #linha3 {
+            width: auto;
+            height: auto;
+            max-width: 405px;
+            height: 312px;
+            border-radius: 15px;
+            margin-left: -225px;
+            padding: 20px;
+        }
+    
+        #linha1 {
+            width: auto;
+            height: auto;
+            max-width: 405px;
+            height: 320px;
+            margin-left: -225px;
+            padding: 20px;
+            margin-top: 50px;
+            border-radius: 15px;
         }
         
     
@@ -2108,15 +1210,15 @@
 
     .footer .imgextra {
         border-radius: 50%;
-        width: 220px;
-        height: 220px;
-        margin-left: 25px;
-        margin-top: 35px;
+        width: 280px;
+        height: 280px;
+        margin-left: 140px;
+        margin-top: 25px;
     }
 
     footer h1 {
         color: rgba(247, 247, 247, 0.966);
-        font-size: 2.9em;
+        font-size: 3.3em;
         font-family: 'Barlow', sans-serif;
         padding: 20px;
         margin: 0px;
@@ -2125,21 +1227,29 @@
     
     footer p {
         color: rgba(255, 255, 255, 0.907);
-        font-size:  1.4em;
+        font-size:  1.1em;
         padding-top: 0px;
         margin-left: 0px;
         font-family: 'Barlow', sans-serif;
         text-align: justify;
+        width: 550px;
         
     }
 
     .imagens img {
-        width: 28px;
+        width: 32px;
         margin-top: 20px;
         padding: 0px;
         margin-left: 20px;
     }
 }
+
+
+
+
+
+
+
 
 @media screen and (min-width:895px) and (max-width: 980px) {
     * {
@@ -3683,18 +2793,16 @@
     }
 }
 
-
-
-@media screen and (min-width:1184px) and (max-width: 1244px) {
+@media screen and (min-width:823px) and (max-width: 895px) {
     * {
         margin: 0px;
         padding: 0px;
         font-family: Arial, Helvetica, sans-serif;
     }
-
+    
     /*Header*/
     header img {
-        width: 30px;
+        width: 28px;
     }
     
     header img:hover {
@@ -3712,65 +2820,65 @@
         padding: 0px;
         padding-top: 110px;
         margin: 0px;
-        margin-right: 112px;
-        margin-top:-55px;
+        margin-right: 25px;
+        margin-top:-60px;
     }
     
     header img#imgprincipal {
-        width: 400px;
-        height: 550px;
+        width: 310px;
+        height: 430px;
         z-index: -1;
-        margin-right: -140px;
+        margin-right: -220px;
         margin-top: 0px;
-        border: 3px solid lightgreen;
+        border: 2px solid lightgreen;
         border-radius: 20px;
     }
 
     header h1 {
         color: rgba(255, 255, 255, 0.905);
-        font-size: 2.0em;
+        font-size: 1.6em;
         margin: 0px;
-        margin-left: 35px;
+        margin-left: -10px;
     
     }
     main article h1 {
-        font-size: 3.9em;
+        font-size: 2.9em;
         margin-top: 0px;
         color: rgba(255, 255, 255, 0.916);
         font-family: 'Barlow', sans-serif;
         margin: 0px;
-        margin-left: -560px;
+        margin-left: -400px;
     }
     
     h2 {
-        font-size: 3.6em;
+        font-size: 2.8em;
         color: rgba(255, 255, 255, 0.916);
         font-family: 'Barlow', sans-serif;
         margin: 10px;
-        margin-left: -530px;
+        margin-left: -360px;
     }
     
     h3 {
-        font-size: 1.3em;
+        font-size: 1.4em;
         text-align: justify;
         color: rgba(255, 255, 255, 0.916);
         font-family: 'Barlow', sans-serif;
         margin: 10px;
-        margin-left: 65px;
+        margin-left: 20px;
     }
     
     h4 {
         color: white;
-        font-size: 1.4em;
+        font-size: 1.3em;
         font-family: 'Barlow', sans-serif;
         color: rgba(255, 255, 255, 0.916);
         margin: 10px;
-        margin-left: 50px;
+        margin-left: 15px;
 
     }
     
     b.b1 {
-        border-bottom: 4px solid lightgreen ;
+        border-bottom: 3px solid lightgreen ;
     }
     
     b.b2 {
@@ -3782,28 +2890,28 @@
     }
 
     hr {
-        width: 1050px;
-        margin-top: 200px;
+        width: 760px;
+        margin-top: 100px;
         text-align: center;
     }
 
     /*Tabela*/
     #skills h1 {
-        font-size: 2.2em;
+        font-size: 1.9em;
         margin: 0px;
         margin-bottom: 10px;
-        margin-left: 67px;
-        margin-top: 70px;
+        margin-left: 40px;
+        margin-top: 60px;
         padding: 0px;
-        padding-right: 120px;
+        padding-right: 40px;
         color: rgba(255, 255, 255, 0.855);
     }
     
     #skills p {
         color: rgba(185, 184, 184, 0.942);
         padding: 0px;
-        font-size: 1.0em;
-        margin-left: 75px;
+        font-size: 1.3em;
+        margin-left: 45px;
         font-family: 'Barlow', sans-serif;
     }
 
@@ -3813,11 +2921,7 @@
         margin: 0px;
         margin-left: -70px;
         padding: 20px;
-        font-size: 3.5em;
-    }
-
-    b.b3 {
-        font-size: 1.4em;
+        font-size: 3.1em;
     }
     
     div#coluna1 {
@@ -3863,86 +2967,83 @@
     }
 
     aside #imagens #coluna2 .linha3 {
-        font-size: 1.3em;
-        margin-left: -450px;
+        font-size: 1.1em;
+        margin-left: -250px;
         margin-top: 5px;
     }
 
     aside #imagens #coluna2 p.linha3 {
-        font-size: 1.2em;
+        font-size: 1.0em;
         padding: 0px;
-        padding-left: 90px;
+        padding-left: 75px;
     }
 
     aside #imagens #coluna2 .linha4 {
-        font-size: 1.3em;
-        margin-left: -60px;
+        font-size: 1.1em;
+        margin-left: -20px;
     }
 
     aside #imagens #coluna2 p.linha4 {
-        font-size: 1.2em;
+        font-size: 1.0em;
     }
 
     aside #imagens #coluna1 .linha5 {
-        font-size: 1.3em;
-        margin-left: -270px;
+        font-size: 1.1em;
+        margin-left: -100px;
     }
 
     aside #imagens #coluna1 p.linha5 {
-        font-size: 1.2em;
+        font-size: 1.0em;
     }
 
     aside #imagens #coluna1 h1.linha6 {
-        font-size: 1.3em;
-        margin-left: 70px;
+        font-size: 1.05em;
+        margin-left: 35px;
     }
 
 
     aside #imagens #coluna1 p.linha6 {
-        font-size: 1.2em;
-        padding-left: 30px;
+        font-size: 0.9em;
         }
     
         #linha2 {
             width: auto;
             height: auto;
-            max-width: 400px;
-            height: 320px;
-            border-radius: 5px;
-            margin-left: 80px;
-            margin-top: 18px;
+            max-width: 330px;
+            min-height: 160px;
+            border-radius: 10px;
+            margin-left: 50px;
+            margin-top: 17px;
                 }
         
         #linha4 {
             width: auto;
             height: auto;
-            max-width: 400px;
-            min-height: 320px;
-            border-radius: 5px;
-            margin-left: 80px;
-            margin-top: 55px;
+            max-width: 330px;
+            min-height: 150px;
+            border-radius: 10px;
+            margin-left: 50px;
+            margin-top: 20px;
         }
         
         
         #linha3 {
             width: auto;
             height: auto;
-            max-width: 405px;
-            height: 312px;
-            border-radius: 15px;
-            margin-left: -225px;
-            padding: 20px;
+            max-width: 330px;
+            min-height: 150px;
+            border-radius: 10px;
+            margin-left: -110px;
         }
     
         #linha1 {
             width: auto;
             height: auto;
-            max-width: 405px;
-            height: 320px;
-            margin-left: -225px;
-            padding: 20px;
-            margin-top: 50px;
-            border-radius: 15px;
+            max-width: 330px;
+            min-height: 150px;
+            border-radius: 10px;
+            margin-left: -110px;
+            margin-top: 20px;
         }
         
     
@@ -3961,15 +3062,1557 @@
 
     .footer .imgextra {
         border-radius: 50%;
-        width: 280px;
-        height: 280px;
-        margin-left: 140px;
-        margin-top: 25px;
+        width: 220px;
+        height: 220px;
+        margin-left: 25px;
+        margin-top: 35px;
     }
 
     footer h1 {
         color: rgba(247, 247, 247, 0.966);
-        font-size: 3.3em;
+        font-size: 2.9em;
+        font-family: 'Barlow', sans-serif;
+        padding: 20px;
+        margin: 0px;
+        margin-left: -5px;
+    }
+    
+    footer p {
+        color: rgba(255, 255, 255, 0.907);
+        font-size:  1.4em;
+        padding-top: 0px;
+        margin-left: 0px;
+        font-family: 'Barlow', sans-serif;
+        text-align: justify;
+        
+    }
+
+    .imagens img {
+        width: 28px;
+        margin-top: 20px;
+        padding: 0px;
+        margin-left: 20px;
+    }
+}
+
+
+@media screen and (min-width:756px) and (max-width: 823px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    /*Header*/
+    header img {
+        width: 25px;
+    }
+    
+    header img:hover {
+        padding: 2px;
+        background-color: beige;
+        transform: scale(1.2);
+    }
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .icons {
+        padding: 0px;
+        padding-top: 110px;
+        margin: 0px;
+        margin-right: 25px;
+        margin-top:-60px;
+    }
+    
+    header img#imgprincipal {
+        width: 280px;
+        height: 400px;
+        z-index: -1;
+        margin-right: -220px;
+        margin-top: 0px;
+        border: 2px solid lightgreen;
+        border-radius: 20px;
+    }
+
+    header h1 {
+        color: rgba(255, 255, 255, 0.905);
+        font-size: 1.4em;
+        margin: 0px;
+        margin-left: -15px;
+    
+    }
+    main article h1 {
+        font-size: 2.7em;
+        margin-top: 0px;
+        color: rgba(255, 255, 255, 0.916);
+        font-family: 'Barlow', sans-serif;
+        margin: 0px;
+        margin-left: -360px;
+    }
+    
+    h2 {
+        font-size: 2.6em;
+        color: rgba(255, 255, 255, 0.916);
+        font-family: 'Barlow', sans-serif;
+        margin: 10px;
+        margin-left: -320px;
+    }
+    
+    h3 {
+        font-size: 1.1em;
+        text-align: justify;
+        color: rgba(255, 255, 255, 0.916);
+        font-family: 'Barlow', sans-serif;
+        margin: 10px;
+        margin-left: 18px;
+    }
+    
+    h4 {
+        color: white;
+        font-size: 1.1em;
+        font-family: 'Barlow', sans-serif;
+        color: rgba(255, 255, 255, 0.916);
+        margin: 10px;
+        margin-left: 10px;
+
+    }
+    
+    b.b1 {
+        border-bottom: 3px solid lightgreen ;
+    }
+    
+    b.b2 {
+        border-bottom: 2px solid lightgreen;
+    }
+    
+    b.b3 {
+        border-bottom: 2px solid lightgreen;
+    }
+
+    hr {
+        width: 700px;
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    /*Tabela*/
+    #skills h1 {
+        font-size: 1.8em;
+        margin: 0px;
+        margin-bottom: 10px;
+        margin-left: 30px;
+        margin-top: 60px;
+        padding: 0px;
+        padding-right: 35px;
+        color: rgba(255, 255, 255, 0.855);
+    }
+    
+    #skills p {
+        color: rgba(185, 184, 184, 0.942);
+        padding: 0px;
+        font-size: 1.1em;
+        margin-left: 40px;
+        font-family: 'Barlow', sans-serif;
+    }
+
+
+    /*Tabela2 */
+    aside div#tabela2 h1 {
+        margin: 0px;
+        margin-left: -70px;
+        padding: 20px;
+        font-size: 2.9em;
+    }
+    
+    div#coluna1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;    
+        width: 500px;
+        margin: auto;
+        padding: 20px;
+    }
+    
+    div#coluna2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;    
+        width: 500px;
+        margin: auto;
+        padding: 20px;
+    }
+    
+    aside div#imagens h1 {
+        color: rgba(255, 255, 255, 0.93);
+        font-size: 1.0em;
+        margin-left: -20px;
+        text-align: center;
+    }
+        
+
+    aside div#imagens p {
+        color: rgba(255, 255, 255, 0.797);
+        font-size: 0.8em;
+        margin-left: 10px;
+        text-align: center;
+    }
+    
+    div#imagens h1 {
+        padding: 10px; 
+    }
+    
+    div#imagens p {
+        padding: 10px;
+        color: gray;
+    }
+
+    aside #imagens #coluna2 .linha3 {
+        font-size: 0.8em;
+        margin-left: -165px;
+        margin-top: 5px;
+    }
+
+    aside #imagens #coluna2 p.linha3 {
+        font-size: 0.7em;
+        padding: 0px;
+        padding-left: 50px;
+    }
+
+    aside #imagens #coluna2 .linha4 {
+        font-size: 0.8em;
+        margin-left: -30px;
+    }
+
+    aside #imagens #coluna2 p.linha4 {
+        font-size: 0.7em;
+    }
+
+    aside #imagens #coluna1 .linha5 {
+        font-size: 0.8em;
+        margin-left: -70px;
+    }
+
+    aside #imagens #coluna1 p.linha5 {
+        font-size: 0.7em;
+    }
+
+    aside #imagens #coluna1 h1.linha6 {
+        font-size: 0.8em;
+        margin-left: 30px;
+    }
+
+
+    aside #imagens #coluna1 p.linha6 {
+        font-size: 0.7em;
+        }
+    
+        #linha2 {
+            width: auto;
+            height: auto;
+            max-width: 280px;
+            min-height: 150px;
+            border-radius: 10px;
+            margin-left: 61px;
+            margin-top: 17px;
+                }
+        
+        #linha4 {
+            width: auto;
+            height: auto;
+            max-width: 280px;
+            min-height: 150px;
+            border-radius: 10px;
+            margin-left: 58px;
+            margin-top: 20px;
+        }
+        
+        
+        #linha3 {
+            width: auto;
+            height: auto;
+            max-width: 280px;
+            min-height: 150px;
+            border-radius: 10px;
+            margin-left: -60px;
+        }
+    
+        #linha1 {
+            width: auto;
+            height: auto;
+            max-width: 280px;
+            min-height: 150px;
+            border-radius: 10px;
+            margin-left: -60px;
+            margin-top: 15px;
+        }
+        
+    
+
+    /*Footer*/
+    #geral {
+        display: flex
+        
+    }
+
+    footer {
+        background-color: rgb(48, 47, 47);
+        padding: 20px;
+        margin-top: 130px;
+    }
+
+    .footer .imgextra {
+        border-radius: 50%;
+        width: 220px;
+        height: 220px;
+        margin-left: 25px;
+        margin-top: 35px;
+    }
+
+    footer h1 {
+        color: rgba(247, 247, 247, 0.966);
+        font-size: 2.8em;
+        font-family: 'Barlow', sans-serif;
+        padding: 20px;
+        margin: 0px;
+        margin-left: -5px;
+    }
+    
+    footer p {
+        color: rgba(255, 255, 255, 0.907);
+        font-size:  1.3em;
+        padding-top: 0px;
+        margin-left: 0px;
+        font-family: 'Barlow', sans-serif;
+        text-align: justify;
+        
+    }
+
+    .imagens img {
+        width: 25px;
+        margin-top: 20px;
+        padding: 0px;
+        margin-left: 20px;
+    }
+}
+
+
+@media screen and (min-width: 706px) and (max-width: 756px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    /*Header*/
+    header img {
+        width: 25px;
+    }
+    
+    header img:hover {
+        padding: 2px;
+        background-color: beige;
+        transform: scale(1.2);
+    }
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .icons {
+        padding: 0px;
+        padding-top: 110px;
+        margin: 0px;
+        margin-right: 25px;
+        margin-top:-60px;
+    }
+    
+    header img#imgprincipal {
+        width: 280px;
+        height: 400px;
+        z-index: -1;
+        margin-right: -220px;
+        margin-top: 0px;
+        border: 2px solid lightgreen;
+        border-radius: 20px;
+    }
+
+    header h1 {
+        color: rgba(255, 255, 255, 0.905);
+        font-size: 1.4em;
+        margin: 0px;
+        margin-left: -15px;
+    
+    }
+    main article h1 {
+        font-size: 2.7em;
+        margin-top: 0px;
+        color: rgba(255, 255, 255, 0.916);
+        font-family: 'Barlow', sans-serif;
+        margin: 0px;
+        margin-left: -320px;
+    }
+    
+    h2 {
+        font-size: 2.6em;
+        color: rgba(255, 255, 255, 0.916);
+        font-family: 'Barlow', sans-serif;
+        margin: 10px;
+        margin-left: -280px;
+    }
+    
+    h3 {
+        font-size: 1.1em;
+        text-align: justify;
+        color: rgba(255, 255, 255, 0.916);
+        font-family: 'Barlow', sans-serif;
+        margin: 10px;
+        margin-left: 18px;
+    }
+    
+    h4 {
+        color: white;
+        font-size: 1.1em;
+        font-family: 'Barlow', sans-serif;
+        color: rgba(255, 255, 255, 0.916);
+        margin: 10px;
+        margin-left: 10px;
+
+    }
+    
+    b.b1 {
+        border-bottom: 3px solid lightgreen ;
+    }
+    
+    b.b2 {
+        border-bottom: 2px solid lightgreen;
+    }
+    
+    b.b3 {
+        border-bottom: 2px solid lightgreen;
+    }
+
+    hr {
+        width: 650px;
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    /*Tabela*/
+    #skills h1 {
+        font-size: 1.8em;
+        margin: 0px;
+        margin-bottom: 10px;
+        margin-left: 30px;
+        margin-top: 60px;
+        padding: 0px;
+        padding-right: 20px;
+        color: rgba(255, 255, 255, 0.855);
+    }
+    
+    #skills p {
+        color: rgba(185, 184, 184, 0.942);
+        padding: 0px;
+        font-size: 1.1em;
+        margin-left: 40px;
+        font-family: 'Barlow', sans-serif;
+    }
+
+
+    /*Tabela2 */
+    aside div#tabela2 h1 {
+        margin: 0px;
+        margin-left: -70px;
+        padding: 20px;
+        font-size: 2.9em;
+    }
+    
+    div#coluna1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;    
+        width: 500px;
+        margin: auto;
+        padding: 20px;
+    }
+    
+    div#coluna2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;    
+        width: 500px;
+        margin: auto;
+        padding: 20px;
+    }
+    
+    aside div#imagens h1 {
+        color: rgba(255, 255, 255, 0.93);
+        font-size: 1.0em;
+        margin-left: -20px;
+        text-align: center;
+    }
+        
+
+    aside div#imagens p {
+        color: rgba(255, 255, 255, 0.797);
+        font-size: 0.8em;
+        margin-left: 10px;
+        text-align: center;
+    }
+    
+    div#imagens h1 {
+        padding: 10px; 
+    }
+    
+    div#imagens p {
+        padding: 10px;
+        color: gray;
+    }
+
+    aside #imagens #coluna2 .linha3 {
+        font-size: 0.8em;
+        margin-left: -165px;
+        margin-top: 5px;
+    }
+
+    aside #imagens #coluna2 p.linha3 {
+        font-size: 0.7em;
+        padding: 0px;
+        padding-left: 50px;
+    }
+
+    aside #imagens #coluna2 .linha4 {
+        font-size: 0.8em;
+        margin-left: -30px;
+    }
+
+    aside #imagens #coluna2 p.linha4 {
+        font-size: 0.7em;
+    }
+
+    aside #imagens #coluna1 .linha5 {
+        font-size: 0.8em;
+        margin-left: -70px;
+    }
+
+    aside #imagens #coluna1 p.linha5 {
+        font-size: 0.7em;
+    }
+
+    aside #imagens #coluna1 h1.linha6 {
+        font-size: 0.8em;
+        margin-left: 30px;
+    }
+
+
+    aside #imagens #coluna1 p.linha6 {
+        font-size: 0.7em;
+        }
+    
+        #linha2 {
+            width: auto;
+            height: auto;
+            max-width: 280px;
+            min-height: 150px;
+            border-radius: 10px;
+            margin-left: 61px;
+            margin-top: 17px;
+                }
+        
+        #linha4 {
+            width: auto;
+            height: auto;
+            max-width: 280px;
+            min-height: 150px;
+            border-radius: 10px;
+            margin-left: 58px;
+            margin-top: 20px;
+        }
+        
+        
+        #linha3 {
+            width: auto;
+            height: auto;
+            max-width: 280px;
+            min-height: 150px;
+            border-radius: 10px;
+            margin-left: -60px;
+        }
+    
+        #linha1 {
+            width: auto;
+            height: auto;
+            max-width: 280px;
+            min-height: 150px;
+            border-radius: 10px;
+            margin-left: -60px;
+            margin-top: 15px;
+        }
+        
+    
+
+    /*Footer*/
+    #geral {
+        display: flex
+        
+    }
+
+    footer {
+        background-color: rgb(48, 47, 47);
+        padding: 20px;
+        margin-top: 130px;
+    }
+
+    .footer .imgextra {
+        border-radius: 50%;
+        width: 220px;
+        height: 220px;
+        margin-left: 25px;
+        margin-top: 35px;
+    }
+
+    footer h1 {
+        color: rgba(247, 247, 247, 0.966);
+        font-size: 2.8em;
+        font-family: 'Barlow', sans-serif;
+        padding: 20px;
+        margin: 0px;
+        margin-left: -5px;
+    }
+    
+    footer p {
+        color: rgba(255, 255, 255, 0.907);
+        font-size:  1.3em;
+        padding-top: 0px;
+        margin-left: 0px;
+        font-family: 'Barlow', sans-serif;
+        text-align: justify;
+        
+    }
+
+    .imagens img {
+        width: 25px;
+        margin-top: 20px;
+        padding: 0px;
+        margin-left: 20px;
+    }
+
+}
+
+
+
+
+@media screen and (min-width: 647px) and (max-width: 706px){
+    * {
+        margin: 0px;
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    /*Header*/
+    header img {
+        width: 25px;
+    }
+    
+    header img:hover {
+        padding: 2px;
+        background-color: beige;
+        transform: scale(1.2);
+    }
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .icons {
+        padding: 0px;
+        padding-top: 110px;
+        margin: 0px;
+        margin-right: 25px;
+        margin-top:-60px;
+    }
+    
+    header img#imgprincipal {
+        width: 250px;
+        height: 370px;
+        z-index: -1;
+        margin-right: -220px;
+        margin-top: 0px;
+        border: 2px solid lightgreen;
+        border-radius: 20px;
+    }
+
+    header h1 {
+        color: rgba(255, 255, 255, 0.905);
+        font-size: 1.4em;
+        margin: 0px;
+        margin-left: -15px;
+    
+    }
+    main article h1 {
+        font-size: 2.6em;
+        margin-top: 0px;
+        color: rgba(255, 255, 255, 0.916);
+        font-family: 'Barlow', sans-serif;
+        margin: 0px;
+        margin-left: -270px;
+    }
+    
+    h2 {
+        font-size: 2.3em;
+        color: rgba(255, 255, 255, 0.916);
+        font-family: 'Barlow', sans-serif;
+        margin: 10px;
+        margin-left: -255px;
+    }
+    
+    h3 {
+        font-size: 1.1em;
+        text-align: justify;
+        color: rgba(255, 255, 255, 0.916);
+        font-family: 'Barlow', sans-serif;
+        margin: 0px;
+        margin-left: 18px;
+    }
+    
+    h4 {
+        color: white;
+        font-size: 1.1em;
+        font-family: 'Barlow', sans-serif;
+        color: rgba(255, 255, 255, 0.916);
+        margin: 0px;
+        margin-left: 10px;
+
+    }
+    
+    b.b1 {
+        border-bottom: 3px solid lightgreen ;
+    }
+    
+    b.b2 {
+        border-bottom: 2px solid lightgreen;
+    }
+    
+    b.b3 {
+        border-bottom: 2px solid lightgreen;
+    }
+
+    hr {
+        width: 600px;
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    /*Tabela*/
+    #skills h1 {
+        font-size: 1.7em;
+        margin: 0px;
+        margin-bottom: 10px;
+        margin-left: 30px;
+        margin-top: 60px;
+        padding: 0px;
+        padding-right: 20px;
+        color: rgba(255, 255, 255, 0.855);
+    }
+    
+    #skills p {
+        color: rgba(185, 184, 184, 0.942);
+        padding: 0px;
+        font-size: 1.0em;
+        margin-left: 40px;
+        font-family: 'Barlow', sans-serif;
+    }
+
+
+    /*Tabela2 */
+    aside div#tabela2 h1 {
+        margin: 0px;
+        margin-left: -70px;
+        padding: 20px;
+        font-size: 2.6em;
+    }
+    
+    aside img {
+        width: 350px;
+        height: 250px;
+        margin: 0px;
+    }
+    
+    div#coluna1 {
+        display: inline-block;  
+        width: 400px;
+        padding: 20px;
+        margin: auto;
+    }
+    
+    div#coluna2 {
+        display: inline-block;
+        width: 400px;
+        padding: 20px;
+        margin: auto;
+    }
+    
+    aside div#imagens h1 {
+        color: rgba(255, 255, 255, 0.93);
+        font-size: 1.7em;
+        margin: 0px;
+    }
+        
+
+    aside div#imagens p {
+        color: rgba(255, 255, 255, 0.797);
+        font-size: 1.5em;
+        margin: 0px;
+    }
+    
+    div#imagens h1 {
+        padding: 10px; 
+        margin: 0px;
+    }
+    
+    div#imagens p {
+        padding: 10px;
+        color: gray;
+    }
+    
+    #linha2 {
+        width: auto;
+        height: auto;
+        max-width: 400px;
+        min-height: 150px;
+        margin-left: 105px;
+        border-radius: 10px;
+        border: 1px solid lightgreen;
+    }
+
+    #linha1 {
+        width: auto;
+        height: auto;
+        max-width: 400px;
+        min-height: 150px;
+        margin: auto;
+        display: block;
+        margin-left: 105px;
+        border-radius: 10px;
+        border: 1px solid lightgreen;
+    }
+
+    aside #imagens #coluna2 .linha3 {
+        font-size: 1.1em;
+        padding-left: 110px;
+    }
+
+    aside #imagens #coluna2 p.linha3 {
+        font-size: 1.0em;
+        padding-bottom: 70px;
+    }
+
+    aside #imagens #coluna2 .linha4 {
+        font-size: 1.1em;
+        padding-left: 110px;
+    }
+
+    aside #imagens #coluna2 p.linha4 {
+        font-size: 1.0em;
+    }
+
+    aside #imagens #coluna1 .linha5 {
+        font-size: 1.1em;
+        padding-left: 110px;
+    }
+
+    aside #imagens #coluna1 p.linha5 {
+        font-size: 1.0em;
+        padding-bottom: 70px;
+    }
+
+    aside #imagens #coluna1 .linha6 {
+        font-size: 1.0em;
+        padding-left: 110px;
+    }
+
+    aside #imagens #coluna1 p.linha6 {
+        font-size: 1.0em;
+        padding-bottom: 70px;
+    }
+    
+    #linha4 {
+        width: auto;
+        height: auto;
+        max-width: 400px;
+        min-height: 150px;
+        margin: 0px;
+        margin-left: 100px;
+        border-radius: 10px;
+        border: 2px solid lightgreen;
+    }
+    
+    
+    #linha3 {
+        width: auto;
+        height: auto;
+        max-width: 400px;
+        min-height: 150px;
+        margin: 0px;
+        margin-left: 100px;
+        border-radius: 10px;
+        border: 2px solid lightgreen;
+    }
+
+
+    /*Footer*/
+    #geral {
+        display: flex
+        
+    }
+
+    footer {
+        background-color: rgb(48, 47, 47);
+        padding: 20px;
+        margin-top: 130px;
+    }
+
+    .footer .imgextra {
+        border-radius: 50%;
+        width: 220px;
+        height: 220px;
+        margin-left: 25px;
+        margin-top: 35px;
+    }
+
+    footer h1 {
+        color: rgba(247, 247, 247, 0.966);
+        font-size: 2.8em;
+        font-family: 'Barlow', sans-serif;
+        padding: 20px;
+        margin: 0px;
+        margin-left: -5px;
+    }
+    
+    footer p {
+        color: rgba(255, 255, 255, 0.907);
+        font-size:  1.3em;
+        padding-top: 0px;
+        margin-left: 0px;
+        font-family: 'Barlow', sans-serif;
+        text-align: justify;
+        
+    }
+
+    .imagens img {
+        width: 25px;
+        margin-top: 20px;
+        padding: 0px;
+        margin-left: 20px;
+    }
+}
+
+
+
+@media screen and (min-width: 603px) and (max-width:647px){
+    * {
+        margin: 0px;
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    /*Header*/
+    header img {
+        width: 20px;
+    }
+    
+    header img:hover {
+        padding: 2px;
+        background-color: beige;
+        transform: scale(1.2);
+    }
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .icons {
+        padding: 0px;
+        padding-top: 110px;
+        margin: 0px;
+        margin-right: 25px;
+        margin-top:-60px;
+    }
+    
+    header img#imgprincipal {
+        width: 200px;
+        height: 300px;
+        z-index: -1;
+        margin-right: -220px;
+        margin-top: 0px;
+        border: 2px solid lightgreen;
+        border-radius: 20px;
+    }
+
+    header h1 {
+        color: rgba(255, 255, 255, 0.905);
+        font-size: 1.2em;
+        margin: 0px;
+        margin-left: -9px;
+    }
+    
+    
+    main article h1 {
+        font-size: 1.7em;
+        margin-top: 0px;
+        color: rgba(255, 255, 255, 0.916);
+        font-family: 'Barlow', sans-serif;
+        margin: 0px;
+        margin-left: -320px;
+    }
+    
+    h2 {
+        font-size:1.5em;
+        color: rgba(255, 255, 255, 0.916);
+        font-family: 'Barlow', sans-serif;
+        margin: 10px;
+        margin-left: -310px;
+    }
+    
+    h3 {
+        font-size: 0.9em;
+        text-align: justify;
+        color: rgba(255, 255, 255, 0.916);
+        font-family: 'Barlow', sans-serif;
+        margin: 0px;
+        margin-left: 22px;
+    }
+    
+    h4 {
+        color: white;
+        font-size: 1.0em;
+        font-family: 'Barlow', sans-serif;
+        color: rgba(255, 255, 255, 0.916);
+        margin: 0px;
+        margin-left: 15px;
+
+    }
+    
+    b.b1 {
+        border-bottom: 3px solid lightgreen ;
+    }
+    
+    b.b2 {
+        border-bottom: 2px solid lightgreen;
+    }
+    
+    b.b3 {
+        border-bottom: 2px solid lightgreen;
+    }
+
+    hr {
+        width: 520px;
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    /*Tabela*/
+    #skills h1 {
+        font-size: 1.5em;
+        margin: 0px;
+        margin-bottom: 10px;
+        margin-left: 45px;
+        margin-top: 60px;
+        padding: 0px;
+        color: rgba(255, 255, 255, 0.855);
+    }
+    
+    #skills p {
+        color: rgba(185, 184, 184, 0.942);
+        padding: 0px;
+        font-size: 0.8em;
+        margin-left: 40px;
+        font-family: 'Barlow', sans-serif;
+    }
+
+
+    /*Tabela2 */
+    aside div#tabela2 h1 {
+        margin: 0px;
+        margin-left: -70px;
+        padding: 20px;
+        font-size: 2.4em;
+    }
+    
+    aside img {
+        width: 350px;
+        height: 250px;
+        margin: 0px;
+    }
+    
+    div#coluna1 {
+        display: inline-block;  
+        width: 400px;
+        padding: 20px;
+        margin: 0px;
+    }
+    
+    div#coluna2 {
+        display: inline-block;
+        width: 400px;
+        padding: 20px;
+        margin: 0px;
+    }
+    
+    aside div#imagens h1 {
+        color: rgba(255, 255, 255, 0.93);
+        font-size: 1.7em;
+        margin: 0px;
+    }
+        
+
+    aside div#imagens p {
+        color: rgba(255, 255, 255, 0.797);
+        font-size: 1.5em;
+        margin: 0px;
+    }
+    
+    div#imagens h1 {
+        padding: 10px; 
+        margin: 0px;
+    }
+    
+    div#imagens p {
+        padding: 10px;
+        color: gray;
+    }
+    
+    #linha2 {
+        width: auto;
+        height: auto;
+        max-width: 400px;
+        min-height: 150px;
+        margin-left: 80px;
+        border-radius: 10px;
+        border: 1px solid lightgreen;
+    }
+
+    #linha1 {
+        width: auto;
+        height: auto;
+        max-width: 400px;
+        min-height: 150px;
+        margin: auto;
+        display: block;
+        margin-left: 76px;
+        border-radius: 10px;
+        border: 1px solid lightgreen;
+    }
+
+    aside #imagens #coluna2 .linha3 {
+        font-size: 1.1em;
+        padding-left: 85px;
+    }
+
+    aside #imagens #coluna2 p.linha3 {
+        font-size: 1.0em;
+        padding-bottom: 70px;
+    }
+
+    aside #imagens #coluna2 .linha4 {
+        font-size: 1.1em;
+        padding-left: 85px;
+    }
+
+    aside #imagens #coluna2 p.linha4 {
+        font-size: 1.0em;
+    }
+
+    aside #imagens #coluna1 .linha5 {
+        font-size: 1.1em;
+        padding-left: 85px;
+    }
+
+    aside #imagens #coluna1 p.linha5 {
+        font-size: 1.0em;
+        padding-bottom: 70px;
+    }
+
+    aside #imagens #coluna1 .linha6 {
+        font-size: 1.0em;
+        padding-left: 85px;
+    }
+
+    aside #imagens #coluna1 p.linha6 {
+        font-size: 1.0em;
+        padding-bottom: 70px;
+    }
+    
+    #linha4 {
+        width: auto;
+        height: auto;
+        max-width: 400px;
+        min-height: 150px;
+        margin: 0px;
+        margin-left: 75px;
+        border-radius: 10px;
+        border: 2px solid lightgreen;
+    }
+    
+    
+    #linha3 {
+        width: auto;
+        height: auto;
+        max-width: 400px;
+        min-height: 150px;
+        margin: 0px;
+        margin-left: 75px;
+        border-radius: 10px;
+        border: 2px solid lightgreen;
+    }
+
+    #imagens #coluna1 #div1 a{
+        padding: 0px;
+        margin: 0px;
+    }
+
+
+    /*Footer*/
+    #geral {
+        display: flex
+        
+    }
+
+    footer {
+        background-color: rgb(48, 47, 47);
+        padding: 20px;
+        margin-top: 130px;
+    }
+
+    .footer .imgextra {
+        border-radius: 50%;
+        width: 180px;
+        height: 180px;
+        margin-left: 25px;
+        margin-top: 35px;
+    }
+
+    footer h1 {
+        color: rgba(247, 247, 247, 0.966);
+        font-size: 2.8em;
+        font-family: 'Barlow', sans-serif;
+        padding: 20px;
+        margin: 0px;
+        margin-left: -5px;
+    }
+    
+    footer p {
+        color: rgba(255, 255, 255, 0.907);
+        font-size:  1.3em;
+        padding-top: 0px;
+        margin-left: 0px;
+        font-family: 'Barlow', sans-serif;
+        text-align: justify;
+        
+    }
+
+    .imagens img {
+        width: 25px;
+        margin-top: 20px;
+        padding: 0px;
+        margin-left: 20px;
+    }
+}
+
+
+
+@media screen and (min-width:550px) and (max-width:603px){
+    * {
+        margin: 0px;
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    /*Header*/
+    header img {
+        width: 20px;
+    }
+    
+    header img:hover {
+        padding: 2px;
+        background-color: beige;
+        transform: scale(1.2);
+    }
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .icons {
+        padding: 0px;
+        padding-top: 110px;
+        margin: 0px;
+        margin-right: 25px;
+        margin-top:-60px;
+    }
+    
+    header img#imgprincipal {
+        width: 200px;
+        height: 300px;
+        z-index: -1;
+        margin-right: -220px;
+        margin-top: 0px;
+        border: 2px solid lightgreen;
+        border-radius: 20px;
+    }
+
+    header h1 {
+        color: rgba(255, 255, 255, 0.905);
+        font-size: 1.1em;
+        margin: 0px;
+        margin-left: -10px;
+    }
+    
+    
+    main article h1 {
+        font-size: 1.7em;
+        margin-top: 0px;
+        color: rgba(255, 255, 255, 0.916);
+        font-family: 'Barlow', sans-serif;
+        margin: 0px;
+        margin-left: -274px;
+    }
+    
+    h2 {
+        font-size:1.5em;
+        color: rgba(255, 255, 255, 0.916);
+        font-family: 'Barlow', sans-serif;
+        margin: 10px;
+        margin-left: -264px;
+    }
+    
+    h3 {
+        font-size: 0.8em;
+        text-align: justify;
+        color: rgba(255, 255, 255, 0.916);
+        font-family: 'Barlow', sans-serif;
+        margin: 0px;
+        margin-left: 20px;
+    }
+    
+    h4 {
+        color: white;
+        font-size: 0.9em;
+        font-family: 'Barlow', sans-serif;
+        color: rgba(255, 255, 255, 0.916);
+        margin: 0px;
+        margin-left: 10px;
+
+    }
+    
+    b.b1 {
+        border-bottom: 3px solid lightgreen ;
+    }
+    
+    b.b2 {
+        border-bottom: 2px solid lightgreen;
+    }
+    
+    b.b3 {
+        border-bottom: 2px solid lightgreen;
+    }
+
+    hr {
+        width: 470px;
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    /*Tabela*/
+    #skills h1 {
+        font-size: 1.3em;
+        margin: 0px;
+        margin-bottom: 10px;
+        margin-left: 40px;
+        margin-top: 60px;
+        padding: 0px;
+        color: rgba(255, 255, 255, 0.855);
+    }
+    
+    #skills p {
+        color: rgba(185, 184, 184, 0.942);
+        padding: 0px;
+        font-size: 0.7em;
+        margin-left: 40px;
+        font-family: 'Barlow', sans-serif;
+    }
+
+
+    /*Tabela2 */
+    aside div#tabela2 h1 {
+        margin: 0px;
+        margin-left: -78px;
+        padding: 20px;
+        font-size: 2.3em;
+    }
+    
+    aside img {
+        width: 350px;
+        height: 250px;
+        margin: 0px;
+    }
+    
+    div#coluna1 {
+        display: inline-block;  
+        width: 400px;
+        padding: 20px;
+        margin: 0px;
+    }
+    
+    div#coluna2 {
+        display: inline-block;
+        width: 400px;
+        padding: 20px;
+        margin: 0px;
+    }
+    
+    aside div#imagens h1 {
+        color: rgba(255, 255, 255, 0.93);
+        font-size: 1.7em;
+        margin: 0px;
+    }
+        
+
+    aside div#imagens p {
+        color: rgba(255, 255, 255, 0.797);
+        font-size: 1.5em;
+        margin: 0px;
+    }
+    
+    div#imagens h1 {
+        padding: 10px; 
+        margin: 0px;
+    }
+    
+    div#imagens p {
+        padding: 10px;
+        color: gray;
+    }
+    
+    #linha2 {
+        width: auto;
+        height: auto;
+        max-width: 400px;
+        min-height: 150px;
+        margin-left: 50px;
+        border-radius: 10px;
+        border: 1px solid lightgreen;
+    }
+
+    #linha1 {
+        width: auto;
+        height: auto;
+        max-width: 400px;
+        min-height: 150px;
+        margin: auto;
+        display: block;
+        margin-left: 48px;
+        border-radius: 10px;
+        border: 1px solid lightgreen;
+    }
+
+    aside #imagens #coluna2 .linha3 {
+        font-size: 1.1em;
+        padding-left: 55px;
+    }
+
+    aside #imagens #coluna2 p.linha3 {
+        font-size: 1.0em;
+        padding-bottom: 70px;
+    }
+
+    aside #imagens #coluna2 .linha4 {
+        font-size: 1.1em;
+        padding-left: 55px;
+    }
+
+    aside #imagens #coluna2 p.linha4 {
+        font-size: 1.0em;
+    }
+
+    aside #imagens #coluna1 .linha5 {
+        font-size: 1.1em;
+        padding-left: 55px;
+    }
+
+    aside #imagens #coluna1 p.linha5 {
+        font-size: 1.0em;
+        padding-bottom: 70px;
+    }
+
+    aside #imagens #coluna1 .linha6 {
+        font-size: 1.0em;
+        padding-left: 55px;
+    }
+
+    aside #imagens #coluna1 p.linha6 {
+        font-size: 1.0em;
+        padding-bottom: 70px;
+    }
+    
+    #linha4 {
+        width: auto;
+        height: auto;
+        max-width: 400px;
+        min-height: 150px;
+        margin: 0px;
+        margin-left: 48px;
+        border-radius: 10px;
+        border: 2px solid lightgreen;
+    }
+    
+    
+    #linha3 {
+        width: auto;
+        height: auto;
+        max-width: 400px;
+        min-height: 150px;
+        margin: 0px;
+        margin-left: 48px;
+        border-radius: 10px;
+        border: 2px solid lightgreen;
+    }
+
+    #imagens #coluna1 #div1 a{
+        padding: 0px;
+        margin: 0px;
+    }
+
+
+    /*Footer*/
+    #geral {
+        display: flex
+        
+    }
+
+    footer {
+        background-color: rgb(48, 47, 47);
+        padding: 20px;
+        margin-top: 130px;
+    }
+
+    .footer .imgextra {
+        border-radius: 50%;
+        width: 160px;
+        height: 160px;
+        margin-left: 25px;
+        margin-top: 35px;
+    }
+
+    footer h1 {
+        color: rgba(247, 247, 247, 0.966);
+        font-size: 2.6em;
         font-family: 'Barlow', sans-serif;
         padding: 20px;
         margin: 0px;
@@ -3983,12 +4626,11 @@
         margin-left: 0px;
         font-family: 'Barlow', sans-serif;
         text-align: justify;
-        width: 550px;
         
     }
 
     .imagens img {
-        width: 32px;
+        width: 20px;
         margin-top: 20px;
         padding: 0px;
         margin-left: 20px;
@@ -3997,7 +4639,7 @@
 
 
 
-@media screen and (min-width:1244px) and (max-width: 1286px) {
+@media screen and (min-width: 200px) and (max-width:550px){
     * {
         margin: 0px;
         padding: 0px;
@@ -4006,7 +4648,7 @@
 
     /*Header*/
     header img {
-        width: 30px;
+        width: 20px;
     }
     
     header img:hover {
@@ -4024,244 +4666,239 @@
         padding: 0px;
         padding-top: 110px;
         margin: 0px;
-        margin-right: 112px;
-        margin-top:-55px;
+        margin-right: 25px;
+        margin-top:-60px;
     }
     
     header img#imgprincipal {
+        width: 200px;
+        height: 300px;
+        z-index: -1;
+        margin-right: -220px;
+        margin-top: 0px;
+        border: 2px solid lightgreen;
+        border-radius: 20px;
+        right: 240px;
+        top: 45px;
+    }
+
+    header h1 {
+        color: rgba(255, 255, 255, 0.905);
+        font-size: 1.1em;
+        margin: 0px;
+        margin-left: -10px;
+    }
+    
+    
+    main article h1 {
+        font-size: 1.7em;
+        margin-top: 0px;
+        color: rgba(255, 255, 255, 0.916);
+        font-family: 'Barlow', sans-serif;
+        margin: 0px;
+        margin-left: -220px;
+    }
+    
+    h2 {
+        font-size:1.5em;
+        color: rgba(255, 255, 255, 0.916);
+        font-family: 'Barlow', sans-serif;
+        margin: 10px;
+        margin-left: -210px;
+    }
+    
+    h3 {
+        font-size: 0.8em;
+        text-align: justify;
+        color: rgba(255, 255, 255, 0.916);
+        font-family: 'Barlow', sans-serif;
+        margin: 0px;
+        margin-left: 20px;
+    }
+    
+    h4 {
+        color: white;
+        font-size: 0.9em;
+        font-family: 'Barlow', sans-serif;
+        color: rgba(255, 255, 255, 0.916);
+        margin: 0px;
+        margin-left: 10px;
+
+    }
+    
+    b.b1 {
+        border-bottom: 3px solid lightgreen ;
+    }
+    
+    b.b2 {
+        border-bottom: 2px solid lightgreen;
+    }
+    
+    b.b3 {
+        border-bottom: 2px solid lightgreen;
+    }
+
+    hr {
+        width: 420px;
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    /*Tabela*/
+    #skills h1 {
+        font-size: 1.1em;
+        margin: 0px;
+        margin-bottom: 10px;
+        margin-left: 40px;
+        margin-top: 50px;
+        padding: 0px;
+        color: rgba(255, 255, 255, 0.855);
+    }
+    
+    #skills p {
+        color: rgba(185, 184, 184, 0.942);
+        padding: 0px;
+        font-size: 0.6em;
+        margin-left: 40px;
+        font-family: 'Barlow', sans-serif;
+    }
+
+
+    /*Tabela2 */
+    aside div#tabela2 h1 {
+        margin: 0px;
+        margin-left: -78px;
+        padding: 20px;
+        font-size: 2.3em;
+    }
+    
+    div#coluna1 {
+        display: inline-block;  
         width: 400px;
-        height: 550px;
-        z-index: -1;
-        margin-right: -140px;
-        margin-top: 0px;
-        border: 3px solid lightgreen;
-        border-radius: 20px;
-    }
-
-    header h1 {
-        color: rgba(255, 255, 255, 0.905);
-        font-size: 2.0em;
-        margin: 0px;
-        margin-left: 45px;
-    
-    }
-    main article h1 {
-        font-size: 3.9em;
-        margin-top: 0px;
-        color: rgba(255, 255, 255, 0.916);
-        font-family: 'Barlow', sans-serif;
-        margin: 0px;
-        margin-left: -590px;
-    }
-    
-    h2 {
-        font-size: 3.8em;
-        color: rgba(255, 255, 255, 0.916);
-        font-family: 'Barlow', sans-serif;
-        margin: 10px;
-        margin-left: -530px;
-    }
-    
-    h3 {
-        font-size: 1.3em;
-        text-align: justify;
-        color: rgba(255, 255, 255, 0.916);
-        font-family: 'Barlow', sans-serif;
-        margin: 10px;
-        margin-left: 80px;
-    }
-    
-    h4 {
-        color: white;
-        font-size: 1.4em;
-        font-family: 'Barlow', sans-serif;
-        color: rgba(255, 255, 255, 0.916);
-        margin: 10px;
-        margin-left: 68px;
-
-    }
-    
-    b.b1 {
-        border-bottom: 4px solid lightgreen ;
-    }
-    
-    b.b2 {
-        border-bottom: 2px solid lightgreen;
-    }
-    
-    b.b3 {
-        border-bottom: 2px solid lightgreen;
-    }
-
-    hr {
-        width: 1050px;
-        margin-top: 200px;
-        text-align: center;
-    }
-
-    /*Tabela*/
-    #skills h1 {
-        font-size: 2.2em;
-        margin: 0px;
-        margin-bottom: 10px;
-        margin-left: 95px;
-        margin-top: 70px;
-        padding: 0px;
-        padding-right: 110px;
-        color: rgba(255, 255, 255, 0.855);
-    }
-    
-    #skills p {
-        color: rgba(185, 184, 184, 0.942);
-        padding: 0px;
-        font-size: 1.1em;
-        margin-left: 95px;
-        font-family: 'Barlow', sans-serif;
-    }
-
-
-    /*Tabela2 */
-    aside div#tabela2 h1 {
-        margin: 0px;
-        margin-left: -5px;
         padding: 20px;
-        font-size: 3.8em;
-    }
-
-    b.b3 {
-        font-size: 1.4em;
-    }
-    
-    div#coluna1 {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;    
-        width: 500px;
-        margin: auto;
-        padding: 20px;
+        margin: 0px;
     }
     
     div#coluna2 {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;    
-        width: 500px;
-        margin: auto;
+        display: inline-block;
+        width: 400px;
         padding: 20px;
+        margin: 0px;
     }
     
     aside div#imagens h1 {
         color: rgba(255, 255, 255, 0.93);
-        font-size: 1.0em;
-        margin-left: -20px;
-        text-align: center;
+        font-size: 1.5em;
+        margin-left: 70px;
     }
         
 
     aside div#imagens p {
         color: rgba(255, 255, 255, 0.797);
-        font-size: 0.8em;
-        margin-left: 10px;
-        text-align: center;
+        font-size: 1.1em;
     }
     
     div#imagens h1 {
         padding: 10px; 
+        margin: 0px;
     }
     
     div#imagens p {
         padding: 10px;
         color: gray;
     }
+    
+    #linha2 {
+        width: auto;
+        height: auto;
+        max-width: 300px;
+        min-height: 150px;
+        margin: 0px;
+        margin-left: 75px;
+        margin-top: 50px;
+        border-radius: 10px;
+        border: 1px solid lightgreen;
+    }
+
+    #linha1 {
+        width: auto;
+        height: auto;
+        max-width: 300px;
+        min-height: 150px;
+        margin: 0px;
+        margin-left: 75px;
+        border-radius: 10px;
+        border: 2px solid lightgreen;
+    }
 
     aside #imagens #coluna2 .linha3 {
-        font-size: 1.3em;
-        margin-left: -450px;
-        margin-top: 5px;
+        font-size: 1.0em;
+        margin-left: 80px;
     }
 
     aside #imagens #coluna2 p.linha3 {
-        font-size: 1.2em;
-        padding: 0px;
-        padding-left: 90px;
+        font-size: 0.9em;
+        margin-left: 80px;
     }
 
     aside #imagens #coluna2 .linha4 {
-        font-size: 1.3em;
-        margin-left: -60px;
+        font-size: 1.0em;
+        margin-left: 80px;
     }
 
     aside #imagens #coluna2 p.linha4 {
-        font-size: 1.2em;
+        font-size: 0.9em;
+       
     }
 
     aside #imagens #coluna1 .linha5 {
-        font-size: 1.3em;
-        margin-left: -270px;
+        font-size: 1.0em;
+        margin-left: 80px;
     }
 
     aside #imagens #coluna1 p.linha5 {
-        font-size: 1.2em;
+        font-size: 0.9em;
+        padding-bottom: 70px;
     }
 
-    aside #imagens #coluna1 h1.linha6 {
-        font-size: 1.3em;
-        margin-left: 70px;
+    aside #imagens #coluna1 .linha6 {
+        font-size: 1.0em;
+        margin-left: 80px;
     }
-
 
     aside #imagens #coluna1 p.linha6 {
-        font-size: 1.2em;
-        padding-left: 30px;
-        }
+        font-size: 1.0em;
+        
+    }
     
-        #linha2 {
-            width: auto;
-            height: auto;
-            max-width: 420px;
-            height: 340px;
-            border-radius: 5px;
-            margin-left: 80px;
-            margin-top: 18px;
-                }
-        
-        #linha4 {
-            width: auto;
-            height: auto;
-            max-width: 420px;
-            min-height: 340px;
-            border-radius: 5px;
-            margin-left: 80px;
-            margin-top: 55px;
-        }
-        
-        
-        #linha3 {
-            width: auto;
-            height: auto;
-            max-width: 425px;
-            height: 332px;
-            border-radius: 15px;
-            margin-left: -255px;
-            padding: 30px;
-        }
+    #linha4 {
+        width: auto;
+        height: auto;
+        max-width: 300px;
+        min-height: 150px;
+        margin: 0px;
+        margin-left: 75px;
+        border-radius: 10px;
+        border: 2px solid lightgreen;
+    }
     
-        #linha1 {
-            width: auto;
-            height: auto;
-            max-width: 425px;
-            height: 340px;
-            margin-left: -255px;
-            padding: 30px;
-            margin-top: 50px;
-            border-radius: 15px;
-        }
-        
     
+    #linha3 {
+        width: auto;
+        height: auto;
+        max-width: 300px;
+        min-height: 150px;
+        margin: 0px;
+        margin-left: 75px;
+        border-radius: 10px;
+        border: 2px solid lightgreen;
+    }    
 
     /*Footer*/
+    
     #geral {
-        display: flex      
+        display: flex
+        
     }
 
     footer {
@@ -4272,665 +4909,35 @@
 
     .footer .imgextra {
         border-radius: 50%;
-        width: 290px;
-        height: 290px;
-        margin-left: 170px;
-        margin-top: 25px;
+        width: 160px;
+        height: 160px;
+        margin-left: 25px;
+        margin-top: 35px;
     }
 
     footer h1 {
         color: rgba(247, 247, 247, 0.966);
-        font-size: 3.7em;
+        font-size: 2.6em;
         font-family: 'Barlow', sans-serif;
         padding: 20px;
-        margin: 0px;
-        margin-left: 60px;
-    }
-    
-    footer p {
-        color: rgba(255, 255, 255, 0.907);
-        font-size:  1.3em;
-        padding-top: 0px;
-        margin-left: 65px;
-        font-family: 'Barlow', sans-serif;
-        text-align: justify;
-        width: 500px;
-    }
-
-    .imagens img {
-        width: 32px;
-        margin: 0px;
-        margin-top: 20px; 
-        margin-left: 80px;
-    }
-}
-
-
-@media screen and (min-width:1286px) and (max-width: 1340px) {
-    * {
-        margin: 0px;
-        padding: 0px;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    
-    /*Header*/
-    header img {
-        width: 30px;
-    }
-    
-    header img:hover {
-        padding: 2px;
-        background-color: beige;
-        transform: scale(1.2);
-    }
-    
-    header {
-        display: flex;
-        justify-content: space-between;
-    }
-    
-    .icons {
-        padding: 0px;
-        padding-top: 110px;
-        margin: 0px;
-        margin-right: 140px;
-        margin-top:-55px;
-    }
-    
-    header img#imgprincipal {
-        width: 350px;
-        height: 550px;
-        z-index: -1;
-        margin-right: -110px;
-        margin-top: 0px;
-        border: 3px solid lightgreen;
-        border-radius: 20px;
-    }
-
-    header h1 {
-        color: rgba(255, 255, 255, 0.905);
-        font-size: 2.0em;
-        margin: 0px;
-        margin-left: 63px;
-    
-    }
-    main article h1 {
-        font-size: 4.5em;
-        margin-top: 0px;
-        color: rgba(255, 255, 255, 0.916);
-        font-family: 'Barlow', sans-serif;
-        margin: 0px;
-        margin-left: -530px;
-    }
-    
-    h2 {
-        font-size: 4.0em;
-        color: rgba(255, 255, 255, 0.916);
-        font-family: 'Barlow', sans-serif;
-        margin: 10px;
-        margin-left: -510px;
-    }
-    
-    h3 {
-        font-size: 1.3em;
-        text-align: justify;
-        color: rgba(255, 255, 255, 0.916);
-        font-family: 'Barlow', sans-serif;
-        margin: 10px;
-        margin-left: 100px;
-    }
-    
-    h4 {
-        color: white;
-        font-size: 1.4em;
-        font-family: 'Barlow', sans-serif;
-        color: rgba(255, 255, 255, 0.916);
-        margin: 10px;
-        margin-left: 85px;
-
-    }
-    
-    b.b1 {
-        border-bottom: 4px solid lightgreen ;
-    }
-    
-    b.b2 {
-        border-bottom: 2px solid lightgreen;
-    }
-    
-    b.b3 {
-        border-bottom: 2px solid lightgreen;
-    }
-
-    hr {
-        width: 1050px;
-        margin-top: 200px;
-        text-align: center;
-    }
-
-    /*Tabela*/
-    #skills h1 {
-        font-size: 2.2em;
-        margin: 0px;
-        margin-bottom: 10px;
-        margin-left: 110px;
-        margin-top: 70px;
-        padding: 0px;
-        padding-right: 110px;
-        color: rgba(255, 255, 255, 0.855);
-    }
-    
-    #skills p {
-        color: rgba(185, 184, 184, 0.942);
-        padding: 0px;
-        font-size: 1.1em;
-        margin-left: 115px;
-        font-family: 'Barlow', sans-serif;
-    }
-
-
-    /*Tabela2 */
-    aside div#tabela2 h1 {
         margin: 0px;
         margin-left: -5px;
-        padding: 20px;
-        font-size: 3.8em;
-    }
-
-    b.b3 {
-        font-size: 1.4em;
-    }
-    
-    div#coluna1 {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;    
-        width: 500px;
-        margin: auto;
-        padding: 20px;
-    }
-    
-    div#coluna2 {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;    
-        width: 500px;
-        margin: auto;
-        padding: 20px;
-    }
-    
-    aside div#imagens h1 {
-        color: rgba(255, 255, 255, 0.93);
-        font-size: 1.0em;
-        margin-left: -20px;
-        text-align: center;
-    }
-        
-
-    aside div#imagens p {
-        color: rgba(255, 255, 255, 0.797);
-        font-size: 0.8em;
-        margin-left: 10px;
-        text-align: center;
-    }
-    
-    div#imagens h1 {
-        padding: 10px; 
-    }
-    
-    div#imagens p {
-        padding: 10px;
-        color: gray;
-    }
-
-    aside #imagens #coluna2 .linha3 {
-        font-size: 1.3em;
-        margin-left: -520px;
-        margin-top: -17px;
-    }
-
-    aside #imagens #coluna2 p.linha3 {
-        font-size: 1.2em;
-        padding: 0px;
-        padding-left: 90px;
-        margin-top: 5px;
-    }
-
-    aside #imagens #coluna2 .linha4 {
-        font-size: 1.3em;
-        margin-left: -60px;
-    }
-
-    aside #imagens #coluna2 p.linha4 {
-        font-size: 1.2em;
-    }
-
-    aside #imagens #coluna1 .linha5 {
-        font-size: 1.3em;
-        margin-left: -360px;
-        margin-top: -20px;
-    }
-
-    aside #imagens #coluna1 p.linha5 {
-        font-size: 1.2em;
-        margin-top: 5px;
-    }
-
-    aside #imagens #coluna1 h1.linha6 {
-        font-size: 1.3em;
-        margin-left: 70px;
-    }
-
-
-    aside #imagens #coluna1 p.linha6 {
-        font-size: 1.2em;
-        padding-left: 30px;
-        }
-    
-        #linha2 {
-            width: auto;
-            height: auto;
-            max-width: 420px;
-            height: 340px;
-            margin-left: 80px;
-            margin-top: 20px;
-                }
-        
-        #linha4 {
-            width: auto;
-            height: auto;
-            max-width: 420px;
-            min-height: 340px;   
-            margin-left: 80px;
-            margin-top: 38px;
-        }
-        
-        
-        #linha3 {
-            width: auto;
-            height: auto;
-            max-width: 425px;
-            height: 332px;
-            border-radius: 15px;
-            margin-left: -260px;
-            margin-top: -15px;
-            padding: 20px;
-            padding-right: 30px;
-        }
-    
-        #linha1 {
-            width: auto;
-            height: auto;
-            max-width: 425px;
-            height: 340px;
-            margin-left: -260px;
-            padding: 20px;
-            padding-right: 30px;
-            margin-top: 20px;
-            border-radius: 15px;
-        }
-        
-    
-
-    /*Footer*/
-    #geral {
-        display: flex      
-    }
-
-    footer {
-        background-color: rgb(48, 47, 47);
-        padding: 20px;
-        margin-top: 130px;
-    }
-
-    .footer .imgextra {
-        border-radius: 50%;
-        width: 290px;
-        height: 290px;
-        margin-left: 170px;
-        margin-top: 25px;
-    }
-
-    footer h1 {
-        color: rgba(247, 247, 247, 0.966);
-        font-size: 3.7em;
-        font-family: 'Barlow', sans-serif;
-        padding: 20px;
-        margin: 0px;
-        margin-left: 60px;
     }
     
     footer p {
         color: rgba(255, 255, 255, 0.907);
-        font-size:  1.3em;
+        font-size:  1.1em;
         padding-top: 0px;
-        margin-left: 65px;
+        margin-left: 0px;
         font-family: 'Barlow', sans-serif;
         text-align: justify;
-        width: 500px;
+        
     }
 
     .imagens img {
-        width: 32px;
-        margin: 0px;
-        margin-top: 20px; 
-        margin-left: 80px;
-    }
+        width: 20px;
+        margin-top: 20px;
+        padding: 0px;
+        margin-left: 20px;
+    } 
 }
-
-
-
-@media screen and (min-width:1340px) and (max-width: 1400px) {
-    * {
-        margin: 0px;
-        padding: 0px;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-    /*Header*/
-    header img {
-        width: 30px;
-    }
-    
-    header img:hover {
-        padding: 2px;
-        background-color: beige;
-        transform: scale(1.2);
-    }
-    
-    header {
-        display: flex;
-        justify-content: space-between;
-    }
-    
-    .icons {
-        padding: 0px;
-        padding-top: 110px;
-        margin: 0px;
-        margin-right: 140px;
-        margin-top:-55px;
-    }
-    
-    header img#imgprincipal {
-        width: 350px;
-        height: 550px;
-        z-index: -1;
-        margin-right: -110px;
-        margin-top: 0px;
-        border: 3px solid lightgreen;
-        border-radius: 20px;
-    }
-
-    header h1 {
-        color: rgba(255, 255, 255, 0.905);
-        font-size: 2.0em;
-        margin: 0px;
-        margin-left: 125px;
-    
-    }
-    main article h1 {
-        font-size: 4.6em;
-        margin-top: 0px;
-        color: rgba(255, 255, 255, 0.916);
-        font-family: 'Barlow', sans-serif;
-        margin: 0px;
-        margin-left: -445px;
-    }
-    
-    h2 {
-        font-size: 4.3em;
-        color: rgba(255, 255, 255, 0.916);
-        font-family: 'Barlow', sans-serif;
-        margin: 10px;
-        margin-left: -400px;
-    }
-    
-    h3 {
-        font-size: 1.3em;
-        text-align: justify;
-        color: rgba(255, 255, 255, 0.916);
-        font-family: 'Barlow', sans-serif;
-        margin: 10px;
-        margin-left: 162px;
-    }
-    
-    h4 {
-        color: white;
-        font-size: 1.4em;
-        font-family: 'Barlow', sans-serif;
-        color: rgba(255, 255, 255, 0.916);
-        margin: 10px;
-        margin-left: 150px;
-
-    }
-    
-    b.b1 {
-        border-bottom: 4px solid lightgreen ;
-    }
-    
-    b.b2 {
-        border-bottom: 2px solid lightgreen;
-    }
-    
-    b.b3 {
-        border-bottom: 2px solid lightgreen;
-    }
-
-    hr {
-        width: 1050px;
-        margin-top: 200px;
-        text-align: center;
-    }
-
-    /*Tabela*/
-    #skills h1 {
-        font-size: 2.2em;
-        margin: 0px;
-        margin-bottom: 10px;
-        margin-left: 140px;
-        margin-top: 70px;
-        padding: 0px;
-        padding-right: 100px;
-        color: rgba(255, 255, 255, 0.855);
-    }
-    
-    #skills p {
-        color: rgba(185, 184, 184, 0.942);
-        padding: 0px;
-        font-size: 1.1em;
-        margin-left: 145px;
-        font-family: 'Barlow', sans-serif;
-    }
-
-
-    /*Tabela2 */
-    aside div#tabela2 h1 {
-        margin: 0px;
-        margin-left: -5px;
-        padding: 20px;
-        font-size: 3.8em;
-    }
-
-    b.b3 {
-        font-size: 1.4em;
-    }
-    
-    div#coluna1 {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;    
-        width: 500px;
-        margin: auto;
-        padding: 20px;
-    }
-    
-    div#coluna2 {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;    
-        width: 500px;
-        margin: auto;
-        padding: 20px;
-    }
-    
-    aside div#imagens h1 {
-        color: rgba(255, 255, 255, 0.93);
-        font-size: 1.0em;
-        margin-left: -20px;
-        text-align: center;
-    }
-        
-
-    aside div#imagens p {
-        color: rgba(255, 255, 255, 0.797);
-        font-size: 0.8em;
-        margin-left: 10px;
-        text-align: center;
-    }
-    
-    div#imagens h1 {
-        padding: 10px; 
-    }
-    
-    div#imagens p {
-        padding: 10px;
-        color: gray;
-    }
-
-    aside #imagens #coluna2 .linha3 {
-        font-size: 1.3em;
-        margin-left: -520px;
-        margin-top: -17px;
-    }
-
-    aside #imagens #coluna2 p.linha3 {
-        font-size: 1.2em;
-        padding: 0px;
-        padding-left: 90px;
-        margin-top: 5px;
-    }
-
-    aside #imagens #coluna2 .linha4 {
-        font-size: 1.3em;
-        margin-left: -60px;
-    }
-
-    aside #imagens #coluna2 p.linha4 {
-        font-size: 1.2em;
-    }
-
-    aside #imagens #coluna1 .linha5 {
-        font-size: 1.3em;
-        margin-left: -360px;
-        margin-top: -20px;
-    }
-
-    aside #imagens #coluna1 p.linha5 {
-        font-size: 1.2em;
-        margin-top: 5px;
-    }
-
-    aside #imagens #coluna1 h1.linha6 {
-        font-size: 1.3em;
-        margin-left: 70px;
-    }
-
-
-    aside #imagens #coluna1 p.linha6 {
-        font-size: 1.2em;
-        padding-left: 30px;
-        }
-    
-        #linha2 {
-            width: auto;
-            height: auto;
-            max-width: 420px;
-            height: 340px;
-            margin-left: 80px;
-            margin-top: 20px;
-                }
-        
-        #linha4 {
-            width: auto;
-            height: auto;
-            max-width: 420px;
-            min-height: 340px;   
-            margin-left: 80px;
-            margin-top: 38px;
-        }
-        
-        
-        #linha3 {
-            width: auto;
-            height: auto;
-            max-width: 425px;
-            height: 332px;
-            border-radius: 15px;
-            margin-left: -260px;
-            margin-top: -15px;
-            padding: 20px;
-            padding-right: 30px;
-        }
-    
-        #linha1 {
-            width: auto;
-            height: auto;
-            max-width: 425px;
-            height: 340px;
-            margin-left: -260px;
-            padding: 20px;
-            padding-right: 30px;
-            margin-top: 20px;
-            border-radius: 15px;
-        }
-        
-    
-
-    /*Footer*/
-    #geral {
-        display: flex      
-    }
-
-    footer {
-        background-color: rgb(48, 47, 47);
-        padding: 20px;
-        margin-top: 130px;
-    }
-
-    .footer .imgextra {
-        border-radius: 50%;
-        width: 290px;
-        height: 290px;
-        margin-left: 220px;
-        margin-top: 25px;
-    }
-
-    footer h1 {
-        color: rgba(247, 247, 247, 0.966);
-        font-size: 3.7em;
-        font-family: 'Barlow', sans-serif;
-        padding: 20px;
-        margin: 0px;
-        margin-left: 60px;
-    }
-    
-    footer p {
-        color: rgba(255, 255, 255, 0.907);
-        font-size:  1.3em;
-        padding-top: 0px;
-        margin-left: 65px;
-        font-family: 'Barlow', sans-serif;
-        text-align: justify;
-        width: 500px;
-    }
-
-    .imagens img {
-        width: 32px;
-        margin: 0px;
-        margin-top: 20px; 
-        margin-left: 80px;
-    }
-}
-
-
-
