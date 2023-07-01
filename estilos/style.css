@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
 /* font-family: 'Barlow', sans-serif; */
 
+
     * {
         margin: 0px;
         padding: 0px;
@@ -15,7 +16,7 @@
 
     /*Header*/
     header img {
-        width: 18px;
+        width: 22px;
     }
     
     header img:hover {
@@ -23,78 +24,68 @@
         background-color: beige;
         transform: scale(1.2);
     }
-    
-    header {
-        display: flex;
-    }
-    
-    .icons {
-        padding: 0px;
-        margin: 0px;
-        padding-top: 40px;
-        padding-left: 220px;
+
+    div.principal {
+        display: inline-block;
+        text-align: center;
+        margin: auto;
+        display: block;
     }
     
     header img#imgprincipal {
-        width: 180px;
-        height: 280px;
+        width: 150px;
+        height: 210px;
         z-index: -1;
-        margin-top: 0px;
+        margin: auto;
+        display: block;
         border: 2px solid lightgreen;
-        border-radius: 20px;
-        position: absolute;
-        left: 270px;
-        top: 35px;
+        border-radius: 5px;
+        margin-top: 10px;
+    }  
+    
+    header h1 {
+        font-size: 1.7em;
+        color: rgba(255, 255, 255, 0.916);
+        font-family: 'Barlow', sans-serif; 
+        text-align: center;
+        padding-top: 20px;
+        padding-right: 2px;
     }
 
-    header h1 {
-        color: rgba(255, 255, 255, 0.905);
-        font-size: 1.1em;
-        padding-left: 30px;
-        padding-top: 25px;
-    }
-    
-    
-    main article h1 {
-        font-size: 1.8em;
-        margin-top: 0px;
-        color: rgba(255, 255, 255, 0.916);
-        font-family: 'Barlow', sans-serif;
-        margin: 0px;
-        text-align: left;
-        padding: 0px;
-        padding-left: 30px;
-        
+    header .principal div#div1 h1 {
+        padding-top: 30px;
+        padding-bottom: 15px;
+        font-size: 1.9rem;
     }
     
     h2 {
-        font-size:1.65em;
+        font-size:1.7em;
         color: rgba(255, 255, 255, 0.916);
         font-family: 'Barlow', sans-serif;  
-        text-align: left;
-        padding-left: 30px;
+        text-align: center;
+        padding-left: 28px;
+        padding-right: 5px;
+        padding-top: 2px;
+    }
+    
+    p {
+        font-size: 1.0em;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.916);
+        font-family: 'Barlow', sans-serif;
+        padding-top: 20px;
     }
     
     h3 {
-        font-size: 0.7em;
-        text-align: justify;
-        color: rgba(255, 255, 255, 0.916);
-        font-family: 'Barlow', sans-serif;
-        margin: 0px;
-        padding-top: 25px;
-        padding-left: 32px;
-    }
-    
-    h4 {
         color: white;
-        font-size: 0.8em;
+        font-size: 1.0em;
         font-family: 'Barlow', sans-serif;
         color: rgba(255, 255, 255, 0.916);
-        margin: 0px;
-        text-align: left;
-        padding-top: 20px;
-        padding-left: 32px;
+        text-align: center;
+        padding-top: 30px;
     }
+
+    
     
     b.b1 {
         border-bottom: 3px solid lightgreen ;
@@ -109,11 +100,11 @@
     }
 
     #b {
-        padding-top: 57px;
+        padding-top: 5px;
     }
 
     hr {
-        width: 420px;
+        width: 300px;
         margin: auto;
         display: block;
         margin-top: 120px;
@@ -124,8 +115,8 @@
     div#skills{
         display: grid;
         margin-top: 40px;
-        grid-template-columns: 40px 60px;
-        grid-auto-rows: 150px 160px;
+        grid-template-columns: 150px 100px;
+        grid-auto-rows: 100px 100px;
         justify-content: space-evenly;
     }
 
@@ -160,165 +151,104 @@
         color: rgba(255, 255, 255, 0.916);
         font-size: 0.8rem;    
     }
+
+    #b {
+        padding-top: 45px;
+    }
     
     
-    /* Fotos*/
+    /* Fotos + Texto*/
 
     aside div#imagens h1 {
         color: rgba(255, 255, 255, 0.93);
-        font-size: 1.5em;
+        font-size: 1.2em;
         padding: 10px;
-        margin: 0px;
-        margin-left: 70px;
     }
         
 
     aside div#imagens p {
         color: rgba(255, 255, 255, 0.797);
-        font-size: 1.1em;
-        padding: 10px;
-    }
-    
-    
-    aside #imagens #coluna2 h1.linha3 {
-        font-size: 1.0em;
-        text-align: center;
-        padding-right: 70px;
-        padding-top: 15px;
-    }
-
-    aside #imagens #coluna2 p.linha3 {
         font-size: 0.9em;
+        padding: 5px;
+        padding-bottom: 80px;
         text-align: center;
     }
 
-    aside #imagens #coluna2 h1.linha4 {
-        font-size: 1.0em;
-        text-align: center;
-        padding-right: 70px;
-        padding-top: 15px;
-    }
-
-    aside #imagens #coluna2 p.linha4 {
-        font-size: 0.9em;
-        text-align: center;
-    }
-
-    aside #imagens #coluna1 h1.linha5 {
-        font-size: 1.0em;
-        text-align: center;
-        padding-right: 70px;
-        padding-top: 15px;
-    }
-
-    aside #imagens #coluna1 p.linha5 {
-        font-size: 1.0em;
-        text-align: center;
-        
-    }
-
-    aside #imagens #coluna1 h1.linha6 {
-        font-size: 1.0em;
-        text-align: center;
-        padding-right: 70px;
-        padding-top: 15px;
-    }
-
-    aside #imagens #coluna1 p.linha6 {
-        font-size: 1.0em;
-        text-align: center;
-        
+    p.linha5, p.linha6 , p.linha7, p.linha8 {
+        padding-bottom: 20px;
     }
     
-    #linha4 {
-        width: auto;
-        height: auto;
-        max-width: 300px;
-        min-height: 150px;
-        margin: auto;
-        display: block;
-        margin-top: 80px;
+    img#linha1, img#linha2, img#linha3, img#linha4 {
+        height: 180px;
+        width: 200px;
         border-radius: 10px;
         border: 2px solid lightgreen;
+        margin: auto;
+        display: block;
+    }
+
+    .linha1, .linha2 {
+        text-align: center;
     }
     
     
-    #linha3 {
-        width: auto;
-        height: auto;
-        max-width: 300px;
-        min-height: 150px;
-        margin: auto;
-        display: block;
-        border-radius: 10px;
-        margin-top: 40px;
-        border: 2px solid lightgreen;
-    }    
-
-    #linha2 {
-        width: auto;
-        height: auto;
-        max-width: 300px;
-        min-height: 150px;
-        margin: auto;
-        display: block;
-        border-radius: 10px;
-        margin-top: 40px;
-        border: 1px solid lightgreen;
-    }
-
-    #linha1 {
-        width: auto;
-        height: auto;
-        max-width: 300px;
-        min-height: 150px;
-        margin: auto;
-        display: block;
-        border-radius: 10px;
-        margin-top: 40px;
-        border: 2px solid lightgreen;
-    }
-
     /*Footer*/
     
     #geral {
-        display: flex
+        display: flex;
+        text-align: center;
+        margin: auto;
+    }
+
+    #img {
+        text-align: center;
+        margin: auto;
+        display: block;
     }
 
     footer {
         background-color: rgb(48, 47, 47);
-        padding: 20px;
-        margin-top: 130px;
+        padding: 30px;
+        
     }
 
     .footer .imgextra {
-        border-radius: 50%;
-        width: 140px;
-        height: 140px;
-        margin-left: 80px;
+        border-radius: 10px;
+        width: 100px;
+        height: 180px;
+        margin-left: 20px;
+        padding-top: 10px;
+        padding-right: 5px;
+        background-position: center center;
     }
+
 
     footer h1 {
         color: rgba(247, 247, 247, 0.966);
         font-size: 2.4em;
         font-family: 'Barlow', sans-serif;
         margin: 0px;
-        padding-left: 3px;
+        text-align: left;
     }
     
     footer #geral p {
         color: rgba(255, 255, 255, 0.907);
-        font-size:  0.9rem;
-        padding-top: 10px;
+        font-size:  1.0rem;
         font-family: 'Barlow', sans-serif;
-        text-align: justify;
+        text-align: left;
+        padding-left: 5px;
         width: 200px;
-        padding-left: 8px;
     }
 
-    .imagens img {
-        width: 20px;
-        margin-top: 20px;
+    #img img {
+        width: 22px;
         padding: 0px;
         margin-left: 8px;
     } 
+
+    .imgs {
+        text-align: left;
+        padding-top: 30px;
+        padding-right: 10px;
+    }
+
