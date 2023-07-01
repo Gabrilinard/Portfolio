@@ -108,6 +108,10 @@
         border-bottom: 2px solid lightgreen;
     }
 
+    #b {
+        padding-top: 57px;
+    }
+
     hr {
         width: 420px;
         margin: auto;

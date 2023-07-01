@@ -6,25 +6,28 @@
 @media screen and (min-width: 550px) and (max-width: 612px){
 
     header img {
-        width: 20px;
+        width: 22px;
     }
 
     .icons {
-        padding-left: 225px;
+        padding-left: 240px;
+        padding-top: 75px ;
     }
 
     header img#imgprincipal {
         width: 190px;
-        height: 310px;
-        left: 300px;
+        height: 320px;
+        left: 320px;
+        top: 70px;
     }
 
     header h1 {
         font-size: 1.4em;
+        padding-top: 20px;
     }
 
     main article h1 {
-        font-size: 2.0em;
+        font-size: 2.1em;
     }
     
     h2 {
@@ -41,6 +44,7 @@
 
     hr {
         width: 480px;
+        margin-top: 200px;
     }
 
     div#skills{
@@ -63,6 +67,10 @@
 
     .imagens {
         margin-left: 20px;
+    }
+
+    #b {
+        padding-top: 50px;
     }
 }
 
@@ -153,6 +161,10 @@
 
     .imagens {
         margin-left: 40px;
+    }
+
+    #b {
+        padding-top: 55px;
     }
 
 }
@@ -294,6 +306,10 @@
         margin-left: 12px;
     }
 
+    #b {
+        padding-top: 50px;
+    }
+
 }
 
 
@@ -366,6 +382,10 @@
         margin-left: 70px;  
     }
 
+    #b {
+        padding-top: 50px;
+    }
+
 
     footer {
         padding: 60px;
@@ -395,7 +415,116 @@
 }
 
 
-@media screen and (min-width: 798px) and (max-width: 992px){
+@media screen and (min-width: 798px) and (max-width: 866px){
+
+    header img {
+        width: 25px;
+    }
+
+    .icons {
+        padding-left: 360px;
+        padding-top: 80px;
+    }
+
+    header img#imgprincipal {
+        width: 250px;
+        height: 410px;
+        left: 470px;
+        top: 70px;
+    }
+
+    header h1 {
+        font-size: 2.0em;   
+        padding-left: 42px;    
+    }
+
+    main article h1 {
+        font-size: 3.0em;  
+        padding-left: 40px;  
+    }
+    
+    h2 {
+        font-size: 2.5em;
+        padding-left: 40px; 
+    }
+    
+    h3 {
+        font-size: 1.3em;
+        padding-left: 44px; 
+    }
+    
+    h4 {
+        font-size: 1.5em;
+        padding-top: 25px;
+        padding-left: 45px; 
+    }
+
+    hr {
+        width: 700px;
+        margin-top: 150px;
+    }
+
+    div#skills{
+       grid-template-columns: 150px 150px 120px;
+        grid-auto-rows: 180px 180px;
+    }
+
+    div#skills h1 {
+         font-size: 1.7em;
+    }
+
+    div#skills p {
+        font-size: 1.0em;
+    }
+
+    div#tabela2 {
+        grid-template-columns: 430px 190px;
+        grid-auto-rows: 140px 190px;
+    }
+
+    div#tabela2 h1 {
+        font-size: 3.3rem;
+    }
+
+    b.b3 {
+        font-size: 1.1rem;  
+        margin-left: 40px;  
+    }
+
+    #b {
+        padding-top: 55px;
+    }
+
+
+    footer {
+        padding: 60px;
+        margin-top: 140px;
+    }
+
+    .footer .imgextra {
+        width: 215px;
+        height: 215px;
+    }
+
+    footer h1 {
+        font-size: 3.2em;
+    }
+    
+    footer #geral p {
+        font-size:  1.1rem;
+        width: 350px;
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+
+    .imagens img {
+        width: 25px;     
+    }
+
+}
+
+
+@media screen and (min-width: 866px) and (max-width: 992px){
 
     body {
         background-color: blue;
@@ -407,38 +536,45 @@
     }
 
     .icons {
-        padding-left: 290px;
+        padding-left: 360px;
+        padding-top: 80px;
     }
 
     header img#imgprincipal {
         width: 250px;
         height: 410px;
-        left: 400px;
+        left: 470px;
+        top: 70px;
     }
 
     header h1 {
-        font-size: 2.1em;       
+        font-size: 2.0em;   
+        padding-left: 42px;    
     }
 
     main article h1 {
-        font-size: 2.8em;   
+        font-size: 3.0em;  
+        padding-left: 40px;  
     }
     
     h2 {
-        font-size: 2.3em;
+        font-size: 2.5em;
+        padding-left: 40px; 
     }
     
     h3 {
-        font-size: 1.2em;
+        font-size: 1.3em;
+        padding-left: 44px; 
     }
     
     h4 {
         font-size: 1.5em;
         padding-top: 25px;
+        padding-left: 45px; 
     }
 
     hr {
-        width: 650px;
+        width: 700px;
         margin-top: 150px;
     }
 
@@ -448,25 +584,29 @@
     }
 
     div#skills h1 {
-         font-size: 1.6em;
+         font-size: 1.7em;
     }
 
     div#skills p {
-        font-size: 0.9em;
+        font-size: 1.0em;
     }
 
     div#tabela2 {
-        grid-template-columns: 300px 190px;
+        grid-template-columns: 430px 190px;
         grid-auto-rows: 140px 190px;
     }
 
     div#tabela2 h1 {
-        font-size: 3.1rem;
+        font-size: 3.3rem;
     }
 
     b.b3 {
         font-size: 1.1rem;  
-        margin-left: 70px;  
+        margin-left: 40px;  
+    }
+
+    #b {
+        padding-top: 55px;
     }
 
 
@@ -476,17 +616,241 @@
     }
 
     .footer .imgextra {
-        width: 195px;
-        height: 195px;
+        width: 215px;
+        height: 215px;
     }
 
     footer h1 {
-        font-size: 3.0em;
+        font-size: 3.2em;
     }
     
     footer #geral p {
         font-size:  1.1rem;
-        width: 300px;
+        width: 350px;
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+
+    .imagens img {
+        width: 25px;     
+    }
+
+}
+
+
+
+@media screen and (min-width: 798px) and (max-width: 866px){
+
+    header img {
+        width: 25px;
+    }
+
+    .icons {
+        padding-left: 360px;
+        padding-top: 80px;
+    }
+
+    header img#imgprincipal {
+        width: 250px;
+        height: 410px;
+        left: 470px;
+        top: 70px;
+    }
+
+    header h1 {
+        font-size: 2.0em;   
+        padding-left: 42px;    
+    }
+
+    main article h1 {
+        font-size: 3.0em;  
+        padding-left: 40px;  
+    }
+    
+    h2 {
+        font-size: 2.5em;
+        padding-left: 40px; 
+    }
+    
+    h3 {
+        font-size: 1.3em;
+        padding-left: 44px; 
+    }
+    
+    h4 {
+        font-size: 1.5em;
+        padding-top: 25px;
+        padding-left: 45px; 
+    }
+
+    hr {
+        width: 700px;
+        margin-top: 150px;
+    }
+
+    div#skills{
+       grid-template-columns: 150px 150px 120px;
+        grid-auto-rows: 180px 180px;
+    }
+
+    div#skills h1 {
+         font-size: 1.7em;
+    }
+
+    div#skills p {
+        font-size: 1.0em;
+    }
+
+    div#tabela2 {
+        grid-template-columns: 430px 190px;
+        grid-auto-rows: 140px 190px;
+    }
+
+    div#tabela2 h1 {
+        font-size: 3.3rem;
+    }
+
+    b.b3 {
+        font-size: 1.1rem;  
+        margin-left: 40px;  
+    }
+
+    #b {
+        padding-top: 55px;
+    }
+
+
+    footer {
+        padding: 60px;
+        margin-top: 140px;
+    }
+
+    .footer .imgextra {
+        width: 215px;
+        height: 215px;
+    }
+
+    footer h1 {
+        font-size: 3.2em;
+    }
+    
+    footer #geral p {
+        font-size:  1.1rem;
+        width: 350px;
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+
+    .imagens img {
+        width: 25px;     
+    }
+
+}
+
+
+@media screen and (min-width: 866px) and (max-width: 1100px){
+
+    body {
+        background-color: blue;
+    }
+
+
+    header img {
+        width: 25px;
+    }
+
+    .icons {
+        padding-left: 360px;
+        padding-top: 80px;
+    }
+
+    header img#imgprincipal {
+        width: 250px;
+        height: 410px;
+        left: 470px;
+        top: 70px;
+    }
+
+    header h1 {
+        font-size: 2.0em;   
+        padding-left: 42px;    
+    }
+
+    main article h1 {
+        font-size: 3.0em;  
+        padding-left: 40px;  
+    }
+    
+    h2 {
+        font-size: 2.5em;
+        padding-left: 40px; 
+    }
+    
+    h3 {
+        font-size: 1.3em;
+        padding-left: 44px; 
+    }
+    
+    h4 {
+        font-size: 1.5em;
+        padding-top: 25px;
+        padding-left: 45px; 
+    }
+
+    hr {
+        width: 700px;
+        margin-top: 150px;
+    }
+
+    div#skills{
+       grid-template-columns: 150px 150px 120px;
+        grid-auto-rows: 180px 180px;
+    }
+
+    div#skills h1 {
+         font-size: 1.7em;
+    }
+
+    div#skills p {
+        font-size: 1.0em;
+    }
+
+    div#tabela2 {
+        grid-template-columns: 430px 190px;
+        grid-auto-rows: 140px 190px;
+    }
+
+    div#tabela2 h1 {
+        font-size: 3.3rem;
+    }
+
+    b.b3 {
+        font-size: 1.1rem;  
+        margin-left: 40px;  
+    }
+
+    #b {
+        padding-top: 55px;
+    }
+
+
+    footer {
+        padding: 60px;
+        margin-top: 140px;
+    }
+
+    .footer .imgextra {
+        width: 215px;
+        height: 215px;
+    }
+
+    footer h1 {
+        font-size: 3.2em;
+    }
+    
+    footer #geral p {
+        font-size:  1.1rem;
+        width: 350px;
         padding-top: 20px;
         padding-bottom: 15px;
     }
