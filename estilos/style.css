@@ -26,14 +26,13 @@
     
     header {
         display: flex;
-        justify-content: space-between;
     }
     
     .icons {
         padding: 0px;
         margin: 0px;
         padding-top: 40px;
-        padding-right: 35px;
+        padding-left: 220px;
     }
     
     header img#imgprincipal {
@@ -117,61 +116,55 @@
     }
 
     /*Tabela*/
-    #skills h1 {
-        font-size: 1.1em;
-        margin: 0px;
-        margin-bottom: 10px;
-        margin-left: 40px;
-        margin-top: 50px;
-        padding: 0px;
-        padding-right: 10px;
-        color: rgba(255, 255, 255, 0.855);
+
+    div#skills{
+        display: grid;
+        margin-top: 40px;
+        grid-template-columns: 40px 60px;
+        grid-auto-rows: 150px 160px;
+        justify-content: space-evenly;
     }
-    
-    #skills p {
-        color: rgba(185, 184, 184, 0.942);
-        padding: 0px;
-        font-size: 0.6em;
-        margin-left: 40px;
+
+    div#skills h1 {
+         font-size: 1.4em;
+         color: rgba(255, 255, 255, 0.855);
+    }
+
+    div#skills p {
+        font-size: 0.7em;
         font-family: 'Barlow', sans-serif;
+        color: rgba(185, 184, 184, 0.942);
     }
 
 
     /*Tabela2 */
 
-    aside div#tabela2 {
-        display: flex;
-        justify-content: space-around;
-        align-items: end;
+    div#tabela2 {
+        display: grid;
+        justify-content: space-evenly;
+        grid-template-columns: 220px 100px;
+        grid-auto-rows: 120px 120px;
     }
 
-    aside div#tabela2 #h1 h1 {
-        margin: 0px;
-        padding: 40px;
-        padding-left: 0px;
-        padding-right: 160px;
-        font-size: 2.1rem;
+    div#tabela2 h1 {
+        font-size: 2.3rem;
         color: rgba(255, 255, 255, 0.916);
     }
+
 
     b.b3 {
         color: rgba(255, 255, 255, 0.916);
         font-size: 0.8rem;    
     }
     
-    div#coluna1 { 
-        padding: 20px;
-        margin: 0px;
-    }
     
-    div#coluna2 {  
-        padding: 20px;
-        margin: 0px;
-    }
-    
+    /* Fotos*/
+
     aside div#imagens h1 {
         color: rgba(255, 255, 255, 0.93);
         font-size: 1.5em;
+        padding: 10px;
+        margin: 0px;
         margin-left: 70px;
     }
         
@@ -179,18 +172,10 @@
     aside div#imagens p {
         color: rgba(255, 255, 255, 0.797);
         font-size: 1.1em;
-    }
-    
-    div#imagens h1 {
-        padding: 10px; 
-        margin: 0px;
-    }
-    
-    div#imagens p {
         padding: 10px;
-        color: gray;
     }
-
+    
+    
     aside #imagens #coluna2 h1.linha3 {
         font-size: 1.0em;
         text-align: center;
@@ -223,8 +208,9 @@
     }
 
     aside #imagens #coluna1 p.linha5 {
-        font-size: 0.9em;
-        padding-left: 150px;
+        font-size: 1.0em;
+        text-align: center;
+        
     }
 
     aside #imagens #coluna1 h1.linha6 {
@@ -236,7 +222,7 @@
 
     aside #imagens #coluna1 p.linha6 {
         font-size: 1.0em;
-        padding-left: 140px;
+        text-align: center;
         
     }
     
@@ -305,8 +291,7 @@
         border-radius: 50%;
         width: 140px;
         height: 140px;
-        margin-left: 60px;
-        margin-top: 10px;
+        margin-left: 80px;
     }
 
     footer h1 {
@@ -319,7 +304,7 @@
     
     footer #geral p {
         color: rgba(255, 255, 255, 0.907);
-        font-size:  0.7rem;
+        font-size:  0.9rem;
         padding-top: 10px;
         font-family: 'Barlow', sans-serif;
         text-align: justify;
