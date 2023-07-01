@@ -10,35 +10,21 @@
     }
 
     .icons {
-        padding-top: 40px;
         padding-left: 225px;
     }
 
     header img#imgprincipal {
         width: 190px;
         height: 310px;
-        position: absolute;
         left: 300px;
-        top: 35px;
     }
 
     header h1 {
-        color: rgba(255, 255, 255, 0.905);
         font-size: 1.4em;
-        padding-left: 30px;
-        padding-top: 25px;
     }
 
     main article h1 {
         font-size: 2.0em;
-        margin-top: 0px;
-        color: rgba(255, 255, 255, 0.916);
-        font-family: 'Barlow', sans-serif;
-        margin: 0px;
-        text-align: left;
-        padding: 0px;
-        padding-left: 30px;
-        
     }
     
     h2 {
@@ -55,99 +41,53 @@
 
     hr {
         width: 480px;
-        margin: auto;
-        display: block;
-        margin-top: 120px;
     }
 
     div#skills{
-        display: grid;
-        margin-top: 40px;
         grid-template-columns: 40px 100px;
         grid-auto-rows: 150px 160px;
-        justify-content: space-evenly;
-    }
-
-    div#skills h1 {
-         font-size: 1.4em;
-         color: rgba(255, 255, 255, 0.855);
-    }
-
-    div#skills p {
-        font-size: 0.7em;
-        font-family: 'Barlow', sans-serif;
-        color: rgba(185, 184, 184, 0.942);
     }
 
     .footer .imgextra {
-        border-radius: 50%;
-        width: 140px;
-        height: 140px;
         margin-top: 5px;
-        margin-left: 80px;
     }
 
     footer h1 {
         font-size: 2.4em;
-        margin: 0px;
         padding-left: 25px;
     }
     
     footer #geral p {
-        color: rgba(255, 255, 255, 0.907);
-        font-size:  0.9rem;
-        padding-top: 10px;
-        font-family: 'Barlow', sans-serif;
-        text-align: justify;
-        width: 200px;
         padding-left: 30px;
     }
 
     .imagens {
         margin-left: 20px;
-
-
+    }
 }
 
 @media screen and (min-width: 612px) and (max-width: 660px){
-    body {
-        background-color: blue;
-    }
 
     header img {
         width: 22px;
     }
 
     .icons {
-        padding-top: 40px;
         padding-left: 265px;
     }
 
     header img#imgprincipal {
         width: 200px;
         height: 330px;
-        position: absolute;
         left: 370px;
-        top: 35px;
     }
 
     header h1 {
-        color: rgba(255, 255, 255, 0.905);
         font-size: 1.7em;
-        padding-left: 30px;
-        padding-top: 25px;
     }
 
     main article h1 {
         font-size: 2.3em;
-        margin-top: 0px;
-        color: rgba(255, 255, 255, 0.916);
-        font-family: 'Barlow', sans-serif;
-        margin: 0px;
-        text-align: left;
-        padding: 0px;
-        padding-left: 30px;
-        
     }
     
     h2 {
@@ -163,18 +103,13 @@
     }
 
     hr {
-        width: 550px;
-        margin: auto;
-        display: block;
-        margin-top: 120px;
+        width: 590px;
+        margin-top: 160px;
     }
 
     div#skills{
-        display: grid;
-        margin-top: 40px;
         grid-template-columns: 50px 110px;
         grid-auto-rows: 150px 160px;
-        justify-content: space-evenly;
     }
 
     div#skills h1 {
@@ -199,26 +134,153 @@
     }
 
     .footer .imgextra {
-        border-radius: 50%;
-        width: 160px;
-        height: 160px;
-        margin-top: 5px;
+        width: 170px;
+        height: 170px;
         margin-left: 85px;
     }
 
     footer h1 {
         font-size: 2.6em;
-        margin: 0px;
         padding-left: 45px;
     }
     
     footer #geral p {
-        color: rgba(255, 255, 255, 0.907);
         font-size:  0.9rem;
-        padding-top: 10px;
-        font-family: 'Barlow', sans-serif;
-        text-align: justify;
         width: 200px;
+        padding-left: 50px;
+    }
+    
+
+    .imagens {
+        margin-left: 40px;
+    }
+
+}
+
+
+@media screen and (min-width: 660px) and (max-width: 716px){
+
+
+    header img {
+        width: 22px;
+    }
+
+    .icons {    
+        padding-left: 265px;
+    }
+
+    header img#imgprincipal {
+        width: 220px;
+        height: 360px;
+        left: 370px;
+    }
+
+    header h1 {
+        font-size: 1.9em;
+    }
+
+    main article h1 {
+        font-size: 2.5em;
+    }
+    
+    h2 {
+        font-size: 2.0em;
+    }
+    
+    h3 {
+        font-size: 1.1em;
+    }
+    
+    h4 {
+        font-size: 1.3em;
+        
+    }
+
+    hr {
+        width: 600px;
+        margin-top: 140px;
+    }
+
+    div#skills{
+        grid-template-columns: 150px 150px 120px;
+        grid-auto-rows: 180px 180px;
+    }
+
+    div#skills h1 {
+         font-size: 1.6em;
+    }
+
+    div#skills p {
+        font-size: 0.9em;
+    }
+
+    div#tabela2 {
+        grid-template-columns: 200px 190px;
+        grid-auto-rows: 140px 190px;
+    }
+
+    div#tabela2 h1 {
+        font-size: 3.1rem;
+    }
+
+    b.b3 {
+        font-size: 1.1rem;  
+        margin-left: 70px;  
+    }
+
+    aside #imagens #coluna2 h1.linha3 {
+        font-size: 1.2em;
+    }
+
+    aside #imagens #coluna2 p.linha3 {
+        font-size: 1.0em;
+    }
+
+    aside #imagens #coluna2 h1.linha4 {
+        font-size: 1.2em;
+    }
+
+    aside #imagens #coluna2 p.linha4 {
+        font-size: 1.0em;
+    }
+
+    aside #imagens #coluna1 h1.linha5 {
+        font-size: 1.2em;
+    }
+
+    aside #imagens #coluna1 p.linha5 {
+        font-size: 1.1em; 
+    }
+
+    aside #imagens #coluna1 h1.linha6 {
+        font-size: 1.2em;
+    }
+
+    aside #imagens #coluna1 p.linha6 {
+        font-size: 1.1em;
+    }
+
+
+    footer {
+        padding: 25px;
+        margin-top: 140px;
+    }
+
+    .footer .imgextra {
+        width: 180px;
+        height: 180px;
+        margin-top: 5px;
+        margin-left: 105px;
+    }
+
+    footer h1 {
+        font-size: 2.8em;
+        padding-left: 45px;
+    }
+    
+    footer #geral p {
+        font-size:  1.1rem;  
+        width: 250px;
         padding-left: 50px;
     }
 
@@ -227,7 +289,215 @@
         margin-top: 12px;
     }
 
+    .imagens img {
+        width: 25px;
+        margin-left: 12px;
+    }
+
 }
+
+
+@media screen and (min-width: 716px) and (max-width: 798px){
+
+    header img {
+        width: 25px;
+    }
+
+    .icons {
+        padding-left: 290px;
+    }
+
+    header img#imgprincipal {
+        width: 250px;
+        height: 410px;
+        left: 400px;
+    }
+
+    header h1 {
+        font-size: 2.1em;       
+    }
+
+    main article h1 {
+        font-size: 2.8em;   
+    }
+    
+    h2 {
+        font-size: 2.3em;
+    }
+    
+    h3 {
+        font-size: 1.2em;
+    }
+    
+    h4 {
+        font-size: 1.5em;
+        padding-top: 25px;
+    }
+
+    hr {
+        width: 650px;
+        margin-top: 150px;
+    }
+
+    div#skills{
+        grid-template-columns: 150px 150px 120px;
+        grid-auto-rows: 180px 180px;
+    }
+
+    div#skills h1 {
+         font-size: 1.6em;
+    }
+
+    div#skills p {
+        font-size: 0.9em;
+    }
+
+    div#tabela2 {
+        grid-template-columns: 300px 190px;
+        grid-auto-rows: 140px 190px;
+    }
+
+    div#tabela2 h1 {
+        font-size: 3.1rem;
+    }
+
+    b.b3 {
+        font-size: 1.1rem;  
+        margin-left: 70px;  
+    }
+
+
+    footer {
+        padding: 60px;
+        margin-top: 140px;
+    }
+
+    .footer .imgextra {
+        width: 195px;
+        height: 195px;
+    }
+
+    footer h1 {
+        font-size: 3.0em;
+    }
+    
+    footer #geral p {
+        font-size:  1.1rem;
+        width: 300px;
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+
+    .imagens img {
+        width: 25px;     
+    }
+
+}
+
+
+@media screen and (min-width: 798px) and (max-width: 992px){
+
+    body {
+        background-color: blue;
+    }
+
+
+    header img {
+        width: 25px;
+    }
+
+    .icons {
+        padding-left: 290px;
+    }
+
+    header img#imgprincipal {
+        width: 250px;
+        height: 410px;
+        left: 400px;
+    }
+
+    header h1 {
+        font-size: 2.1em;       
+    }
+
+    main article h1 {
+        font-size: 2.8em;   
+    }
+    
+    h2 {
+        font-size: 2.3em;
+    }
+    
+    h3 {
+        font-size: 1.2em;
+    }
+    
+    h4 {
+        font-size: 1.5em;
+        padding-top: 25px;
+    }
+
+    hr {
+        width: 650px;
+        margin-top: 150px;
+    }
+
+    div#skills{
+       grid-template-columns: 150px 150px 120px;
+        grid-auto-rows: 180px 180px;
+    }
+
+    div#skills h1 {
+         font-size: 1.6em;
+    }
+
+    div#skills p {
+        font-size: 0.9em;
+    }
+
+    div#tabela2 {
+        grid-template-columns: 300px 190px;
+        grid-auto-rows: 140px 190px;
+    }
+
+    div#tabela2 h1 {
+        font-size: 3.1rem;
+    }
+
+    b.b3 {
+        font-size: 1.1rem;  
+        margin-left: 70px;  
+    }
+
+
+    footer {
+        padding: 60px;
+        margin-top: 140px;
+    }
+
+    .footer .imgextra {
+        width: 195px;
+        height: 195px;
+    }
+
+    footer h1 {
+        font-size: 3.0em;
+    }
+    
+    footer #geral p {
+        font-size:  1.1rem;
+        width: 300px;
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+
+    .imagens img {
+        width: 25px;     
+    }
+
+}
+
+
 
 
 @media screen and (min-width: 1200px){
