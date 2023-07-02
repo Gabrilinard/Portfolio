@@ -22,9 +22,7 @@ min-width: de cima até aquele valor*/
 
     #div1 {
         text-align: center;
-        position: absolute;
-        top: 740px;
-        left: 150px;
+        
     }
 
 
@@ -51,6 +49,7 @@ min-width: de cima até aquele valor*/
 
 
     header #div1 img {
+        text-align: center;
         width: 23px;
         margin-top: 15px;
         padding: 5px;
