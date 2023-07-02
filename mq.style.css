@@ -22,7 +22,9 @@ min-width: de cima até aquele valor*/
 
     #div1 {
         text-align: center;
-        
+        position: relative;
+        top: 670px;
+        left: 0px;
     }
 
 
@@ -101,7 +103,7 @@ min-width: de cima até aquele valor*/
 }
 
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 481px) and (max-width: 767px) {
     
     .principal div#div3{
         text-align: center;
