@@ -19,7 +19,7 @@
         width: 22px;
     }
     
-    header img:hover {
+    header #div1 img:hover {
         padding: 2px;
         background-color: beige;
         transform: scale(1.2);
@@ -52,10 +52,14 @@
         padding-right: 2px;
     }
 
-    header .principal div#div1 h1 {
+    header .principal h1 {
         padding-top: 30px;
         padding-bottom: 15px;
         font-size: 1.9rem;
+    }
+
+    div#div1 {
+        padding-top: 15px;
     }
     
     h2 {
@@ -68,12 +72,14 @@
         padding-top: 2px;
     }
     
-    p {
-        font-size: 1.0em;
-        text-align: center;
-        color: rgba(255, 255, 255, 0.916);
+    header p {
+        font-size: 0.9em;
+        text-align: justify;
+        color: rgba(255, 255, 255, 0.966);
         font-family: 'Barlow', sans-serif;
         padding-top: 20px;
+        padding-left: 80px;
+        width: 250px;
     }
     
     h3 {
@@ -215,9 +221,9 @@
     .footer .imgextra {
         border-radius: 10px;
         width: 100px;
-        height: 180px;
+        height: 160px;
         margin-left: 20px;
-        padding-top: 10px;
+        padding-top: 20px;
         padding-right: 5px;
         background-position: center center;
     }
@@ -225,7 +231,7 @@
 
     footer h1 {
         color: rgba(247, 247, 247, 0.966);
-        font-size: 2.4em;
+        font-size: 2.8em;
         font-family: 'Barlow', sans-serif;
         margin: 0px;
         text-align: left;
