@@ -14,6 +14,10 @@
        background-color:  rgba(0, 0, 0, 0.893);
     }
 
+    div#div3 {
+        text-align: center;
+    }
+
     /*Header*/
     header img {
         width: 22px;
@@ -49,7 +53,6 @@
         font-family: 'Barlow', sans-serif; 
         text-align: center;
         padding-top: 20px;
-        padding-right: 2px;
     }
 
     header .principal h1 {
@@ -67,19 +70,15 @@
         color: rgba(255, 255, 255, 0.916);
         font-family: 'Barlow', sans-serif;  
         text-align: center;
-        padding-left: 28px;
-        padding-right: 5px;
         padding-top: 2px;
     }
     
     header p {
         font-size: 0.9em;
-        text-align: justify;
+        text-align: center;
         color: rgba(255, 255, 255, 0.966);
         font-family: 'Barlow', sans-serif;
         padding-top: 20px;
-        padding-left: 80px;
-        width: 250px;
     }
     
     h3 {
@@ -90,8 +89,6 @@
         text-align: center;
         padding-top: 30px;
     }
-
-    
     
     b.b1 {
         border-bottom: 3px solid lightgreen ;
