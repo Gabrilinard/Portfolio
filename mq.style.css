@@ -11,7 +11,7 @@ min-width: de cima até aquele valor*/
         text-align: center;
         margin: auto;
         display: block;
-        width: 360px;
+        
     }
 
     .principal {
@@ -54,7 +54,7 @@ min-width: de cima até aquele valor*/
 
     header #div1 img {
         text-align: center;
-        width: 23px;
+        width: 21px;
         margin-top: 15px;
         padding: 5px;
         margin-right: 5px;
@@ -67,13 +67,13 @@ min-width: de cima até aquele valor*/
         margin-top: 120px;
     }
 
-    header p {
-        font-size: 1.1em;
+    header #div3 p {
+        font-size: 1.0em;
         text-align: justify;
         color: rgba(255, 255, 255, 0.966);
         font-family: 'Barlow', sans-serif;
         padding-top: 30px;
-        width: 220px;
+        padding-right: 10px;
     }
 
     h2 {
@@ -82,7 +82,7 @@ min-width: de cima até aquele valor*/
         font-family: 'Barlow', sans-serif;  
         text-align: center;
         padding-top: 0px;
-        padding-left: 25px;
+        padding-left: 20px;
     }
 
     header #div3 h1 {
@@ -91,7 +91,7 @@ min-width: de cima até aquele valor*/
         font-family: 'Barlw', sans-serif; 
         text-align: center;
         padding-top: 15px;
-        padding-left: 15px;
+        padding-left: 10px;
     }
 
     h3 {
@@ -122,6 +122,7 @@ min-width: de cima até aquele valor*/
         font-family: 'Barlow', sans-serif;
         color: rgba(185, 184, 184, 0.942);
     }
+
 }
 
 
