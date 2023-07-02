@@ -32,12 +32,12 @@ min-width: de cima até aquele valor*/
         padding-top: 40px;
         padding-bottom: 0px;
         padding-top: 50px;
-        font-size: 2.5rem;
+        font-size: 2.7rem;
     }
 
     header img#ftextra {
-        width: 170px;
-        height: 170px;
+        width: 200px;
+        height: 200px;
         z-index: -1;
         margin: auto;
         display: block;
@@ -68,16 +68,16 @@ min-width: de cima até aquele valor*/
     }
 
     header p {
-        font-size: 1.0em;
+        font-size: 1.1em;
         text-align: justify;
         color: rgba(255, 255, 255, 0.966);
         font-family: 'Barlow', sans-serif;
         padding-top: 30px;
-        width: 210px;
+        width: 220px;
     }
 
     h2 {
-        font-size: 1.8em;
+        font-size: 2.0em;
         color: rgba(255, 255, 255, 0.916);
         font-family: 'Barlow', sans-serif;  
         text-align: center;
@@ -86,7 +86,7 @@ min-width: de cima até aquele valor*/
     }
 
     header #div3 h1 {
-        font-size: 1.8em;
+        font-size: 2.0em;
         color: rgba(255, 255, 255, 0.916);
         font-family: 'Barlw', sans-serif; 
         text-align: center;
