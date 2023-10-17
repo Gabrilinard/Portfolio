@@ -51,12 +51,11 @@
         color: rgba(255, 255, 255, 0.916);
         font-family: 'Barlow', sans-serif; 
         text-align: center;
-        padding-top: 20px;
     }
 
     header .principal h1 {
         padding-top: 30px;
-        padding-bottom: 15px;
+        padding-bottom: 5px;
         font-size: 1.9rem;
     }
 
@@ -64,12 +63,11 @@
         padding-top: 15px;
     }
     
-    h2 {
-        font-size:1.5em;
+     h2 {
+        font-size: 1.5em;
         color: rgba(255, 255, 255, 0.916);
         font-family: 'Barlow', sans-serif;  
         text-align: center;
-        padding-top: 2px;
     }
     
     header p {
@@ -137,13 +135,6 @@
 
 
     /*Tabela2 */
-
-    div#tabela2 {
-        display: grid;
-        justify-content: space-evenly;
-        grid-template-columns: 220px 100px;
-        grid-auto-rows: 120px 120px;
-    }
 
     div#tabela2 h1 {
         font-size: 2.3rem;

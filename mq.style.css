@@ -26,17 +26,9 @@ min-width: de cima até aquele valor*/
         margin-bottom: 10px;
     }
 
-
-    header .principal h1.h1 {
-        padding-top: 40px;
-        padding-bottom: 0px;
-        padding-top: 50px;
-        font-size: 2.7rem;
-    }
-
     header img#ftextra {
-        width: 200px;
-        height: 200px;
+        width: 220px;
+        height: 220px;
         z-index: -1;
         margin: auto;
         display: block;
@@ -67,7 +59,7 @@ min-width: de cima até aquele valor*/
     }
 
     header .principal #div3 h1 {
-        font-size: 2.0em;
+        font-size: 1.7em;
         color: rgba(255, 255, 255, 0.916);
         font-family: 'Barlw', sans-serif; 
         text-align: center;
@@ -75,7 +67,7 @@ min-width: de cima até aquele valor*/
     }
 
     header .principal #div3 h2 {
-        font-size: 1.95em;
+        font-size: 1.65em;
         color: rgba(255, 255, 255, 0.916);
         font-family: 'Barlow', sans-serif;  
         text-align: center;
@@ -87,7 +79,7 @@ min-width: de cima até aquele valor*/
         text-align: justify;
         color: rgba(255, 255, 255, 0.966);
         font-family: 'Barlow', sans-serif;
-        padding-top: 30px;
+        padding-top: 25px;
         padding-left: 0px;
         margin: auto;
         width: 220px;
@@ -106,8 +98,8 @@ min-width: de cima até aquele valor*/
     div#skills{
         display: grid;
         margin-top: 40px;
-        grid-template-columns: 150px 120px;
-        grid-auto-rows: 100px 100px;
+        grid-template-columns: 150px 115px;
+        grid-auto-rows: 70px 70px;
         justify-content: space-evenly;
     }
 
@@ -121,6 +113,18 @@ min-width: de cima até aquele valor*/
         font-family: 'Barlow', sans-serif;
         color: rgba(185, 184, 184, 0.942);
     }
+
+    #tabela2 h1 b{
+        font-size: 1.3em;
+        text-align: center;
+    }
+
+    #tabela2 {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
 }
 
 
@@ -167,7 +171,7 @@ min-width: de cima até aquele valor*/
     }
 
     header .principal #div3 h1 {
-        font-size: 2.0em;
+        font-size: 1.7em;
         color: rgba(255, 255, 255, 0.916);
         font-family: 'Barlw', sans-serif; 
         text-align: center;
@@ -175,11 +179,10 @@ min-width: de cima até aquele valor*/
     }
 
     header .principal #div3 h2 {
-        font-size: 1.95em;
+        font-size: 1.65em;
         color: rgba(255, 255, 255, 0.916);
         font-family: 'Barlow', sans-serif;  
         text-align: center;
-        padding-top: 0px;
     }
 
     header .principal #div3 p {
@@ -187,11 +190,10 @@ min-width: de cima até aquele valor*/
         text-align: justify;
         color: rgba(255, 255, 255, 0.966);
         font-family: 'Barlow', sans-serif;
-        padding-top: 30px;
+        padding-top: 25px;
         width: 250px;
         margin: auto;
         padding-left: 0px;
-    }
     }
 
     h3 {
@@ -202,6 +204,19 @@ min-width: de cima até aquele valor*/
         text-align: center;
         padding-top: 40px;
     }
+
+    #tabela2 h1 b{
+        font-size: 1.3em;
+        text-align: center;
+    }
+
+    #tabela2 {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+}
  
 
 
@@ -315,11 +330,15 @@ min-width: de cima até aquele valor*/
         color: rgba(185, 184, 184, 0.942);
     }
 
-    div#tabela2 {
-        display: grid;
-        justify-content: space-evenly;
-        grid-template-columns: 450px 160px;
-        grid-auto-rows: 180px 180px;
+    #tabela2 h1 b{
+        font-size: 1.2em;
+        text-align: center;
+    }
+
+    #tabela2 {
+        margin-top: 40px;
+        margin-bottom: 100px;
+        text-align: center;
     }
 
     div#tabela2 h1 {
@@ -548,11 +567,15 @@ min-width: de cima até aquele valor*/
         color: rgba(185, 184, 184, 0.942);
     }
 
-    div#tabela2 {
-        display: grid;
-        justify-content: space-evenly;
-        grid-template-columns: 580px 160px;
-        grid-auto-rows: 180px 180px;
+    #tabela2 h1 b{
+        font-size: 1.4em;
+        text-align: center;
+    }
+
+    #tabela2 {
+        margin-top: 40px;
+        margin-bottom: 100px;
+        text-align: center;
     }
 
     div#tabela2 h1 {
@@ -782,11 +805,15 @@ min-width: de cima até aquele valor*/
         color: rgba(185, 184, 184, 0.942);
     }
 
-    div#tabela2 {
-        display: grid;
-        justify-content: space-evenly;
-        grid-template-columns: 680px 160px;
-        grid-auto-rows: 180px 180px;
+    #tabela2 h1 b{
+        font-size: 1.6em;
+        text-align: center;
+    }
+
+    #tabela2 {
+        margin-top: 40px;
+        margin-bottom: 100px;
+        text-align: center;
     }
 
     div#tabela2 h1 {
@@ -1019,11 +1046,15 @@ min-width: de cima até aquele valor*/
         color: rgba(185, 184, 184, 0.942);
     }
 
-    div#tabela2 {
-        display: grid;
-        justify-content: space-evenly;
-        grid-template-columns: 1000px 160px;
-        grid-auto-rows: 180px 180px;
+    #tabela2 h1 b{
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    #tabela2 {
+        margin-top: 40px;
+        margin-bottom: 160px;
+        text-align: center;
     }
 
     div#tabela2 h1 {
