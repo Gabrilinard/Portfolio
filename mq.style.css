@@ -11,7 +11,7 @@ min-width: de cima até aquele valor*/
         text-align: center;
         margin: auto;
         display: block;
-        width: 360px;
+        width: auto;
     }
 
     .principal {
@@ -64,31 +64,29 @@ min-width: de cima até aquele valor*/
         margin-top: 120px;
     }
 
-    header p {
+    header .principal #div3 h1 {
+        font-size: 2.0em;
+        color: rgba(255, 255, 255, 0.916);
+        font-family: 'Barlw', sans-serif; 
+        text-align: center;
+        padding-top: 15px;
+    }
+
+    header .principal #div3 h2 {
+        font-size: 1.95em;
+        color: rgba(255, 255, 255, 0.916);
+        font-family: 'Barlow', sans-serif;  
+        text-align: center;
+        padding-top: 0px;
+    }
+
+    header .principal #div3 p {
         font-size: 1.1em;
         text-align: justify;
         color: rgba(255, 255, 255, 0.966);
         font-family: 'Barlow', sans-serif;
         padding-top: 30px;
         width: 220px;
-    }
-
-    h2 {
-        font-size: 2.0em;
-        color: rgba(255, 255, 255, 0.916);
-        font-family: 'Barlow', sans-serif;  
-        text-align: center;
-        padding-top: 0px;
-        padding-left: 25px;
-    }
-
-    header #div3 h1 {
-        font-size: 2.0em;
-        color: rgba(255, 255, 255, 0.916);
-        font-family: 'Barlw', sans-serif; 
-        text-align: center;
-        padding-top: 15px;
-        padding-left: 15px;
     }
 
     h3 {
@@ -124,23 +122,16 @@ min-width: de cima até aquele valor*/
 
 @media screen and (min-width: 481px) and (max-width: 767px) {
     
-    .principal div#div3{
+    header .principal div#div3{
         text-align: center;
         margin: auto;
-        display: block;
-        width: 400px;
+        width: auto;
     }
 
     #div1 {
         text-align: center;
     }
 
-
-    header .principal h1.h1 {
-        padding-top: 40px;
-        padding-bottom: 5px;
-        font-size: 2.4rem;
-    }
 
     header picture img#ftextra {
         width: 190px;
@@ -171,30 +162,30 @@ min-width: de cima até aquele valor*/
         margin-top: 120px;
     }
 
-    header p {
-        font-size: 1.2em;
-        text-align: justify;
-        color: rgba(255, 255, 255, 0.966);
-        font-family: 'Barlow', sans-serif;
-        padding-top: 40px;
-    }
-
-    h2 {
-        font-size: 1.8em;
-        color: rgba(255, 255, 255, 0.916);
-        font-family: 'Barlow', sans-serif;  
-        text-align: center;
-        padding-right: 0px;
-        padding-top: 0px;
-    }
-
-    header h1 {
-        font-size: 3.5em;
+    header .principal #div3 h1 {
+        font-size: 2.0em;
         color: rgba(255, 255, 255, 0.916);
         font-family: 'Barlw', sans-serif; 
         text-align: center;
-        padding-top: 20px;
-        padding-right: 0px;
+        padding-top: 15px;
+    }
+
+    header .principal #div3 h2 {
+        font-size: 1.95em;
+        color: rgba(255, 255, 255, 0.916);
+        font-family: 'Barlow', sans-serif;  
+        text-align: center;
+        padding-top: 0px;
+    }
+
+    header .principal #div3 p {
+        font-size: 1.1em;
+        text-align: justify;
+        color: rgba(255, 255, 255, 0.966);
+        font-family: 'Barlow', sans-serif;
+        padding-top: 30px;
+        width: 220px;
+    }
     }
 
     h3 {
@@ -205,10 +196,7 @@ min-width: de cima até aquele valor*/
         text-align: center;
         padding-top: 40px;
     }
-
-    
-
-}   
+ 
 
 
 @media screen and (min-width: 768px) and (max-width: 926px){

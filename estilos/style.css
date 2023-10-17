@@ -30,7 +30,6 @@
     }
 
     div.principal {
-        display: inline-block;
         text-align: center;
         margin: auto;
         display: block;
@@ -180,7 +179,7 @@
     }
 
     p.linha5, p.linha6 , p.linha7, p.linha8 {
-        padding-bottom: 20px;
+        padding-bottom: 15px;
     }
     
     img#linha1, img#linha2, img#linha3, img#linha4 {
@@ -194,6 +193,10 @@
 
     .linha1, .linha2 {
         text-align: center;
+    }
+
+    h1.linha6 {
+        font-size: 1.3em;
     }
     
     
