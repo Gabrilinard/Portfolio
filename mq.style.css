@@ -6,238 +6,617 @@ min-width: de cima até aquele valor*/
 
 @import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
 
-@media screen and (max-width:480px) {
-    .principal div#div3{
-        text-align: center;
+@media screen and (max-width:481px) {
+
+    div.principal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+    }
+
+    nav  {
+        padding-top: 20px;
         margin: auto;
         display: block;
-        width: auto;
-    }
-
-    .principal {
         text-align: center;
-        margin: auto;
-        display: block;
+        padding-bottom: 20px;
     }
 
-    #div1 {
-        text-align: center;
-        padding-bottom: 10px;
-        margin-bottom: 10px;
-    }
-
-    header img#ftextra {
-        width: 220px;
-        height: 220px;
-        z-index: -1;
-        margin: auto;
-        display: block;
-        border: 2px solid lightgreen;
-        border-radius: 50%;
-        margin-top: 0px;
-        margin-bottom: 10px;
-    }  
-
-    header picture #imgprincipal {
-        display: none;
-    }
-
-
-    header #div1 img {
-        text-align: center;
-        width: 23px;
-        margin-top: 15px;
-        padding: 5px;
+    nav img {
+        width: 27px;
+        padding-top: 20px;
+        padding-left: 20px;
         margin-right: 5px;
     }
+
+    header img#imgprincipal {
+        width: 170px;
+        height: 170px;
+        border-radius: 50%; 
+        margin: auto;
+        display: block;
+        border: 2.5px solid rgb(187, 24, 40);
+    }
+
+    header #div3 h1 {
+        font-size: 1.2em;
+        color: rgba(255, 255, 255, 0.916);
+        font-family: 'Barlow', sans-serif; 
+        text-align: left;
+        display: inline-block;
+        padding-top: 20px;
+    }
+
     
+    header p {
+        font-size: 0.9em;
+        text-align: justify;
+        color: rgb(255, 255, 255);
+        font-family: 'Barlow', sans-serif;
+        padding-bottom: 15px;
+        margin-top: 5px;
+        width: 200px;
+    }
+
     hr {
         width: 320px;
         margin: auto;
         display: block;
-        margin-top: 120px;
-    }
-
-    header .principal #div3 h1 {
-        font-size: 1.7em;
-        color: rgba(255, 255, 255, 0.916);
-        font-family: 'Barlw', sans-serif; 
-        text-align: center;
-        padding-top: 15px;
-    }
-
-    header .principal #div3 h2 {
-        font-size: 1.65em;
-        color: rgba(255, 255, 255, 0.916);
-        font-family: 'Barlow', sans-serif;  
-        text-align: center;
-        padding-top: 0px;
-    }
-
-    header .principal #div3 p {
-        font-size: 1.1em;
-        text-align: justify;
-        color: rgba(255, 255, 255, 0.966);
-        font-family: 'Barlow', sans-serif;
-        padding-top: 25px;
-        padding-left: 0px;
-        margin: auto;
-        width: 220px;
-    }
-
-    h3 {
-        color: white;
-        font-size: 1.4em;
-        font-family: 'Barlow', sans-serif;
-        color: rgba(255, 255, 255, 0.916);
-        text-align: center;
-        padding-top: 40px;
-        
+        margin-top: 90px;
     }
 
     div#skills{
         display: grid;
         margin-top: 40px;
-        grid-template-columns: 150px 115px;
-        grid-auto-rows: 70px 70px;
+        grid-template-columns: 110px 110px;
         justify-content: space-evenly;
     }
 
     div#skills h1 {
-         font-size: 1.4em;
+        font-size: 0.9em;
          color: rgba(255, 255, 255, 0.855);
     }
 
     div#skills p {
-        font-size: 0.7em;
+        font-size: 0.8em;
         font-family: 'Barlow', sans-serif;
         color: rgba(185, 184, 184, 0.942);
     }
 
     #tabela2 h1 b{
-        font-size: 1.3em;
+        font-size: 1.5em;
         text-align: center;
     }
 
     #tabela2 {
-        margin-top: 40px;
-        margin-bottom: 40px;
+        margin-top: 0px;
         text-align: center;
     }
 
-}
+    div#tabela2 h1 {
+        font-size: 2.1rem;
+        color: rgba(255, 255, 255, 0.916);
+    }
 
 
-@media screen and (min-width: 481px) and (max-width: 767px) {
+    b.b3 {
+        color: rgba(255, 255, 255, 0.916);
+        font-size: 1.4rem;    
+    }
+
+    #b {
+        padding-top: 55px;
+    }
+
+    aside div#imagens h1 {
+        color: rgba(255, 255, 255, 0.93);
+        font-size: 0.9em;
+        padding: 10px;
+    }
+        
+
+    aside div#imagens h1 {
+        color: rgba(255, 255, 255, 0.797);
+        font-size: 0.8em;
+        padding: 5px;
+        padding-bottom: 70px;
+        text-align: center;
+    }
     
-    header .principal div#div3{
-        text-align: center;
-        margin: auto;
-        width: auto;
-    }
-
-    #div1 {
-        text-align: center;
-    }
-
-
-    header picture img#ftextra {
-        width: 190px;
-        height: 190px;
-        z-index: -1;
+    img#linha1, img#linha2, img#linha3, img#linha4 {
+        height: 230px;
+        width: 230px;
+        border-radius: 10px;
+        border: 2px solid rgb(187, 24, 67);
         margin: auto;
         display: block;
-        border: 2px solid lightgreen;
-        border-radius: 10px;
-        margin-top: 10px;
-    } 
+    }
+
+    .linha1, .linha2 {
+        text-align: center;
+        margin: auto;
+        display: block;    
+}
+
+    #imagens {
+        text-align: center;
+        margin: auto;
+    }
+
+    #img {
+        text-align: center;
+        margin: auto;
+        display: block;
+    }
+
+    div#geral {
+        text-align: left;
+    }
+
+    footer {
+        background-color: rgb(48, 47, 47);
+        padding: 40px;
+    }
+
+    .footer .imgextra {
+        border-radius: 20px;
+        width: 130px;
+        height: 160px;
+        padding-top: 10px;
+        padding-right: 0px;
+        padding-left: 15px;
+    }
+
+    footer h1 {
+        color: rgba(247, 247, 247, 0.966);
+        font-size: 2.2em;
+        font-family: 'Barlow', sans-serif;
+        margin: 0px;
+        text-align: left;
+        padding-bottom: 5px;
+    }
     
-    header picture img#imgprincipal {
+    footer #geral p {
+        color: rgba(255, 255, 255, 0.907);
+        font-size:  0.8rem;
+        font-family: 'Barlow', sans-serif;
+        text-align: justify;
+        width: 160px;
+        padding-right: 5px;
+    }
+
+    #img img {
+        width: 23px;
+        padding: 0px;
+    } 
+
+    .imgs {
+        text-align: left;
+        padding-top: 15px;
+        padding-right: 10px;
+    }
+
+    #ftextra {
         display: none;
     }
 
+}
 
-    header img {
-        width: 28px;
-        margin-top: 0px;
-        margin-bottom: 10px;
+@media screen and (min-width: 481px) and (max-width: 589px) {
+
+    div.principal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
     }
-    
-    hr {
-        width: 450px;
+
+    nav  {
+        padding-top: 20px;
         margin: auto;
         display: block;
-        margin-top: 120px;
-    }
-
-    header .principal #div3 h1 {
-        font-size: 1.7em;
-        color: rgba(255, 255, 255, 0.916);
-        font-family: 'Barlw', sans-serif; 
         text-align: center;
-        padding-top: 15px;
+        padding-bottom: 20px;
     }
 
-    header .principal #div3 h2 {
-        font-size: 1.65em;
-        color: rgba(255, 255, 255, 0.916);
-        font-family: 'Barlow', sans-serif;  
-        text-align: center;
+    nav img {
+        width: 27px;
+        padding-top: 20px;
+        padding-left: 20px;
+        margin-right: 5px;
     }
 
-    header .principal #div3 p {
-        font-size: 1.1em;
-        text-align: justify;
-        color: rgba(255, 255, 255, 0.966);
-        font-family: 'Barlow', sans-serif;
-        padding-top: 25px;
-        width: 250px;
+    header img#imgprincipal {
+        width: 200px;
+        height: 280px;
+        border-radius: 20px; 
         margin: auto;
-        padding-left: 0px;
+        display: block;
+        border: 2.5px solid rgb(187, 24, 57);
     }
 
-    h3 {
-        color: white;
-        font-size: 1.4em;
-        font-family: 'Barlow', sans-serif;
+    header #div3 h1 {
+        font-size: 1.2em;
         color: rgba(255, 255, 255, 0.916);
+        font-family: 'Barlow', sans-serif; 
+        text-align: left;
+        padding-top: 20px;
+        padding-left: 3px;
+    }
+
+    header .principal #div3 {
         text-align: center;
-        padding-top: 40px;
+        margin: auto;
+        display: block;
+    }
+
+    header p {
+        font-size: 0.9em;
+        text-align: justify;
+        color: rgb(255, 255, 255);
+        font-family: 'Barlow', sans-serif;
+        padding-bottom: 15px;
+        margin-top: 5px;
+        width: 200px;
+    }
+
+    hr {
+        width: 400px;
+        margin: auto;
+        display: block;
+        margin-top: 90px;
+    }
+
+    div#skills{
+        display: grid;
+        margin-top: 40px;
+        grid-template-columns: 140px 140px;
+        grid-auto-rows: 180px 180px;
+        justify-content: space-evenly;
+    }
+
+    div#skills h1 {
+        font-size: 1.0em;
+         color: rgba(255, 255, 255, 0.855);
+    }
+
+    div#skills p {
+        font-size: 0.9em;
+        font-family: 'Barlow', sans-serif;
+        color: rgba(185, 184, 184, 0.942);
     }
 
     #tabela2 h1 b{
-        font-size: 1.3em;
+        font-size: 1.5em;
         text-align: center;
     }
 
     #tabela2 {
-        margin-top: 40px;
-        margin-bottom: 40px;
+        margin-top: 0px;
         text-align: center;
     }
 
+    div#tabela2 h1 {
+        font-size: 2.3rem;
+        color: rgba(255, 255, 255, 0.916);
+    }
+
+
+    b.b3 {
+        color: rgba(255, 255, 255, 0.916);
+        font-size: 1.4rem;    
+    }
+
+    #b {
+        padding-top: 55px;
+    }
+
+    aside div#imagens h1 {
+        color: rgba(255, 255, 255, 0.93);
+        font-size: 0.9em;
+        padding: 10px;
+    }
+        
+
+    aside div#imagens h1 {
+        color: rgba(255, 255, 255, 0.797);
+        font-size: 0.9em;
+        padding: 5px;
+        padding-bottom: 80px;
+        text-align: center;
+    }
+    
+    img#linha1, img#linha2, img#linha3, img#linha4 {
+        height: 230px;
+        width: 230px;
+        border-radius: 10px;
+        border: 2px solid rgb(187, 24, 59);
+        margin: auto;
+        display: block;
+    }
+
+    .linha1, .linha2 {
+        text-align: center;
+        margin: auto;
+        display: block;    
 }
- 
+
+    #imagens {
+        text-align: center;
+        margin: auto;
+    }
+
+    #img {
+        text-align: center;
+        margin: auto;
+        display: block;
+    }
+
+    div#geral {
+        text-align: left;
+    }
+
+    footer {
+        background-color: rgb(48, 47, 47);
+        padding: 40px;
+    }
+
+    .footer .imgextra {
+        border-radius: 20px;
+        width: 140px;
+        height: 190px;
+        padding-top: 10px;
+        padding-right: 30px;
+    }
 
 
-@media screen and (min-width: 768px) and (max-width: 926px){
+    footer h1 {
+        color: rgba(247, 247, 247, 0.966);
+        font-size: 2.3em;
+        font-family: 'Barlow', sans-serif;
+        margin: 0px;
+        text-align: left;
+        padding-bottom: 5px;
+    }
+    
+    footer #geral p {
+        color: rgba(255, 255, 255, 0.907);
+        font-size:  0.9rem;
+        font-family: 'Barlow', sans-serif;
+        text-align: justify;
+        width: 240px;
+        padding-right: 10px;
+    }
+
+    #img img {
+        width: 23px;
+        padding: 0px;
+    } 
+
+    .imgs {
+        text-align: left;
+        padding-top: 15px;
+        padding-right: 10px;
+    }
+
+    #ftextra {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 589px) and (max-width: 692px) {
     div.principal {
         display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
-    div.principal p {
+    nav  {
+        padding-top: 20px;
+        margin: auto;
+        display: block;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    nav img {
+        width: 27px;
+        padding-top: 20px;
+        padding-left: 20px;
+        margin-right: 5px;
+    }
+
+    header img#imgprincipal {
+        width: 200px;
+        height: 300px;
+        border-radius: 20px; 
+        margin: 30px;
+    }
+
+    header #div3 h1 {
+        font-size: 1.2em;
+        color: rgba(255, 255, 255, 0.916);
+        font-family: 'Barlow', sans-serif; 
+        text-align: left;
+        padding-left: 3px;
+    }
+
+    #div3 {
+        padding-bottom: 0px;
+    }
+
+    header p {
+        font-size: 0.9em;
         text-align: justify;
+        color: rgb(255, 255, 255);
+        font-family: 'Barlow', sans-serif;
+        padding-bottom: 15px;
+        margin-top: 5px;
+        width: 200px;
     }
 
-    #div1 {
+    hr {
+        width: 550px;
+        margin: auto;
+        display: block;
+        margin-top: 90px;
+    }
+
+    div#skills{
+        display: grid;
+        margin-top: 40px;
+        grid-template-columns: 140px 140px 140px;
+        grid-auto-rows: 180px 180px;
+        justify-content: space-evenly;
+    }
+
+    div#skills h1 {
+        font-size: 1.0em;
+         color: rgba(255, 255, 255, 0.855);
+    }
+
+    div#skills p {
+        font-size: 0.9em;
+        font-family: 'Barlow', sans-serif;
+        color: rgba(185, 184, 184, 0.942);
+    }
+
+    #tabela2 h1 b{
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    #tabela2 {
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    div#tabela2 h1 {
+        font-size: 2.2rem;
+        color: rgba(255, 255, 255, 0.916);
+    }
+
+
+    b.b3 {
+        color: rgba(255, 255, 255, 0.916);
+        font-size: 1.4rem;    
+    }
+
+    #b {
+        padding-top: 55px;
+    }
+
+    aside div#imagens h1 {
+        color: rgba(255, 255, 255, 0.93);
+        font-size: 0.9em;
+        padding: 10px;
+    }
+        
+
+    aside div#imagens h1 {
+        color: rgba(255, 255, 255, 0.797);
+        font-size: 0.8em;
+        padding: 5px;
+        padding-bottom: 80px;
+        text-align: center;
+    }
+    
+    img#linha1, img#linha2, img#linha3, img#linha4 {
+        height: 180px;
+        width: 200px;
+        border-radius: 10px;
+        border: 2px solid rgb(187, 24, 65);
+        margin: auto;
+        display: block;
+    }
+
+    .linha1, .linha2 {
+        text-align: center;
+        margin: auto;
+        display: block;    
+}
+
+    #imagens {
         display: flex;
-        position: absolute;
-        left: 55px;
-        top: 85px;
+        text-align: center;
+        margin: auto;
+    }
+
+    #img {
+        text-align: center;
+        margin: auto;
+        display: block;
+    }
+
+    div#geral {
+        text-align: left;
+    }
+
+    footer {
+        background-color: rgb(48, 47, 47);
+        padding: 40px;
+    }
+
+    .footer .imgextra {
+        border-radius: 20px;
+        width: 150px;
+        height: 200px;
+        padding-top: 10px;
+        padding-right: 40px;
     }
 
 
-    header #div1 img {
+    footer h1 {
+        color: rgba(247, 247, 247, 0.966);
+        font-size: 2.4em;
+        font-family: 'Barlow', sans-serif;
+        margin: 0px;
+        text-align: left;
+        padding-bottom: 5px;
+    }
+    
+    footer #geral p {
+        color: rgba(255, 255, 255, 0.907);
+        font-size:  1.0rem;
+        font-family: 'Barlow', sans-serif;
+        text-align: justify;
+        width: 250px;
+        padding-right: 10px;
+    }
+
+    #img img {
+        width: 23px;
+        padding: 0px;
+    } 
+
+    .imgs {
+        text-align: left;
+        padding-top: 15px;
+        padding-right: 10px;
+    }
+
+    #ftextra {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 692px) and (max-width: 796px) {
+    div.principal {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav  {
+        padding-top: 20px;
+        margin: auto;
+        display: block;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    nav img {
         width: 30px;
         padding-top: 20px;
         padding-left: 20px;
@@ -245,141 +624,105 @@ min-width: de cima até aquele valor*/
     }
 
     header img#imgprincipal {
-        width: 250px;
-        height: 430px;
-        z-index: -1;
-        margin: auto;
-        display: block;
-        position: absolute;
+        width: 230px;
+        height: 350px;
         border-radius: 20px; 
-        top: 85px;
-        left: 50px;
+        margin: 30px;
     }
-
 
     header #div3 h1 {
-        font-size: 2.6em;
+        font-size: 1.4em;
         color: rgba(255, 255, 255, 0.916);
         font-family: 'Barlow', sans-serif; 
-        text-align: center;
-        padding-left: 25px;
-    }
-
-    header .principal h1.h1 {
-        padding-top: 30px;
-        padding-left: 60px;
-        padding-bottom: 88px;
-        font-size: 2.7rem;
+        text-align: left;
+        padding-left: 3px;
     }
 
     #div3 {
-        padding-top: 90px;
-        text-align: left;
+        padding-bottom: 40px;
     }
 
-    
-    h2 {
-        font-size: 2.4em;
-        color: rgba(255, 255, 255, 0.916);
-        font-family: 'Barlow', sans-serif;  
-        text-align: center;
-        padding-left: 35px;
-    }
-    
     header p {
+        font-size: 1.0em;
+        text-align: justify;
+        color: rgb(255, 255, 255);
+        font-family: 'Barlow', sans-serif;
+        padding-bottom: 15px;
+        margin-top: 5px;
+        width: 230px;
+    }
+
+    hr {
+        width: 650px;
+        margin: auto;
+        display: block;
+        margin-top: 90px;
+    }
+
+    div#skills{
+        display: grid;
+        margin-top: 40px;
+        grid-template-columns: 140px 140px 140px;
+        grid-auto-rows: 180px 180px;
+        justify-content: space-evenly;
+    }
+
+    div#skills h1 {
+        font-size: 1.2em;
+         color: rgba(255, 255, 255, 0.855);
+    }
+
+    div#skills p {
+        font-size: 1.0em;
+        font-family: 'Barlow', sans-serif;
+        color: rgba(185, 184, 184, 0.942);
+    }
+
+    #tabela2 h1 b{
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    #tabela2 {
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    div#tabela2 h1 {
+        font-size: 2.4rem;
+        color: rgba(255, 255, 255, 0.916);
+    }
+
+
+    b.b3 {
+        color: rgba(255, 255, 255, 0.916);
+        font-size: 1.4rem;    
+    }
+
+    #b {
+        padding-top: 55px;
+    }
+
+    aside div#imagens h1 {
+        color: rgba(255, 255, 255, 0.93);
         font-size: 0.9em;
-        text-align: right;
-        color: rgb(255, 255, 255);
-        font-family: 'Barlow', sans-serif;
-        padding-top: 20px;
-        padding-left: 90px;
-        width: 375px;
-    }
-    
-    h3 {
-        font-size: 1.0em;
-        font-family: 'Barlow', sans-serif;
-        color: rgba(255, 255, 255, 0.916);
-        padding-top: 30px;
-        padding-right: 180px;
-    }
-
-    hr {
-        width: 700px;
-        margin: auto;
-        display: block;
-        margin-top: 170px;
-    }
-
-    div#skills{
-        display: grid;
-        margin-top: 40px;
-        grid-template-columns: 200px 200px 170px;
-        grid-auto-rows: 200px 180px;
-        justify-content: space-evenly;
-    }
-
-    div#skills h1 {
-        font-size: 2.1em;
-         color: rgba(255, 255, 255, 0.855);
-    }
-
-    div#skills p {
-        font-size: 1.2em;
-        font-family: 'Barlow', sans-serif;
-        color: rgba(185, 184, 184, 0.942);
-    }
-
-    #tabela2 h1 b{
-        font-size: 1.2em;
-        text-align: center;
-    }
-
-    #tabela2 {
-        margin-top: 40px;
-        margin-bottom: 100px;
-        text-align: center;
-    }
-
-    div#tabela2 h1 {
-        font-size: 3.6rem;
-        color: rgba(255, 255, 255, 0.916);
-    }
-
-
-    b.b3 {
-        color: rgba(255, 255, 255, 0.916);
-        font-size: 1.4rem;    
-    }
-
-    #b {
-        padding-top: 55px;
-    }
-
-    aside div#imagens h1 {
-        color: rgba(255, 255, 255, 0.93);
-        font-size: 1.2em;
         padding: 10px;
     }
         
 
-    aside div#imagens p {
+    aside div#imagens h1 {
         color: rgba(255, 255, 255, 0.797);
-        font-size: 1.0em;
+        font-size: 0.9em;
         padding: 5px;
         padding-bottom: 80px;
         text-align: center;
-    }
-
-    p.linha5, p.linha6 , p.linha7, p.linha8 {
-        padding-bottom: 20px;
     }
     
     img#linha1, img#linha2, img#linha3, img#linha4 {
         height: 200px;
-        width: 300px;
+        width: 250px;
         border-radius: 10px;
-        border: 2px solid lightgreen;
+        border: 2px solid rgb(187, 24, 57);
         margin: auto;
         display: block;
     }
@@ -413,36 +756,34 @@ min-width: de cima até aquele valor*/
 
     .footer .imgextra {
         border-radius: 20px;
-        width: 240px;
-        height: 300px;
-        margin-left: 20px;
+        width: 170px;
+        height: 220px;
         padding-top: 10px;
-        padding-right: 40px;
+        padding-right: 70px;
     }
 
 
     footer h1 {
         color: rgba(247, 247, 247, 0.966);
-        font-size: 3.8em;
+        font-size: 2.9em;
         font-family: 'Barlow', sans-serif;
         margin: 0px;
         text-align: left;
-        padding-bottom: 15px;
+        padding-bottom: 5px;
     }
     
     footer #geral p {
         color: rgba(255, 255, 255, 0.907);
-        font-size:  1.5rem;
+        font-size:  1.1rem;
         font-family: 'Barlow', sans-serif;
-        text-align: left;
+        text-align: justify;
         padding-left: 5px;
-        width: 300px;
+        width: 320px;
     }
 
     #img img {
-        width: 38px;
+        width: 30px;
         padding: 0px;
-        margin-left: 10px;
     } 
 
     .imgs {
@@ -456,500 +797,23 @@ min-width: de cima até aquele valor*/
     }
 }
 
-
-@media screen and (min-width: 926px) and (max-width: 1100px) {
+@media screen and (min-width: 796px) and (max-width: 887px) {
+    
     div.principal {
         display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
-    div.principal p {
-        text-align: justify;
-    }
-
-    #div1 {
-        display: flex;
-        position: absolute;
-        left: 85px;
-        top: 110px;
-    }
-
-
-    header #div1 img {
-        width: 29px;
+    nav  {
         padding-top: 20px;
-        padding-left: 20px;
-        margin-right: 5px;
-    }
-
-    header img#imgprincipal {
-        width: 260px;
-        height: 450px;
-        z-index: -1;
         margin: auto;
         display: block;
-        position: absolute;
-        border-radius: 20px; 
-        top: 120px;
-        left: 80px;
-    }
-
-
-    header #div3 h1 {
-        font-size: 3.1em;
-        color: rgba(255, 255, 255, 0.916);
-        font-family: 'Barlow', sans-serif; 
         text-align: center;
-        padding-left: 85px;
+        padding-bottom: 30px;
     }
 
-    header .principal h1.h1 {
-        padding-top: 30px;
-        padding-left: 85px;
-        padding-bottom: 88px;
-        font-size: 2.8rem;
-    }
-
-    #div3 {
-        padding-top: 90px;
-        text-align: center;
-    }
-
-    
-    h2 {
-        font-size: 3.1em;
-        color: rgba(255, 255, 255, 0.916);
-        font-family: 'Barlow', sans-serif;  
-        text-align: center;
-        padding-left: 135px;
-    }
-    
-    header p {
-        font-size: 1.1em;
-        text-align: right;
-        color: rgb(255, 255, 255);
-        font-family: 'Barlow', sans-serif;
-        padding-top: 20px;
-        padding-left: 137px;
-        width: 375px;
-    }
-    
-    h3 {
-        font-size: 1.2em;
-        font-family: 'Barlow', sans-serif;
-        color: rgba(255, 255, 255, 0.916);
-        padding-top: 30px;
-        padding-right: 158px;
-    }
-
-    hr {
-        width: 850px;
-        margin: auto;
-        display: block;
-        margin-top: 170px;
-    }
-
-    div#skills{
-        display: grid;
-        margin-top: 40px;
-        grid-template-columns: 220px 200px 170px;
-        grid-auto-rows: 200px 180px;
-        justify-content: space-evenly;
-    }
-
-    div#skills h1 {
-        font-size: 2.1em;
-         color: rgba(255, 255, 255, 0.855);
-    }
-
-    div#skills p {
-        font-size: 1.2em;
-        font-family: 'Barlow', sans-serif;
-        color: rgba(185, 184, 184, 0.942);
-    }
-
-    #tabela2 h1 b{
-        font-size: 1.4em;
-        text-align: center;
-    }
-
-    #tabela2 {
-        margin-top: 40px;
-        margin-bottom: 100px;
-        text-align: center;
-    }
-
-    div#tabela2 h1 {
-        font-size: 3.6rem;
-        color: rgba(255, 255, 255, 0.916);
-    }
-
-
-    b.b3 {
-        color: rgba(255, 255, 255, 0.916);
-        font-size: 1.4rem;    
-    }
-
-    #b {
-        padding-top: 55px;
-    }
-
-    aside div#imagens h1 {
-        color: rgba(255, 255, 255, 0.93);
-        font-size: 1.2em;
-        padding: 10px;
-    }
-        
-
-    aside div#imagens p {
-        color: rgba(255, 255, 255, 0.797);
-        font-size: 1.0em;
-        padding: 5px;
-        padding-bottom: 80px;
-        text-align: center;
-    }
-
-    p.linha5, p.linha6 , p.linha7, p.linha8 {
-        padding-bottom: 20px;
-    }
-    
-    img#linha1, img#linha2, img#linha3, img#linha4 {
-        height: 200px;
-        width: 300px;
-        border-radius: 10px;
-        border: 2px solid lightgreen;
-        margin: auto;
-        display: block;
-    }
-
-    .linha1, .linha2 {
-        text-align: center;
-        margin: auto;
-        display: block;    
-}
-
-    #imagens {
-        display: flex;
-        text-align: center;
-        margin: auto;
-    }
-
-    #img {
-        text-align: center;
-        margin: auto;
-        display: block;
-    }
-
-    div#geral {
-        text-align: left;
-    }
-
-    footer {
-        background-color: rgb(48, 47, 47);
-        padding: 40px;
-    }
-
-    .footer .imgextra {
-        border-radius: 20px;
-        width: 240px;
-        height: 300px;
-        margin-left: 20px;
-        padding-top: 10px;
-        padding-right: 40px;
-    }
-
-
-    footer h1 {
-        color: rgba(247, 247, 247, 0.966);
-        font-size: 3.8em;
-        font-family: 'Barlow', sans-serif;
-        margin: 0px;
-        text-align: left;
-        padding-bottom: 15px;
-    }
-    
-    footer #geral p {
-        color: rgba(255, 255, 255, 0.907);
-        font-size:  1.5rem;
-        font-family: 'Barlow', sans-serif;
-        text-align: left;
-        padding-left: 5px;
-        width: 300px;
-    }
-
-    #img img {
-        width: 38px;
-        padding: 0px;
-        margin-left: 10px;
-    } 
-
-    .imgs {
-        text-align: left;
-        padding-top: 35px;
-        padding-right: 10px;
-    }
-
-    #ftextra {
-        display: none;
-    }
-}
-
-
-@media screen and (min-width: 1100px) and (max-width: 1200px) {
-    div.principal {
-        display: flex;
-    }
-
-    div.principal p {
-        text-align: justify;
-    }
-
-    #div1 {
-        display: flex;
-        position: absolute;
-        left: 128px;
-        top: 125px;
-    }
-
-
-    header #div1 img {
-        width: 32px;
-        padding-top: 20px;
-        padding-left: 20px;
-        margin-right: 5px;
-    }
-
-    header img#imgprincipal {
-        width: 290px;
-        height: 480px;
-        z-index: -1;
-        margin: auto;
-        display: block;
-        position: absolute;
-        border-radius: 20px; 
-        top: 130px;
-        left: 120px;
-    }
-
-
-    header #div3 h1 {
-        font-size: 3.2em;
-        color: rgba(255, 255, 255, 0.916);
-        font-family: 'Barlow', sans-serif; 
-        text-align: center;
-        padding-left: 85px;
-    }
-
-    header .principal h1.h1 {
-        padding-top: 30px;
-        padding-left: 120px;
-        padding-bottom: 88px;
-        font-size: 2.8rem;
-    }
-
-    #div3 {
-        padding-top: 120px;
-        padding-left: 80px;
-        text-align: center;
-    }
-
-    
-    h2 {
-        font-size: 3.2em;
-        color: rgba(255, 255, 255, 0.916);
-        font-family: 'Barlow', sans-serif;  
-        text-align: center;
-        padding-left: 135px;
-    }
-    
-    header p {
-        font-size: 1.2em;
-        text-align: right;
-        color: rgb(255, 255, 255);
-        font-family: 'Barlow', sans-serif;
-        padding-top: 20px;
-        padding-left: 137px;
-        width: 375px;
-    }
-    
-    h3 {
-        font-size: 1.3em;
-        font-family: 'Barlow', sans-serif;
-        color: rgba(255, 255, 255, 0.916);
-        padding-top: 30px;
-        padding-right: 158px;
-    }
-
-    hr {
-        width: 900px;
-        margin: auto;
-        display: block;
-        margin-top: 170px;
-    }
-
-    div#skills{
-        display: grid;
-        margin-top: 40px;
-        grid-template-columns: 220px 200px 170px;
-        grid-auto-rows: 200px 180px;
-        justify-content: space-evenly;
-    }
-
-    div#skills h1 {
-        font-size: 2.1em;
-         color: rgba(255, 255, 255, 0.855);
-    }
-
-    div#skills p {
-        font-size: 1.2em;
-        font-family: 'Barlow', sans-serif;
-        color: rgba(185, 184, 184, 0.942);
-    }
-
-    #tabela2 h1 b{
-        font-size: 1.6em;
-        text-align: center;
-    }
-
-    #tabela2 {
-        margin-top: 40px;
-        margin-bottom: 100px;
-        text-align: center;
-    }
-
-    div#tabela2 h1 {
-        font-size: 3.8rem;
-        color: rgba(255, 255, 255, 0.916);
-    }
-
-
-    b.b3 {
-        color: rgba(255, 255, 255, 0.916);
-        font-size: 1.4rem;    
-    }
-
-    #b {
-        padding-top: 55px;
-    }
-
-    aside div#imagens h1 {
-        color: rgba(255, 255, 255, 0.93);
-        font-size: 1.4em;
-        padding: 10px;
-    }
-        
-
-    aside div#imagens p {
-        color: rgba(255, 255, 255, 0.797);
-        font-size: 1.1em;
-        padding: 5px;
-        padding-bottom: 80px;
-        text-align: center;
-    }
-
-    p.linha5, p.linha6 , p.linha7, p.linha8 {
-        padding-bottom: 20px;
-    }
-    
-    img#linha1, img#linha2, img#linha3, img#linha4 {
-        height: 240px;
-        width: 340px;
-        border-radius: 10px;
-        border: 2px solid lightgreen;
-        margin: auto;
-        display: block;
-    }
-
-    .linha1, .linha2 {
-        text-align: center;
-        margin: auto;
-        display: block;    
-}
-
-    #imagens {
-        display: flex;
-        text-align: center;
-        margin: auto;
-    }
-
-    #img {
-        text-align: center;
-        margin: auto;
-        display: block;
-    }
-
-    div#geral {
-        text-align: left;
-    }
-
-    footer {
-        background-color: rgb(48, 47, 47);
-        padding: 40px;
-    }
-
-    .footer .imgextra {
-        border-radius: 20px;
-        width: 240px;
-        height: 300px;
-        margin-left: 20px;
-        padding-top: 10px;
-        padding-right: 40px;
-    }
-
-
-    footer h1 {
-        color: rgba(247, 247, 247, 0.966);
-        font-size: 3.8em;
-        font-family: 'Barlow', sans-serif;
-        margin: 0px;
-        text-align: left;
-        padding-bottom: 15px;
-    }
-    
-    footer #geral p {
-        color: rgba(255, 255, 255, 0.907);
-        font-size:  1.5rem;
-        font-family: 'Barlow', sans-serif;
-        text-align: left;
-        padding-left: 5px;
-        width: 300px;
-    }
-
-    #img img {
-        width: 38px;
-        padding: 0px;
-        margin-left: 10px;
-    } 
-
-    .imgs {
-        text-align: left;
-        padding-top: 35px;
-        padding-right: 10px;
-    }
-
-    #ftextra {
-        display: none;
-    }
-}
-
-
-@media screen and (min-width: 1200px) {
-    div.principal {
-        display: flex;
-    }
-
-    div.principal p {
-        text-align: justify;
-    }
-
-    #div1 {
-        display: flex;
-        position: absolute;
-        left: 227px;
-        top: 125px;
-    }
-
-
-    header #div1 img {
+    nav img {
         width: 35px;
         padding-top: 20px;
         padding-left: 20px;
@@ -957,81 +821,447 @@ min-width: de cima até aquele valor*/
     }
 
     header img#imgprincipal {
-        width: 350px;
-        height: 550px;
-        z-index: -1;
-        margin: auto;
-        display: block;
-        position: absolute;
+        width: 260px;
+        height: 420px;
         border-radius: 20px; 
-        border: 3px solid lightgreen;
-        top: 130px;
-        left: 220px;
+        margin: 30px;
     }
-
 
     header #div3 h1 {
-        font-size: 4.2em;
+        font-size: 2.0em;
         color: rgba(255, 255, 255, 0.916);
         font-family: 'Barlow', sans-serif; 
-        text-align: center;
-        padding-left: 75px;
-        padding-right: 20px;
-    }
-
-    header .principal h1.h1 {
-        padding-top: 30px;
-        padding-left: 230px;
-        padding-bottom: 88px;
-        font-size: 3.0rem;
+        text-align: left;
+        padding-left: 2px;
     }
 
     #div3 {
-        padding-top: 120px;
-        padding-left: 170px;
-        text-align: center;
+        padding-bottom: 80px;
     }
 
-    
-    h2 {
-        font-size: 3.85em;
-        color: rgba(255, 255, 255, 0.916);
-        font-family: 'Barlow', sans-serif;  
-        text-align: center;
-        padding-bottom: 20px;
-        padding-left: 75px;
-    }
-    
     header p {
-        font-size: 1.4em;
-        text-align: left;
+        font-size: 1.0em;
+        text-align: justify;
         color: rgb(255, 255, 255);
         font-family: 'Barlow', sans-serif;
-        padding-top: 20px;
         padding-bottom: 15px;
-        width: 465px;
-    }
-    
-    h3 {
-        font-size: 1.6em;
-        font-family: 'Barlow', sans-serif;
-        color: rgba(255, 255, 255, 0.916);
-        padding-top: 30px;
-        padding-right: 275px;
+        margin-top: 5px;
+        width: 340px;
     }
 
     hr {
-        width: 1170px;
+        width: 750px;
         margin: auto;
         display: block;
-        margin-top: 175px;
+        margin-top: 90px;
     }
 
     div#skills{
         display: grid;
         margin-top: 40px;
-        grid-template-columns: 220px 200px 170px;
-        grid-auto-rows: 200px 180px;
+        grid-template-columns: 200px 200px 200px;
+        grid-auto-rows: 180px 180px;
+        justify-content: space-evenly;
+    }
+
+    div#skills h1 {
+        font-size: 1.4em;
+         color: rgba(255, 255, 255, 0.855);
+    }
+
+    div#skills p {
+        font-size: 1.0em;
+        font-family: 'Barlow', sans-serif;
+        color: rgba(185, 184, 184, 0.942);
+    }
+
+    #tabela2 h1 b{
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    #tabela2 {
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    div#tabela2 h1 {
+        font-size: 2.4rem;
+        color: rgba(255, 255, 255, 0.916);
+    }
+
+
+    b.b3 {
+        color: rgba(255, 255, 255, 0.916);
+        font-size: 1.4rem;    
+    }
+
+    #b {
+        padding-top: 55px;
+    }
+
+    aside div#imagens h1 {
+        color: rgba(255, 255, 255, 0.93);
+        font-size: 0.9em;
+        padding: 10px;
+    }
+        
+
+    aside div#imagens h1 {
+        color: rgba(255, 255, 255, 0.797);
+        font-size: 0.9em;
+        padding: 5px;
+        padding-bottom: 80px;
+        text-align: center;
+    }
+    
+    img#linha1, img#linha2, img#linha3, img#linha4 {
+        height: 220px;
+        width: 280px;
+        border-radius: 10px;
+        border: 2px solid rgb(187, 24, 32);
+        margin: auto;
+        display: block;
+    }
+
+    .linha1, .linha2 {
+        text-align: center;
+        margin: auto;
+        display: block;    
+}
+
+    #imagens {
+        display: flex;
+        text-align: center;
+        margin: auto;
+    }
+
+    #img {
+        text-align: center;
+        margin: auto;
+        display: block;
+    }
+
+    div#geral {
+        text-align: left;
+    }
+
+    footer {
+        background-color: rgb(48, 47, 47);
+        padding: 40px;
+    }
+
+    .footer .imgextra {
+        border-radius: 20px;
+        width: 200px;
+        height: 260px;
+        padding-top: 10px;
+        padding-right: 80px;
+    }
+
+
+    footer h1 {
+        color: rgba(247, 247, 247, 0.966);
+        font-size: 3.0em;
+        font-family: 'Barlow', sans-serif;
+        margin: 0px;
+        text-align: left;
+        padding-bottom: 10px;
+    }
+    
+    footer #geral p {
+        color: rgba(255, 255, 255, 0.907);
+        font-size:  1.2rem;
+        font-family: 'Barlow', sans-serif;
+        text-align: left;
+        padding-left: 5px;
+        width: 400px;
+    }
+
+    #img img {
+        width: 30px;
+        padding: 0px;
+    } 
+
+    .imgs {
+        text-align: left;
+        padding-top: 35px;
+        padding-right: 10px;
+    }
+
+    #ftextra {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 887px) and (max-width: 990px) {
+    div.principal {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav  {
+        padding-top: 20px;
+        margin: auto;
+        display: block;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    nav img {
+        width: 35px;
+        padding-top: 20px;
+        padding-left: 20px;
+        margin-right: 5px;
+    }
+
+    header img#imgprincipal {
+        width: 260px;
+        height: 420px;
+        border-radius: 20px; 
+        margin: 30px;
+    }
+
+    header #div3 h1 {
+        font-size: 2.2em;
+        color: rgba(255, 255, 255, 0.916);
+        font-family: 'Barlow', sans-serif; 
+        text-align: left;
+    }
+
+    #div3 {
+        padding-bottom: 80px;
+    }
+
+    header p {
+        font-size: 1.1em;
+        text-align: justify;
+        color: rgb(255, 255, 255);
+        font-family: 'Barlow', sans-serif;
+        padding-bottom: 15px;
+        margin-top: 5px;
+        width: 370px;
+    }
+
+    hr {
+        width: 800px;
+        margin: auto;
+        display: block;
+        margin-top: 90px;
+    }
+
+    div#skills{
+        display: grid;
+        margin-top: 40px;
+        grid-template-columns: 220px 200px 200px;
+        grid-auto-rows: 180px 180px;
+        justify-content: space-evenly;
+    }
+
+    div#skills h1 {
+        font-size: 1.7em;
+         color: rgba(255, 255, 255, 0.855);
+    }
+
+    div#skills p {
+        font-size: 1.1em;
+        font-family: 'Barlow', sans-serif;
+        color: rgba(185, 184, 184, 0.942);
+    }
+
+    #tabela2 h1 b{
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    #tabela2 {
+        margin-top: 40px;
+        margin-bottom: 160px;
+        text-align: center;
+    }
+
+    div#tabela2 h1 {
+        font-size: 2.7rem;
+        color: rgba(255, 255, 255, 0.916);
+    }
+
+
+    b.b3 {
+        color: rgba(255, 255, 255, 0.916);
+        font-size: 1.4rem;    
+    }
+
+    #b {
+        padding-top: 55px;
+    }
+
+    aside div#imagens h1 {
+        color: rgba(255, 255, 255, 0.93);
+        font-size: 1.3em;
+        padding: 10px;
+    }
+        
+
+    aside div#imagens h1 {
+        color: rgba(255, 255, 255, 0.797);
+        font-size: 1.3em;
+        padding: 5px;
+        padding-bottom: 80px;
+        text-align: center;
+    }
+    
+    img#linha1, img#linha2, img#linha3, img#linha4 {
+        height: 220px;
+        width: 350px;
+        border-radius: 10px;
+        border: 2px solid rgb(187, 24, 70);
+        margin: auto;
+        display: block;
+    }
+
+    .linha1, .linha2 {
+        text-align: center;
+        margin: auto;
+        display: block;    
+}
+
+    #imagens {
+        display: flex;
+        text-align: center;
+        margin: auto;
+    }
+
+    #img {
+        text-align: center;
+        margin: auto;
+        display: block;
+    }
+
+    div#geral {
+        text-align: left;
+    }
+
+    footer {
+        background-color: rgb(48, 47, 47);
+        padding: 40px;
+    }
+
+    .footer .imgextra {
+        border-radius: 20px;
+        width: 200px;
+        height: 260px;
+        padding-top: 10px;
+        padding-right: 120px;
+    }
+
+
+    footer h1 {
+        color: rgba(247, 247, 247, 0.966);
+        font-size: 3.5em;
+        font-family: 'Barlow', sans-serif;
+        margin: 0px;
+        text-align: left;
+        padding-bottom: 20px;
+    }
+    
+    footer #geral p {
+        color: rgba(255, 255, 255, 0.907);
+        font-size:  1.4rem;
+        font-family: 'Barlow', sans-serif;
+        text-align: left;
+        padding-left: 5px;
+        width: 400px;
+    }
+
+    #img img {
+        width: 38px;
+        padding: 0px;
+    } 
+
+    .imgs {
+        text-align: left;
+        padding-top: 35px;
+        padding-right: 10px;
+    }
+
+    #ftextra {
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 990px) and (max-width: 1200px) {
+
+    div.principal {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav  {
+        padding-top: 20px;
+        margin: auto;
+        display: block;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    nav img {
+        width: 35px;
+        padding-top: 20px;
+        padding-left: 20px;
+        margin-right: 5px;
+    }
+
+    header img#imgprincipal {
+        width: 320px;
+        height: 480px;
+        border-radius: 20px; 
+        margin: 40px;
+        margin-top: 0px;
+    }
+
+    header h1 {
+        font-size: 2.8em;
+        color: rgba(255, 255, 255, 0.916);
+        font-family: 'Barlow', sans-serif; 
+        text-align: left;
+        margin-top: 90px;
+        padding-left: 2px;
+    }
+
+    #div3 {
+        padding-bottom: 150px;
+    }
+    
+    header .principal p {
+        padding-top: 10px;
+    }
+
+    header p {
+        font-size: 1.5em;
+        text-align: justify;
+        color: rgb(255, 255, 255);
+        font-family: 'Barlow', sans-serif;
+        padding-bottom: 15px;
+        margin-top: 5px;
+        width: 465px;
+    }
+
+    hr {
+        width: 900px;
+        margin: auto;
+        display: block;
+        margin-top: 90px;
+    }
+
+    div#skills{
+        display: grid;
+        margin-top: 40px;
+        grid-template-columns: 220px 200px 200px;
+        grid-auto-rows: 180px 180px;
         justify-content: space-evenly;
     }
 
@@ -1058,7 +1288,7 @@ min-width: de cima até aquele valor*/
     }
 
     div#tabela2 h1 {
-        font-size: 3.9rem;
+        font-size: 3.2rem;
         color: rgba(255, 255, 255, 0.916);
     }
 
@@ -1079,23 +1309,19 @@ min-width: de cima até aquele valor*/
     }
         
 
-    aside div#imagens p {
+    aside div#imagens h1 {
         color: rgba(255, 255, 255, 0.797);
-        font-size: 1.1em;
+        font-size: 1.3em;
         padding: 5px;
         padding-bottom: 80px;
         text-align: center;
     }
-
-    p.linha5, p.linha6 , p.linha7, p.linha8 {
-        padding-bottom: 20px;
-    }
     
     img#linha1, img#linha2, img#linha3, img#linha4 {
-        height: 270px;
-        width: 500px;
+        height: 220px;
+        width: 370px;
         border-radius: 10px;
-        border: 2px solid lightgreen;
+        border: 2px solid rgb(187, 24, 29);
         margin: auto;
         display: block;
     }
@@ -1129,8 +1355,213 @@ min-width: de cima até aquele valor*/
 
     .footer .imgextra {
         border-radius: 20px;
-        width: 250px;
-        height: 310px;
+        width: 240px;
+        height: 300px;
+        margin-left: 20px;
+        padding-top: 10px;
+        padding-right: 150px;
+    }
+
+
+    footer h1 {
+        color: rgba(247, 247, 247, 0.966);
+        font-size: 3.5em;
+        font-family: 'Barlow', sans-serif;
+        margin: 0px;
+        text-align: left;
+        padding-bottom: 20px;
+    }
+    
+    footer #geral p {
+        color: rgba(255, 255, 255, 0.907);
+        font-size:  1.4rem;
+        font-family: 'Barlow', sans-serif;
+        text-align: left;
+        padding-left: 5px;
+        width: 400px;
+    }
+
+    #img img {
+        width: 38px;
+        padding: 0px;
+    } 
+
+    .imgs {
+        text-align: left;
+        padding-top: 35px;
+        padding-right: 10px;
+    }
+
+    #ftextra {
+        display: none;
+    }
+
+}
+
+
+@media screen and (min-width: 1200px) {
+    div.principal {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav  {
+        padding-top: 20px;
+        margin: auto;
+        display: block;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    nav img {
+        width: 35px;
+        padding-top: 20px;
+        padding-left: 20px;
+        margin-right: 5px;
+    }
+
+    header img#imgprincipal {
+        width: 320px;
+        height: 480px;
+        border-radius: 20px; 
+        margin: 40px;
+    }
+
+    header #div3 h1 {
+        font-size: 2.8em;
+        color: rgba(255, 255, 255, 0.916);
+        font-family: 'Barlow', sans-serif; 
+        text-align: left;
+        margin-top: 100px;
+        padding-left: 2px;
+    }
+
+    #div3 {
+        padding-bottom: 120px;
+    }
+    
+    header .principal p {
+        padding-top: 10px;
+    }
+
+    header p {
+        font-size: 1.5em;
+        text-align: justify;
+        color: rgb(255, 255, 255);
+        font-family: 'Barlow', sans-serif;
+        padding-bottom: 15px;
+        width: 465px;
+        margin-top: 5px;
+    }
+
+    hr {
+        width: 1170px;
+        margin: auto;
+        display: block;
+        margin-top: 90px;
+    }
+
+    div#skills{
+        display: grid;
+        margin-top: 40px;
+        grid-template-columns: 220px 200px 200px;
+        grid-auto-rows: 180px 180px;
+        justify-content: space-evenly;
+    }
+
+    div#skills h1 {
+        font-size: 2.1em;
+         color: rgba(255, 255, 255, 0.855);
+    }
+
+    div#skills p {
+        font-size: 1.2em;
+        font-family: 'Barlow', sans-serif;
+        color: rgba(185, 184, 184, 0.942);
+    }
+
+    #tabela2 h1 b{
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    #tabela2 {
+        margin-top: 40px;
+        margin-bottom: 160px;
+        text-align: center;
+    }
+
+    div#tabela2 h1 {
+        font-size: 3.2rem;
+        color: rgba(255, 255, 255, 0.916);
+    }
+
+
+    b.b3 {
+        color: rgba(255, 255, 255, 0.916);
+        font-size: 1.4rem;    
+    }
+
+    #b {
+        padding-top: 55px;
+    }
+
+    aside div#imagens h1 {
+        color: rgba(255, 255, 255, 0.93);
+        font-size: 1.5em;
+        padding: 10px;
+    }
+        
+
+    aside div#imagens h1 {
+        color: rgba(255, 255, 255, 0.797);
+        font-size: 1.3em;
+        padding: 5px;
+        padding-bottom: 80px;
+        text-align: center;
+    }
+    
+    img#linha1, img#linha2, img#linha3, img#linha4 {
+        height: 220px;
+        width: 430px;
+        border-radius: 10px;
+        border: 2px solid rgb(187, 24, 35);
+        margin: auto;
+        display: block;
+    }
+
+    .linha1, .linha2 {
+        text-align: center;
+        margin: auto;
+        display: block;    
+}
+
+    #imagens {
+        display: flex;
+        text-align: center;
+        margin: auto;
+    }
+
+    #img {
+        text-align: center;
+        margin: auto;
+        display: block;
+    }
+
+    div#geral {
+        text-align: left;
+    }
+
+    footer {
+        background-color: rgb(48, 47, 47);
+        padding: 40px;
+    }
+
+    .footer .imgextra {
+        border-radius: 20px;
+        width: 240px;
+        height: 300px;
         margin-left: 20px;
         padding-top: 10px;
         padding-right: 200px;
@@ -1143,7 +1574,7 @@ min-width: de cima até aquele valor*/
         font-family: 'Barlow', sans-serif;
         margin: 0px;
         text-align: left;
-        padding-bottom: 30px;
+        padding-bottom: 20px;
     }
     
     footer #geral p {
@@ -1158,7 +1589,6 @@ min-width: de cima até aquele valor*/
     #img img {
         width: 38px;
         padding: 0px;
-        margin-left: 10px;
     } 
 
     .imgs {

@@ -14,91 +14,49 @@
        background-color:  rgba(0, 0, 0, 0.893);
     }
 
-    div#div3 {
-        text-align: center;
-    }
-
     /*Header*/
     header img {
-        width: 22px;
+        width: 27px;
+        padding: 10px;
     }
     
-    header #div1 img:hover {
+    nav img:hover {
         padding: 2px;
         background-color: beige;
         transform: scale(1.2);
     }
-
-    div.principal {
-        text-align: center;
-        margin: auto;
-        display: block;
-    }
     
     header img#imgprincipal {
-        width: 150px;
+        width: 210px;
         height: 210px;
-        z-index: -1;
-        margin: auto;
-        display: block;
-        border: 2px solid lightgreen;
+        border: 3.56px solid rgb(187, 24, 38);
         border-radius: 5px;
-        margin-top: 10px;
+        margin-top: 20px;
     }  
     
     header h1 {
-        font-size: 1.5em;
+        font-size: 1.7em;
         color: rgba(255, 255, 255, 0.916);
         font-family: 'Barlow', sans-serif; 
-        text-align: center;
-    }
-
-    header .principal h1 {
-        padding-top: 30px;
-        padding-bottom: 5px;
-        font-size: 1.9rem;
-    }
-
-    div#div1 {
-        padding-top: 15px;
     }
     
-     h2 {
-        font-size: 1.5em;
-        color: rgba(255, 255, 255, 0.916);
-        font-family: 'Barlow', sans-serif;  
-        text-align: center;
-    }
-    
-    header p {
-        font-size: 0.9em;
-        text-align: center;
+    header #div3 p { 
         color: rgba(255, 255, 255, 0.966);
         font-family: 'Barlow', sans-serif;
-        padding-top: 20px;
-        padding-left: 80px;
-        width: 250px;
-    }
-    
-    h3 {
-        color: white;
-        font-size: 1.0em;
-        font-family: 'Barlow', sans-serif;
-        color: rgba(255, 255, 255, 0.916);
-        text-align: center;
-        padding-top: 30px;
+        padding-top: 5px;
+        padding-left: 2px;
     }
     
     b.b1 {
-        border-bottom: 3px solid lightgreen ;
+        border-bottom: 3px solid  rgb(187, 24, 70);
     }
     
     b.b2 {
-        border-bottom: 2px solid lightgreen;
+        border-bottom: 2px solid  rgb(187, 24, 70);
     }
     
     b.b3 {
-        border-bottom: 2px solid lightgreen;
+        border-bottom: 2px solid  rgb(187, 24, 70);
     }
 
     #b {
@@ -106,10 +64,10 @@
     }
 
     hr {
-        width: 300px;
+        width: 60px;
         margin: auto;
         display: block;
-        margin-top: 120px;
+        margin-top: 100px;
     }
 
     /*Tabela*/
@@ -123,7 +81,7 @@
     }
 
     div#skills h1 {
-         font-size: 1.4em;
+         font-size: 1.6em;
          color: rgba(255, 255, 255, 0.855);
     }
 
@@ -131,10 +89,22 @@
         font-size: 0.7em;
         font-family: 'Barlow', sans-serif;
         color: rgba(185, 184, 184, 0.942);
+        
     }
 
 
     /*Tabela2 */
+
+    #tabela2 h1 b{
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    #tabela2 {
+        margin-top: 40px;
+        margin-bottom: 90px;
+        text-align: center;
+    }
 
     div#tabela2 h1 {
         font-size: 2.3rem;
@@ -161,23 +131,19 @@
     }
         
 
-    aside div#imagens p {
+    aside div#imagens h1 {
         color: rgba(255, 255, 255, 0.797);
-        font-size: 0.9em;
+        font-size: 0.8em;
         padding: 5px;
         padding-bottom: 80px;
         text-align: center;
-    }
-
-    p.linha5, p.linha6 , p.linha7, p.linha8 {
-        padding-bottom: 15px;
     }
     
     img#linha1, img#linha2, img#linha3, img#linha4 {
         height: 180px;
         width: 200px;
         border-radius: 10px;
-        border: 2px solid lightgreen;
+        border: 2px solid purple;
         margin: auto;
         display: block;
     }
@@ -212,19 +178,16 @@
     }
 
     .footer .imgextra {
-        border-radius: 10px;
-        width: 100px;
-        height: 160px;
-        margin-left: 20px;
-        padding-top: 20px;
-        padding-right: 5px;
-        background-position: center center;
-    }
+            border-radius: 10px;
+            width: 110px;
+            height: 170px;
+            padding-top: 20px;
+        }
 
 
     footer h1 {
         color: rgba(247, 247, 247, 0.966);
-        font-size: 2.8em;
+        font-size: 2.4em;
         font-family: 'Barlow', sans-serif;
         margin: 0px;
         text-align: left;
@@ -232,22 +195,28 @@
     
     footer #geral p {
         color: rgba(255, 255, 255, 0.907);
-        font-size:  1.0rem;
+        font-size: 1.4rem;
         font-family: 'Barlow', sans-serif;
         text-align: left;
-        padding-left: 5px;
-        width: 200px;
+        padding-left: 2px;
+        width: 500px;
     }
 
     #img img {
-        width: 22px;
+        width: 24px;
         padding: 0px;
-        margin-left: 8px;
     } 
 
     .imgs {
         text-align: left;
         padding-top: 30px;
-        padding-right: 10px;
     }
+
+    footer .imgs img:hover {
+        padding: 2px;
+        background-color: beige;
+        transform: scale(1.2);
+    }
+
+   
 
