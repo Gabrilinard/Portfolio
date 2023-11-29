@@ -45,6 +45,7 @@ min-width: de cima até aquele valor*/
         font-family: 'Barlow', sans-serif; 
         text-align: left;
         display: inline-block;
+        padding-left: 1px;
         padding-top: 20px;
     }
 
@@ -635,6 +636,7 @@ min-width: de cima até aquele valor*/
         color: rgba(255, 255, 255, 0.916);
         font-family: 'Barlow', sans-serif; 
         text-align: left;
+        padding-top: 30px;
         padding-left: 3px;
     }
 
@@ -832,7 +834,7 @@ min-width: de cima até aquele valor*/
         color: rgba(255, 255, 255, 0.916);
         font-family: 'Barlow', sans-serif; 
         text-align: left;
-        padding-left: 2px;
+        padding-left: 3px;
     }
 
     #div3 {
