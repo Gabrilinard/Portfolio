@@ -30,9 +30,9 @@ min-width: de cima até aquele valor*/
         margin-right: 5px;
     }
 
-    header img#imgprincipal {
-        width: 170px;
-        height: 170px;
+    .principal img#imgprincipal {
+        width: 130px;
+        height: 130px;
         border-radius: 50%; 
         margin: auto;
         display: block;
@@ -228,9 +228,9 @@ min-width: de cima até aquele valor*/
         margin-right: 5px;
     }
 
-    header img#imgprincipal {
+    .principal img#imgprincipal {
         width: 200px;
-        height: 280px;
+        height: 240px;
         border-radius: 20px; 
         margin: auto;
         display: block;
@@ -428,9 +428,9 @@ min-width: de cima até aquele valor*/
         margin-right: 5px;
     }
 
-    header img#imgprincipal {
-        width: 200px;
-        height: 300px;
+    .principal img#imgprincipal {
+        width: 240px;
+        height: 270px;
         border-radius: 20px; 
         margin: 30px;
     }
@@ -624,9 +624,9 @@ min-width: de cima até aquele valor*/
         margin-right: 5px;
     }
 
-    header img#imgprincipal {
-        width: 230px;
-        height: 350px;
+    .principal img#imgprincipal {
+        width: 250px;
+        height: 360px;
         border-radius: 20px; 
         margin: 30px;
     }
@@ -822,7 +822,7 @@ min-width: de cima até aquele valor*/
         margin-right: 5px;
     }
 
-    header img#imgprincipal {
+    .principal img#imgprincipal {
         width: 260px;
         height: 420px;
         border-radius: 20px; 
@@ -1217,7 +1217,7 @@ min-width: de cima até aquele valor*/
         margin-right: 5px;
     }
 
-    header img#imgprincipal {
+    .principal img#imgprincipal {
         width: 320px;
         height: 480px;
         border-radius: 20px; 
@@ -1423,7 +1423,7 @@ min-width: de cima até aquele valor*/
         margin-right: 5px;
     }
 
-    header img#imgprincipal {
+    .principal img#imgprincipal {
         width: 320px;
         height: 480px;
         border-radius: 20px; 
