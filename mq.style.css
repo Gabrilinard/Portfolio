@@ -7,9 +7,9 @@
     celulares (xs). Cada bloco seguinte só entra a partir da largura
     mínima indicada e herda o que veio antes, sobrescrevendo o que muda.
 
-    sm -> min-width: 576px  (celular grande)
-    md -> min-width: 768px  (tablet)
-    lg -> min-width: 992px  (computador)
+    sm -> min-width: 576px   (celular grande)
+    md -> min-width: 768px   (tablet / notebook)
+    lg -> min-width: 1200px  (telas grandes de computador)
 */
 
 /* ===================== XS — celular (padrão) ===================== */
@@ -169,13 +169,17 @@ footer #geral p {
     }
 
     hr {
-        width: min(88vw, 700px);
+        width: min(90vw, 850px);
         margin-top: 40px;
     }
 
     div#skills {
         grid-template-columns: repeat(3, minmax(0, 160px));
-        gap: 20px;
+        justify-content: space-between;
+        gap: 16px 18px;
+        max-width: min(90vw, 850px);
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #imagens {
@@ -211,51 +215,71 @@ footer #geral p {
     }
 }
 
-/* ===================== LG — computador (>= 992px) ===================== */
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1200px) {
 
     header .principal {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        align-items: flex-start;
-        gap: 40px;
-        padding: 0 30px;
+        align-items: center;
+        gap: 50px;
+        padding: 0 60px;
+    }
+
+    .principal picture {
+        margin-right: 0;
+        flex: 0 0 auto;
     }
 
     .principal picture img#imgprincipal {
-        width: 300px;
-        height: 420px;
-        border-radius: 10px;
+        width: 280px;
+        height: 380px;
+        border-radius: 12px;
+        object-fit: cover;
     }
 
     header #div3 {
         display: block;
         text-align: left;
-        max-width: 640px;
+        max-width: 700px;
     }
 
     header #div3 h1 {
-        text-align: left;
         font-size: 2.4em;
     }
 
     header p {
         text-align: left;
-        font-size: 1.1em;
-        width: 100%;
+        font-size: 1.15em;
+        max-width: 100%;
+        margin: 16px 0 0;
     }
 
     hr {
-        width: min(88vw, 900px);
-        margin-top: 70px;
+        width: min(85vw, 1300px);
+        margin-top: 80px;
     }
 
     div#skills {
-        grid-template-columns: repeat(3, minmax(0, 200px));
+        grid-template-columns: repeat(3, minmax(0, 220px));
+        justify-content: space-between;
+        gap: 20px 30px;
+        max-width: min(85vw, 1300px);
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #imagens {
-        grid-template-columns: repeat(auto-fit, minmax(220px, 280px));
+        grid-template-columns: repeat(auto-fit, minmax(240px, 300px));
+        gap: 26px;
+    }
+
+    footer #geral p {
+        width: min(45vw, 550px);
+    }
+
+    .footer .imgextra {
+        width: 180px;
+        height: 230px;
     }
 }
