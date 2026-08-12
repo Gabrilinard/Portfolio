@@ -128,42 +128,44 @@ footer #geral p {
 @media screen and (min-width: 768px) {
 
     header .principal {
-        display: grid;
-        grid-template-columns: 1fr auto auto 1fr;
-        grid-template-areas:
-            ". pic head ."
-            "para para para para";
-        align-items: center;
-        row-gap: 16px;
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
         text-align: left;
-        padding: 0 30px;
+        gap: 24px;
+        max-width: min(90vw, 850px);
+        margin: 0 auto;
+        padding: 0 20px;
     }
 
     .principal picture {
-        grid-area: pic;
-        margin-right: 24px;
+        flex: 0 0 auto;
+        display: flex;
+        align-self: stretch;
     }
 
     .principal picture img#imgprincipal {
         width: 190px;
-        height: 190px;
+        height: auto;
+        flex: 1 1 auto;
+        min-height: 0;
         margin: 0;
     }
 
     header #div3 {
-        display: contents;
+        display: block;
+        flex: 1 1 auto;
+        min-width: 0;
     }
 
     header #div3 h1 {
-        grid-area: head;
         text-align: left;
         font-size: 1.7em;
     }
 
     header p {
-        grid-area: para;
         text-align: left;
-        margin-top: 0;
+        margin-top: 12px;
         font-size: 1em;
         width: 100%;
     }
@@ -215,71 +217,98 @@ footer #geral p {
     }
 }
 
+/* Do 1200px em diante os valores usam clamp() para continuar crescendo
+   suavemente com a tela (até um teto), em vez de ficarem travados. */
 @media screen and (min-width: 1200px) {
 
     header .principal {
         display: flex;
         flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        gap: 50px;
-        padding: 0 60px;
+        justify-content: flex-start;
+        align-items: stretch;
+        gap: clamp(50px, 4vw, 90px);
+        max-width: clamp(1000px, 68vw, 1600px);
+        margin: 0 auto;
+        padding: 0 20px;
     }
 
     .principal picture {
         margin-right: 0;
         flex: 0 0 auto;
+        display: flex;
+        align-self: stretch;
     }
 
     .principal picture img#imgprincipal {
-        width: 280px;
-        height: 380px;
-        border-radius: 12px;
+        width: clamp(450px, 20vw, 420px);
+        height: auto;
+        flex: 1 1 auto;
+        min-height: 0;
+        border-radius: 14px;
         object-fit: cover;
     }
 
     header #div3 {
         display: block;
         text-align: left;
-        max-width: 700px;
+        flex: 1 1 auto;
+        min-width: 0;
     }
 
     header #div3 h1 {
-        font-size: 2.4em;
+        font-size: clamp(2.4em, 1.6vw + 1.6em, 3.4em);
     }
 
     header p {
         text-align: left;
-        font-size: 1.15em;
+        font-size: clamp(1.15em, 0.4vw + 1em, 1.35em);
+        line-height: 1.6;
         max-width: 100%;
-        margin: 16px 0 0;
+        margin: clamp(16px, 1.5vw, 28px) 0 0;
     }
 
     hr {
-        width: min(85vw, 1300px);
-        margin-top: 80px;
+        width: clamp(1000px, 68vw, 1600px);
+        margin-top: clamp(80px, 6vw, 130px);
+        height: 3px;
     }
 
     div#skills {
-        grid-template-columns: repeat(3, minmax(0, 220px));
+        grid-template-columns: repeat(3, minmax(0, clamp(220px, 16vw, 300px)));
         justify-content: space-between;
-        gap: 20px 30px;
-        max-width: min(85vw, 1300px);
+        gap: clamp(20px, 2vw, 40px) clamp(30px, 3vw, 70px);
+        max-width: clamp(1000px, 68vw, 1600px);
         margin-left: auto;
         margin-right: auto;
     }
 
+    div#skills h1 {
+        font-size: clamp(1.6em, 1vw + 1em, 2.1em);
+    }
+
+    div#skills p {
+        font-size: clamp(1em, 0.3vw + 0.9em, 1.15em);
+    }
+
     #imagens {
         grid-template-columns: repeat(auto-fit, minmax(240px, 300px));
-        gap: 26px;
+        gap: clamp(24px, 2vw, 36px);
+        max-width: clamp(1000px, 68vw, 1600px);
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .project-card h1 {
+        font-size: clamp(0.95em, 0.3vw + 0.85em, 1.1em);
     }
 
     footer #geral p {
         width: min(45vw, 550px);
+        font-size: clamp(1rem, 0.5vw + 0.9rem, 1.2rem);
     }
 
     .footer .imgextra {
-        width: 180px;
-        height: 230px;
+        width: clamp(180px, 10vw, 230px);
+        height: clamp(230px, 13vw, 300px);
     }
 }
